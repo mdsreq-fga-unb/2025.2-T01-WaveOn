@@ -36,7 +36,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "mkdocs-material>=9.5" > requirements.txt
+          echo "mkdocs-material>=9.5\npymdown-extensions>=10.0" > requirements.txt
           pip install -r requirements.txt
 
       - name: Build site
@@ -48,6 +48,17 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
   deploy:
     needs: build

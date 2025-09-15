@@ -2,7 +2,7 @@ site_name: WaveON
 site_description: Documentação WAVEon
 site_url: https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn
 repo_url: https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn
-repo_name: OWNER/REPO
+repo_name: mdsreq-fga-unb/2025.2-T01-WaveOn
 edit_uri: edit/main/docs/
 
 nav:
@@ -54,6 +54,6 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/OWNER
+      link: https://github.com/mdsreq-fga-unb
     - icon: fontawesome/brands/twitter
-      link: https://x.com/OWNER
+      link: https://x.com/mdsreq-fga-unb
