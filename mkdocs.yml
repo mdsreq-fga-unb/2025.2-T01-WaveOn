@@ -7,10 +7,15 @@ edit_uri: edit/main/docs/
 
 nav:
   - Início: index.md
-  - Introdução: intro.md
-  - Instalação: instalacao.md
-  - Guia:
-      - Estrutura do Projeto: guia/estrutura.md
+  - Produto:
+    - Identificação da Oportunidade: identificacao_oportunidade.md
+    - Desafios do Projeto: desafios.md
+    - Segmentação de Clientes: segmentacao_clientes.md
+    - Objetivos do produto: objetivos.md
+    - Características da Solução: caracteristicas_solucao.md
+    
+  
+  
 
 theme:
   name: material
