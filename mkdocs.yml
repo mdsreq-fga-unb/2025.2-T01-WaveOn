@@ -1,0 +1,59 @@
+site_name: WaveON 
+site_description: Documentação WAVEon
+site_url: https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn
+repo_url: https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn
+repo_name: OWNER/REPO
+edit_uri: edit/main/docs/
+
+nav:
+  - Início: index.md
+  - Introdução: intro.md
+  - Instalação: instalacao.md
+  - Guia:
+      - Estrutura do Projeto: guia/estrutura.md
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OWNER
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/OWNER
