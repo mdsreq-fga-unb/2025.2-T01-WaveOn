@@ -6,19 +6,42 @@ WaveON é um sistema de gestão e cadastro para serviços de lavagem de carros a
 ## Documentação
 A documentação completa do projeto está disponível em: [WaveON Docs](https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn)
 
-## Equipe
+## 👥 Nossa Equipe
 
-- Bernardo Watanabe Venzi - 232001120
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./docs/img/bernardo_watanabi.jpg" width="120" style="border-radius:50%"><br/>
+      <sub><b>Bernardo Watanabe</b></sub><br/>
+    </td>
+    <td align="center">
+      <img src="./docs/img/Bernardo_broetto.jpg" width="120" style="border-radius:50%"><br/>
+      <sub><b>Bernardo Broetto</b></sub><br/>
+    </td>
+    <td align="center">
+      <img src="./docs/img/Douglas.jpg" width="120" style="border-radius:50%"><br/>
+      <sub><b>Douglas Wilson</b></sub><br/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./docs/img/Eduardo.jpeg" width="120" style="border-radius:50%"><br/>
+      <sub><b>Eduardo Ribeiro</b></sub><br/>
+    </td>
+    <td align="center">
+      <img src="./docs/img/Guilherme.jpg" width="120" style="border-radius:50%"><br/>
+      <sub><b>Guilherme Negreiros</b></sub><br/>
+    </td>
+    <td align="center">
+      <img src="./docs/img/anna_clara.jpg" width="120" style="border-radius:50%"><br/>
+      <sub><b>Anna Clara Cardoso</b></sub><br/>
+    </td>
+  </tr>
+</table>
 
-- Anna Clara Cardoso Evangelista Brandao - 222006534
+</p>
 
-- Bernardo Broetto Brun - 241010950
 
-- Eduardo Ribeiro Xavier - 231026920
-
-- Douglas Wilson Vieira dos Santos - 211030596
-
-- Guilherme Negreiros Pereira - 232014001
 
 
 ## Requisitos
