@@ -1,7 +1,5 @@
 # 📅 Cronograma e Entregas
 
-# 4 CRONOGRAMA E ENTREGAS
-
 A partir da estratégia de desenvolvimento de software estabelecida, tem-se a seguinte proposta de cronograma, suas fases e resultados esperados:
 
 | Fase | Período | Objetivo Principal | Entregas Esperadas |

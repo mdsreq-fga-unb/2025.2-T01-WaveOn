@@ -1,7 +1,5 @@
 # ✒ Quadro Comparativo
 
-### 3.2 Quadro Comparativo
-
 O Quadro, a seguir, apresenta algumas características que podem ser relacionadas ao RAD e ao ScrumXP, visando auxiliar no entendimento e justificativa da escolha do processo mais adequado ao caso da VB.
 
 | | RAD | ScrumXP |
