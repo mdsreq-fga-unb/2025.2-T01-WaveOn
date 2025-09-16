@@ -1,7 +1,5 @@
 # 🔈Comunicação
 
-**• Ferramentas de Comunicação:**
-
 ### Ferramentas de Comunicação
 
 - **Whatsapp:** Utilizado como meio principal de comunicação entre a equipe. Permite o envio de mensagens rápidas, realização de enquetes e envio de links para acesso rápido. Comunicações pontuais também serão realizadas com o cliente através deste APP, visando marcações de reuniões, envios de links para acessar estas reuniões, alinhamentos rápidos e até mesmo coleta de feedbacks.
