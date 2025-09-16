@@ -42,16 +42,6 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
 </p>
 
 
-
-
-## Requisitos
-
-### Pré-requisitos
-[Liste os pré-requisitos necessários para executar o projeto]
-
-### Instalação
-[Instruções básicas de instalação]
-
 ## Como Contribuir
 1. Faça um Fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
@@ -59,11 +49,4 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## Status do Projeto
-[Adicione badges e status do projeto]
 
-## Licença
-[Adicione informações sobre a licença]
-
-## Contato
-[Adicione informações de contato da equipe]
