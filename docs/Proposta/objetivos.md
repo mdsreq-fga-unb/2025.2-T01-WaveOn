@@ -1,7 +1,6 @@
 # 🚀 Objetivos do Produto
 
-O principal objetivo da solução é oferecer uma plataforma digital que otimize os pro-
-cessos da empresa VB, ajude no quesito de organização, resolva os desafios operacionais
+🔥 O principal objetivo da solução é oferecer uma __plataforma digital__ que otimize os processos da empresa VB, ajude no quesito de organização, resolva os desafios operacionais
 e melhore a experiência dos clientes
 
 !!! note "Objetivos Específicos"

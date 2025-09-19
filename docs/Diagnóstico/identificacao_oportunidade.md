@@ -10,3 +10,9 @@ A logística de deslocamento é outro obstáculo importante: uma dificuldade aca
 
 !!! tip "Oportunidade"
     O cenário mostra espaço para adoção de ferramentas **modernas e atualizadas** que otimizem processos e melhorem a experiência tanto para os clientes quanto para a empresa.
+
+
+A seguir, tem-se o diagrama de Ishikawa que ajuda a organizar as causas e o problema
+atual da VB:
+
+![Grafico de ishikawa](../Nav/img/Ishikawa.jpg)
