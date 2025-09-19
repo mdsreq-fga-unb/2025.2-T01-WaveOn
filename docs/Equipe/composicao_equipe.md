@@ -1,6 +1,6 @@
 # 😁 Composição de Equipe
 
-A equipe de desenvolvimento sera composta por:
+👥 A equipe de desenvolvimento sera composta por:
 
 | Papel                           | Descrição                                                                                 | Responsável               | Participantes |
 |---------------------------------|-------------------------------------------------------------------------------------------|---------------------------|---------------|
