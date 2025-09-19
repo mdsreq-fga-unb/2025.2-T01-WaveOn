@@ -1,4 +1,4 @@
-site_name: WaveON 
+site_name: WaveON
 site_description: Documentação WAVEon
 site_url: https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn
 repo_url: https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn
@@ -6,34 +6,29 @@ repo_name: mdsreq-fga-unb/2025.2-T01-WaveOn
 edit_uri: edit/main/docs/
 
 nav:
-  - Início: index.md
-
+  - Início: Nav/index.md
   - Produto:
-    - Diagnóstico:
-      - 🔍 Identificação da Oportunidade: identificacao_oportunidade.md
-      - 🧗 Desafios do Projeto: desafios.md
-      - 🎯 Segmentação de Clientes: segmentacao_clientes.md
-
-    - Proposta: 
-      - 🚀 Objetivos do produto: objetivos.md
-      - 🧩 Características da Solução: caracteristicas_solucao.md
-      - 💰 Pesquisa de Mercado e Análise Competitiva: pesquisa_mercado.md
-      - 🔎 Análise de Viabilidade: analise_viabilidade.md
-      - ⚖️ Impacto da Solução: impacto_solucao.md
-      - 📕 Estratégia Priorizada: estrategia_priorizada.md
-    - Planejamento:
-      - ✒ Quadro Comparativo: quadro_comparativo.md
-      - 🛎️ Justificativa: justificativa.md
-      - 📅 Cronograma e Entregas: cronograma_entregas.md
-      - 🔈 Comunicação: comunicacao.md
-      - ✅ Processo de Validação: processo_validacao.md
-    - Equipe:
-      - 😁 Composição de Equipe: composicao_equipe.md
-    - Unidade 1:
-      - 1️⃣ Unidade um: unidade_um.md
-    
-  
-  
+      - Diagnóstico:
+          - 🔍 Identificação da Oportunidade: Diagnóstico/identificacao_oportunidade.md
+          - 🧗 Desafios do Projeto: Diagnóstico/desafios.md
+          - 🎯 Segmentação de Clientes: Diagnóstico/segmentacao_clientes.md
+      - Proposta:
+          - 🚀 Objetivos do produto: Proposta/objetivos.md
+          - 🧩 Características da Solução: Proposta/caracteristicas_solucao.md
+          - 💰 Pesquisa de Mercado e Análise Competitiva: Proposta/pesquisa_mercado.md
+          - 🔎 Análise de Viabilidade: Proposta/analise_viabilidade.md
+          - ⚖️ Impacto da Solução: Proposta/impacto_solucao.md
+          - 📕 Estratégia Priorizada: Proposta/estrategia_priorizada.md
+      - Planejamento:
+          - ✒ Quadro Comparativo: Planejamento/quadro_comparativo.md
+          - 🛎️ Justificativa: Planejamento/justificativa.md
+          - 📅 Cronograma e Entregas: Planejamento/cronograma_entregas.md
+          - 🔈 Comunicação: Planejamento/comunicacao.md
+          - ✅ Processo de Validação: Planejamento/processo_validacao.md
+      - Equipe:
+          - 😁 Composição de Equipe: Equipe/composicao_equipe.md
+      - Unidade 1:
+          - 1️⃣ Unidade um: Unidade 1/unidade_um.md
 
 theme:
   name: material
@@ -46,10 +41,10 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-  palette: 
+  palette:
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
       toggle:
