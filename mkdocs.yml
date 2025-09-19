@@ -7,23 +7,30 @@ edit_uri: edit/main/docs/
 
 nav:
   - Início: index.md
+
   - Produto:
-    - 🔍 Identificação da Oportunidade: identificacao_oportunidade.md
-    - 🧗 Desafios do Projeto: desafios.md
-    - 🎯 Segmentação de Clientes: segmentacao_clientes.md
-    - 🚀 Objetivos do produto: objetivos.md
-    - 🧩 Características da Solução: caracteristicas_solucao.md
-    - 💰 Pesquisa de Mercado e Análise Competitiva: pesquisa_mercado.md
-    - 🔎 Análise de Viabilidade: analise_viabilidade.md
-    - ⚖️ Impacto da Solução: impacto_solucao.md
-    - 📕 Estratégia Priorizada: estrategia_priorizada.md
-    - ✒ Quadro Comparativo: quadro_comparativo.md
-    - 🛎️ Justificativa: justificativa.md
-    - 📅 Cronograma e Entregas: cronograma_entregas.md
-    - 😁 Composição de Equipe: composicao_equipe.md
-    - 🔈 Comunicação: comunicacao.md
-    - ✅ Processo de Validação: processo_validacao.md
-    - 1️⃣ Unidade um: unidade_um.md
+    - Diagnóstico:
+      - 🔍 Identificação da Oportunidade: identificacao_oportunidade.md
+      - 🧗 Desafios do Projeto: desafios.md
+      - 🎯 Segmentação de Clientes: segmentacao_clientes.md
+
+    - Proposta: 
+      - 🚀 Objetivos do produto: objetivos.md
+      - 🧩 Características da Solução: caracteristicas_solucao.md
+      - 💰 Pesquisa de Mercado e Análise Competitiva: pesquisa_mercado.md
+      - 🔎 Análise de Viabilidade: analise_viabilidade.md
+      - ⚖️ Impacto da Solução: impacto_solucao.md
+      - 📕 Estratégia Priorizada: estrategia_priorizada.md
+    - Planejamento:
+      - ✒ Quadro Comparativo: quadro_comparativo.md
+      - 🛎️ Justificativa: justificativa.md
+      - 📅 Cronograma e Entregas: cronograma_entregas.md
+      - 🔈 Comunicação: comunicacao.md
+      - ✅ Processo de Validação: processo_validacao.md
+    - Equipe:
+      - 😁 Composição de Equipe: composicao_equipe.md
+    - Unidade 1:
+      - 1️⃣ Unidade um: unidade_um.md
     
   
   
