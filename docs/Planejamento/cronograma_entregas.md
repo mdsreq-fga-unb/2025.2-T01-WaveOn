@@ -1,10 +1,11 @@
 # 📅 Cronograma e Entregas
 
-A partir da estratégia de desenvolvimento de software estabelecida, tem-se a seguinte proposta de cronograma, suas fases e resultados esperados:
+📊 A partir da estratégia de desenvolvimento de software estabelecida, segue uma proposta de cronograma ajustada para estar mais alinhada com o **RAD (Rapid Application Development)**.
 
 | Fase | Período | Objetivo Principal | Entregas Esperadas |
 | :--- | :--- | :--- | :--- |
-| **Fase 1: Planejamento de Requisitos** | 26/08 a 16/09 | Levantamento inicial dos requisitos e definição da arquitetura mínima. | Finalização da documentação e levantamento dos requisitos. |
-| **Fase 2: Realização dos protótipos** | 16/09 a 30/09 | Validação de telas e funcionalidades com protótipos e validação constante. | Entregas de todos os protótipos e validação dos requisitos com o cliente. |
-| **Fase 3: Construção e implementação** | 30/09 a 21/10 | Desenvolvimento em iterações curtas junto a testes de integração. | Entrega de telas e funcionalidades, integração de todas as iterações e entrega de produto funcional. |
-| **Fase 4: Teste de aceitação, ajustes e entrega** | 21/10 a 09/12 | Certificar-se da qualidade final do projeto, validar solução junto ao cliente, preparar para o uso real do produto. | Entrega do produto finalizado pronto para aplicação. |
+| **Fase 1: Planejamento de Requisitos** | 26/08 a 16/09 | Levantamento inicial dos requisitos principais e definição de uma arquitetura mínima para orientar protótipos. | Documento inicial de requisitos priorizados e esboço da arquitetura mínima. |
+| **Fase 2: Prototipagem e Validação Inicial** | 09/09 a 30/09 (sobreposta à Fase 1) | Criação rápida de protótipos de telas e funcionalidades críticas para validação inicial com o cliente. | Protótipos navegáveis e feedback documentado do cliente. |
+| **Fase 3: Construção Iterativa** | 16/09 a 21/10 | Desenvolvimento em ciclos curtos (iterações semanais) com integração contínua e testes a cada entrega parcial. | Entregas incrementais de funcionalidades validadas com cliente a cada iteração. |
+| **Fase 4: Ajustes e Entrega Final** | 21/10 a 18/11 (sobreposta à Fase 3) | Consolidar feedbacks, refinar protótipos em produto final, validar aceitação com cliente. | Versão candidata a release com funcionalidades integradas. |
+| **Fase 5: Teste de Aceitação e Implantação** | 18/11 a 09/12 | Garantir qualidade final, validar solução em ambiente real, prepa
