@@ -25,11 +25,5 @@ em locais fixos.
 |---|---|---|
 | ![Eduardo Ribeiro Xavier](img/Eduardo.jpeg){ width="120" style="border-radius:50%;"}<br>**Eduardo Ribeiro**<br> | ![Guilherme Negreiros Pereira](img/Guilherme.jpg){ width="120" style="border-radius:50%;"}<br>**Guilherme Negreiros**<br> | ![Anna Clara Cardoso Evangelista Brandão](img/anna_clara.jpg){ width="120" style="border-radius:50%;"}<br>**Anna Clara Cardoso**<br> |
 
-
-
-
-
-
-
-
-
+---
+_Deploy de teste rodando em {{ 22/09/2025 }}_
