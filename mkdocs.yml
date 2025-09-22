@@ -32,6 +32,11 @@ nav:
       - Requisitos De Software:
           - 🛠️ Requisitos Funcionais(RF): Requisitos/requisitos_funcionais.md
           - 🔒 Requisitos Não-Funcionais(RNF): Requisitos/requisitos_nao_funcionais.md
+      - Guias Boas Práticas:
+          - 💾 Commits: Guias/commits.md
+          - 🌳 Branch: Guias/branches.md
+          - 🚩 Issue: Guias/issues.md
+          - 🔃 Pull Request(PR): Guias/pull_request.md
 
 theme:
   name: material
