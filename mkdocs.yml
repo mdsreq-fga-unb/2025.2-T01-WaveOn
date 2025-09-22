@@ -6,7 +6,7 @@ repo_name: mdsreq-fga-unb/2025.2-T01-WaveOn
 edit_uri: edit/main/docs/
 
 nav:
-  - Início: Nav/index.md
+  - Início: index.md
   - Produto:
       - Diagnóstico:
           - 🔍 Identificação da Oportunidade: Diagnóstico/identificacao_oportunidade.md
@@ -29,6 +29,9 @@ nav:
           - 😁 Composição de Equipe: Equipe/composicao_equipe.md
       - Unidade 1:
           - 1️⃣ Unidade um: Unidade 1/unidade_um.md
+      - Requisitos De Software:
+          - 🛠️ Requisitos Funcionais(RF): Requisitos/requisitos_funcionais.md
+          - 🔒 Requisitos Não-Funcionais(RNF): Requisitos/requisitos_nao_funcionais.md
 
 theme:
   name: material
