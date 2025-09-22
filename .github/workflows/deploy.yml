@@ -3,19 +3,12 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches: ["docs"]
-  workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  contents: write 
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,28 +22,14 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          # se tiver requirements.txt na raiz, melhor usar:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install mkdocs mkdocs-material; fi
 
       - name: Build site
-        run: |
-          python -m mkdocs build --strict
+        run: mkdocs build --strict
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
