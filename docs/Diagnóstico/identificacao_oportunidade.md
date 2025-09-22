@@ -15,4 +15,4 @@ A logística de deslocamento é outro obstáculo importante: uma dificuldade aca
 
 ---
 
-![Grafico de ishikawa](../Nav/img/Ishikawa.jpg)
+![Grafico de ishikawa](../img/Ishikawa.jpg)
