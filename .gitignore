@@ -1,0 +1,22 @@
+# MkDocs build
+site/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
