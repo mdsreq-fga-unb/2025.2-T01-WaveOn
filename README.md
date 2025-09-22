@@ -6,6 +6,8 @@ WaveON é um sistema de gestão e cadastro para serviços de lavagem de carros a
 ## Documentação
 A documentação completa do projeto está disponível em: [WaveON Docs](https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn)
 
+> Os arquivos da documentação do projeto se encontram na branch [docs](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs). A branch main será usada apenas para entregas de releases e versões estáveis. O desenvolvimento acontecerá na branch dev e em branchs derivadas da mesma.
+
 ## 👥 Nossa Equipe
 
 <table align="center">
@@ -48,5 +50,3 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
-
-
