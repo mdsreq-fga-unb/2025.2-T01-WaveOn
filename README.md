@@ -9,39 +9,38 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
 > Os arquivos da documentação do projeto se encontram na branch [docs](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs). A branch main será usada apenas para entregas de releases e versões estáveis. O desenvolvimento acontecerá na branch dev e em branchs derivadas da mesma.
 
 # 👥 Nossa Equipe
-
+<div align="center">
 <table>
   <tr>
     <td align="center">
-      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/bernardo_watanabi.jpg" width="120" style="border-radius:50%;" /><br>
+      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/bernardo_watanabi.jpg" width="150" style="border-radius:50%;" /><br>
       <b>Bernardo Watanabe</b><br>Líder
     </td>
     <td align="center">
-      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Bernardo_broetto.jpg" width="120" style="border-radius:50%;" /><br>
+      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Bernardo_broetto.jpg" width="150" style="border-radius:50%;" /><br>
       <b>Bernardo Broetto</b>
     </td>
     <td align="center">
-      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Douglas.jpg" width="120" style="border-radius:50%;" /><br>
+      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Douglas.jpg" width="150" style="border-radius:50%;" /><br>
       <b>Douglas Wilson</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Eduardo.jpeg" width="120" style="border-radius:50%;" /><br>
+      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Eduardo.jpeg" width="150" style="border-radius:50%;" /><br>
       <b>Eduardo Ribeiro</b>
     </td>
     <td align="center">
-      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Guilherme.jpg" width="120" style="border-radius:50%;" /><br>
+      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/Guilherme.jpg" width="150" style="border-radius:50%;" /><br>
       <b>Guilherme Negreiros</b>
     </td>
     <td align="center">
-      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/anna_clara.jpg" width="120" style="border-radius:50%;" /><br>
+      <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/anna_clara.jpg" width="150" style="border-radius:50%;" /><br>
       <b>Anna Clara Cardoso</b>
     </td>
   </tr>
 </table>
-
-
+</div>
 
 # Como contribuir  
 
