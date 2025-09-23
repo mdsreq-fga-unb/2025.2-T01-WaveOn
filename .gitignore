@@ -1,0 +1,15 @@
+# MkDocs build
+site/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor configs
+.vscode/
+.idea/
+.DS_Store
