@@ -44,9 +44,28 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
 </p>
 
 
-## Como Contribuir
-1. Faça um Fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+# Como contribuir  
+
+As boas práticas para contribuir com este repositório — incluindo **commits**, **branches**, **issues** e **pull requests** — estão documentadas na branch [docs](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs), na pasta [Guias](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs/docs/Guias).  
+
+Antes de abrir uma contribuição, consulte esses guias para garantir consistência e qualidade no projeto 🚀.  
+
+---
+
+## Passo a passo rápido  
+
+1. **Fork** este repositório para a sua conta.  
+2. **Clone** o fork localmente:  
+   ```bash
+   git clone https://github.com/seu-usuario/2025.2-T01-WaveOn.git
+3. Crie uma **branch** descritiva para sua contribuição:  
+   ```bash
+   git checkout -b minha-feature
+4. Faça suas alterações seguindo as boas práticas de commits.  
+5. **Push** da sua branch para o seu fork:  
+   ```bash
+   git push origin minha-feature
+6. Abra um **Pull Request** para a branch adequada do repositório principal.
+
+7. Aguarde a revisão e feedback do time ✨.
+
