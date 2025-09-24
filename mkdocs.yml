@@ -1,4 +1,4 @@
-site_name: WaveON
+site_name: "WaveON"
 site_description: Documentação WAVEon
 site_url: https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn
 repo_url: https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn
@@ -33,29 +33,17 @@ nav:
       - Política de Issue: politicas_equipe/issues.md
       - Política de Pull Request(PR): politicas_equipe/pull_request.md
 
-
-#      - Planejamento:
-#          - ✒ Quadro Comparativo: Planejamento/quadro_comparativo.md
-#          - 🛎️ Justificativa: Planejamento/justificativa.md
-#          - 📅 Cronograma e Entregas: Planejamento/cronograma_entregas.md
-#          - 🔈 Comunicação: Planejamento/comunicacao.md
-#          - ✅ Processo de Validação: Planejamento/processo_validacao.md
-#      - Equipe:
-#          - 😁 Composição de Equipe: Equipe/composicao_equipe.md
-#      - Unidade 1:
-#          - 1️⃣ Unidade um: Unidade 1/unidade_um.md
-#      - Requisitos De Software:
-#          - 🛠️ Requisitos Funcionais(RF): Requisitos/requisitos_funcionais.md
-#          - 🔒 Requisitos Não-Funcionais(RNF): Requisitos/requisitos_nao_funcionais.md
-#      - Guias Boas Práticas:
-#          - 💾 Commit: Guias/commits.md
-#          - 🌳 Branch: Guias/branches.md
-#          - 🚩 Issue: Guias/issues.md
-#          - 🔃 Pull Request(PR): Guias/pull_request.md
-
 theme:
   name: material
   language: pt-BR
+  logo: img/logo_aba.png
+  favicon: img/logo_aba.png
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  custom_dir: overrides
 
   features:
     - navigation.tabs
@@ -67,8 +55,6 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
-    - footer.copyright
-    - footer.social
 
   palette:
     - scheme: default
@@ -83,14 +69,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn
-    - icon: fontawesome/brands/twitter
-      link: https://x.com/mdsreq-fga-unb
-  copyright: "2025, Grupo 7 - WaveON"
 
 markdown_extensions:
   - attr_list
