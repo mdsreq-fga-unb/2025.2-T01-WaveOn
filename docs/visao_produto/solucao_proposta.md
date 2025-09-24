@@ -1,6 +1,8 @@
-# 🚀 Objetivos do Produto
+# 2. Solução Proposta
 
-🔥 O principal objetivo da solução é aumentar a eficiência operacional, transformando a gestão de serviços da empresa VB através da otimização de processos, melhor organização interna e resolução de desafios operacionais.
+## 2.1 Objetivos do Produto 🚀
+
+O principal objetivo da solução é aumentar a eficiência operacional, transformando a gestão de serviços da empresa VB através da otimização de processos, melhor organização interna e resolução de desafios operacionais.
 
 !!! note "Objetivos Específicos"
     | Código | Objetivo Específico |
@@ -10,9 +12,11 @@
     | **OE3** | Acelerar e desburocratizar o processo de solicitação e contratação do serviço, facilitando o agendamento para os clientes. |
     | **OE4** | Melhorar a tomada de decisão da gestão com informações claras e acessíveis, garantindo uma visão em tempo real da operação, do desempenho de vendas e da rentabilidade dos serviços. |
 
-# 🧩 Características da Solução
+---
 
-🥇 A solução será materializada em uma plataforma digital, uma aplicação
+## 2.2 Característica da Solução 🧩
+
+A solução será materializada em uma plataforma digital, uma aplicação
 web, com funcionalidades que atendem diretamente aos objetivos definidos:
 
 !!! tip "Gestão de Agendamentos (OE1)" 
@@ -38,11 +42,15 @@ web, com funcionalidades que atendem diretamente aos objetivos definidos:
     serviços pendentes e métricas de desempenho. Isso permitirá que os gestores tomem
     decisões baseadas em dados para melhorar a operação.
 
-## Tecnologias a Serem Utilizadas
+---
 
-# 💰 Pesquisa de mercado e Análise competitiva
+## 2.3 Tecnologias a Serem Utilizadas 💻
 
-💲 No mercado de lavagem automotiva a domicílio e serviços sustentáveis, os principais
+---
+
+## 2.4 Pesquisa de mercado e Análise competitiva 💰
+
+No mercado de lavagem automotiva a domicílio e serviços sustentáveis, os principais
 concorrentes da VB incluem **Wicar** e **Acquazero**. A **Wicar** se destaca pela sua plataforma digital e aplicativo amigável, mas possui fragilidades na gestão de métricas e otimização de rotas. Já a **Acquazero**, uma grande rede de franquias, tem forte reconhecimento de marca, mas enfrenta desafios no processo de agendamento online, que é burocrático e pouco intuitivo.
 
 A solução da VB irá se diferenciar por:
@@ -63,20 +71,22 @@ A solução da VB irá se diferenciar por:
     Acompanhamento de métricas
     para uma operação mais eficiente.
 
-# 🔎 Análise de Viabilidade
+---
 
-❗ A viabilidade técnica do projeto é alta, pois a equipe tem experiência comprovada em
+## 2.5 Análise de Viabilidade 🔎
+
+A viabilidade técnica do projeto é **alta**, pois a equipe tem experiência comprovada em
 tecnologias modernas e escaláveis como **React Native**, **React.js**, **Node.js** e **MongoDB**.
 A comunicação entre os sistemas será feita por meio de **APIs RESTful**, garantindo uma
 integração eficiente.
 
----
-
 O prazo estimado para o desenvolvimento é de **seis meses**, dividido em ciclos de prototipação, validação e feedback contínuos e frequentes com o cliente. Cada ciclo terá entregas incrementais de funcionalidades, seguindo um ciclo de vida iterativo-incremental com **abordagem ágil** e apoiado pelo processo de __RAD (Rapid Application Development)__. Esse modelo permitirá a construção de protótipos rápidos, validações constantes junto ao cliente e ajustes contínuos, reduzindo riscos e aumentando a qualidade do produto final.
 
-# ⚖️ Impacto da Solução
+---
 
-🛎️ A nova plataforma trará uma série de benefícios para a VB, impactando tanto as
+## 2.6 Impacto da Solução ⚖️
+
+A nova plataforma trará uma série de benefícios para a VB, impactando tanto as
 operações quanto os resultados do negócio:
 
 !!! info "Expansão de Mercado e Captação de Novos Clientes" 
@@ -113,6 +123,7 @@ operações quanto os resultados do negócio:
     dados pessoais dos clientes, em conformidade com a legislação vigente, fortalecendo
     a imagem de credibilidade e responsabilidade da empresa.
 
+---
 
 ## Hisórico de Versão 🔄
 
