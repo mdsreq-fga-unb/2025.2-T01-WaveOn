@@ -44,7 +44,7 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
 
 # Como contribuir  
 
-As boas práticas para contribuir com este repositório — incluindo **commits**, **branches**, **issues** e **pull requests** — estão documentadas na branch [docs](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs), na pasta [Guias](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs/docs/Guias).  
+As boas práticas para contribuir com este repositório — incluindo **commits**, **branches**, **issues** e **pull requests** — estão documentadas na branch [docs](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs), na pasta [Políticas da Equipe](https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn/tree/docs/docs/Guias).  
 
 Antes de abrir uma contribuição, consulte esses guias para garantir consistência e qualidade no projeto 🚀.  
 
