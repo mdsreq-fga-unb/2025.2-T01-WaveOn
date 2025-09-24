@@ -1,6 +1,6 @@
-# 3. Estratégias de Engenharia de Software
+# 3. **Estratégias de Engenharia de Software**
 
-## 3.1 Estratégia Priorizada 📕
+## 3.1 **Estratégia Priorizada** 📕
 
 - **Abordagem:** Ágil
 - **Ciclo de Vida:** Interativo Incremental
@@ -8,7 +8,7 @@
 
 ---
 
-## 3.2 Quadro Comparativo 📋
+## **3.2 Quadro Comparativo** 📋
 
 O quadro a seguir apresenta características relacionadas ao **RAD (Rapid Application Development)** e ao **Scrum/XP**, com ajustes para tornar a comparação mais precisa e útil na escolha do processo mais adequado ao caso da VB.
 
@@ -31,7 +31,7 @@ O quadro a seguir apresenta características relacionadas ao **RAD (Rapid Applic
 
 ---
 
-## 3.3 Justificativa 🛎️
+## **3.3 Justificativa** 🛎️
 
 Considerando o quadro comparativo apresentado, bem como nossas abordagens e ciclo de vida, as vantagens do **RAD** se mostram mais expressivas em relação ao **ScrumXP**, especialmente ao avaliarmos fatores como tamanho da equipe, escalabilidade e o perfil do cliente. Neste projeto, o cliente possui conhecimento limitado sobre tecnologias e necessitará de feedbacks constantes e iterações frequentes.
 
@@ -39,7 +39,7 @@ Dessa forma, a adoção do **RAD** como processo, com seu enfoque em protótipos
 
 ---
 
-## Hisórico de Versão 🔄
+## **Hisórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

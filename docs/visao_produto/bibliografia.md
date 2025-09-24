@@ -1,7 +1,7 @@
-
+# 11. **Referências Bibliográficas**
 ---
 
-## Hisórico de Versão 🔄
+## **Hisórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

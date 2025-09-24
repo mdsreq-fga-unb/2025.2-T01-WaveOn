@@ -1,6 +1,6 @@
-# 2. Solução Proposta
+# 2. **Solução Proposta**
 
-## 2.1 Objetivos do Produto 🚀
+## 2.1 **Objetivos do Produto** 🚀
 
 O principal objetivo da solução é aumentar a eficiência operacional, transformando a gestão de serviços da empresa VB através da otimização de processos, melhor organização interna e resolução de desafios operacionais.
 
@@ -14,7 +14,7 @@ O principal objetivo da solução é aumentar a eficiência operacional, transfo
 
 ---
 
-## 2.2 Característica da Solução 🧩
+## 2.2 **Característica da Solução** 🧩
 
 A solução será materializada em uma plataforma digital, uma aplicação
 web, com funcionalidades que atendem diretamente aos objetivos definidos:
@@ -44,11 +44,11 @@ web, com funcionalidades que atendem diretamente aos objetivos definidos:
 
 ---
 
-## 2.3 Tecnologias a Serem Utilizadas 💻
+## 2.3 **Tecnologias a Serem Utilizadas** 💻
 
 ---
 
-## 2.4 Pesquisa de mercado e Análise competitiva 💰
+## 2.4 **Pesquisa de mercado e Análise competitiva** 💰
 
 No mercado de lavagem automotiva a domicílio e serviços sustentáveis, os principais
 concorrentes da VB incluem **Wicar** e **Acquazero**. A **Wicar** se destaca pela sua plataforma digital e aplicativo amigável, mas possui fragilidades na gestão de métricas e otimização de rotas. Já a **Acquazero**, uma grande rede de franquias, tem forte reconhecimento de marca, mas enfrenta desafios no processo de agendamento online, que é burocrático e pouco intuitivo.
@@ -73,7 +73,7 @@ A solução da VB irá se diferenciar por:
 
 ---
 
-## 2.5 Análise de Viabilidade 🔎
+## **2.5 Análise de Viabilidade** 🔎
 
 A viabilidade técnica do projeto é **alta**, pois a equipe tem experiência comprovada em
 tecnologias modernas e escaláveis como **React Native**, **React.js**, **Node.js** e **MongoDB**.
@@ -84,7 +84,7 @@ O prazo estimado para o desenvolvimento é de **seis meses**, dividido em ciclos
 
 ---
 
-## 2.6 Impacto da Solução ⚖️
+## 2.6 **Impacto da Solução** ⚖️
 
 A nova plataforma trará uma série de benefícios para a VB, impactando tanto as
 operações quanto os resultados do negócio:
@@ -125,7 +125,7 @@ operações quanto os resultados do negócio:
 
 ---
 
-## Hisórico de Versão 🔄
+## **Hisórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

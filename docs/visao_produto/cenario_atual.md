@@ -1,4 +1,6 @@
-## 1.1  Introdução ao negócio e Contexto 🚗
+# 1. **Cenário Atual do Cliente e do Negócio**
+
+## 1.1  **Introdução ao negócio e Contexto** 🚗
 
 Dentro do mercado de serviços automobilístico no Brasil, teve-se um aumento significativo na venda e compra destes veículos durante os anos, fazendo com que surgisse uma
 maior necessidade de serviços de manutenção e bem estar destes produtos.
@@ -13,7 +15,7 @@ em locais fixos.
 
 ---
 
-## 1.2 Identificação da Oportunidade 🔍
+## **1.2 Identificação da Oportunidade** 🔍
 Nos últimos anos, os serviços remotos de lava-jato têm crescido constantemente, impulsionando o interesse e a procura dos clientes. Esse crescimento, no entanto, traz consigo diversos desafios para as empresas. A gestão da informação e a administração se tornam complexas, especialmente para visualizar os agendamentos e as necessidades dos clientes.
 
 A logística de deslocamento é outro obstáculo importante: uma dificuldade acaba gerando outra, afetando diretamente a pontualidade e a eficiência. Situações como atrasos nos pedidos e uma experiência de compra frustrante são comuns, o que pode limitar as vendas e a fidelização dos clientes. Além disso, a falta de controle e organização pode levar à diminuição da qualidade do serviço.
@@ -29,13 +31,13 @@ A logística de deslocamento é outro obstáculo importante: uma dificuldade aca
 
 ---
 
-### 1.2.1 Gráfico de Ishikawa 📊
+### **1.2.1 Gráfico de Ishikawa** 📊
 A figura a seguir apresenta o Diagrama de Ishikawa sobre o problema enfretado pela *VB*:
 ![Grafico de ishikawa](../img/Ishikawa.jpg)
 
 ---
 
-## 1.3 Desafios do Projeto 🧗
+## **1.3 Desafios do Projeto** 🧗
 A empresa VB enfrenta uma série de desafios que se estendem para além da simples
 operação de seus serviços. Entre os principais problemas, destaca-se a necessidade de uma
 constante visualização e análise dos dados de serviço e das informações dos clientes. 
@@ -60,7 +62,7 @@ busca contínua por eficiência operacional.
 
 ---
 
-## 1.4 Segmentação de Clientes 🎯
+## **1.4 Segmentação de Clientes** 🎯
 👤 A empresa VB atende os três principais segmentos de clientes:
 
 !!! note "Clientes Idosos e com Mobilidade Reduzida (acima de 60 anos)"
@@ -79,7 +81,7 @@ busca contínua por eficiência operacional.
 
 ---
 
-## Hisórico de Versão 🔄
+## **Hisórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

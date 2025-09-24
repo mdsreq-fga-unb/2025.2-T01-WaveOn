@@ -1,8 +1,8 @@
-# 4. Engenharia de Requisitos
+# 4. **Engenharia de Requisitos**
 
 ---
 
-## Hisórico de Versão 🔄
+## **Hisórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
