@@ -29,7 +29,7 @@ A logística de deslocamento é outro obstáculo importante: uma dificuldade aca
 
 ---
 
-### Gráfico de Ishikawa 📊
+### 1.2.1 Gráfico de Ishikawa 📊
 A figura a seguir apresenta o Diagrama de Ishikawa sobre o problema enfretado pela *VB*:
 ![Grafico de ishikawa](../img/Ishikawa.jpg)
 
