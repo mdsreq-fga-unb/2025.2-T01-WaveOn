@@ -6,8 +6,8 @@ Este documento define as diretrizes para a criação, revisão e aceitação de 
 
 ## Regras Gerais
 
-- Todos os PRs devem ser feitos para as branches `dev` ou `main`, conforme o fluxo de trabalho.
-- Nunca faça PR diretamente na `main` sem passar pela `dev`, exceto em casos de `hotfix`.
+- Todos os PRs devem ser feitos para as branches `docs`, `dev` ou `main`, conforme o fluxo de trabalho.
+- Nunca faça PR diretamente na `main` sem passar pela `dev`, exceto em casos de `hotfix`, ou na `docs`.
 - Todo PR deve estar **associado a uma issue** (se houver) e seguir a **nomenclatura padrão**.
 
 ---

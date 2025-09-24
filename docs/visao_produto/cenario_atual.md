@@ -3,20 +3,22 @@
 Dentro do mercado de serviços automobilístico no Brasil, teve-se um aumento significativo na venda e compra destes veículos durante os anos, fazendo com que surgisse uma
 maior necessidade de serviços de manutenção e bem estar destes produtos.
 
-Com isso em mente, A empresa VB, foca em oferecer a melhor lavagem de carros a domicílio possível,
+Com isso em mente, A empresa *VB*, foca em oferecer a melhor lavagem de carros a domicílio possível,
 e tem como alvo clientes que preferem uma lavagem no conforto de sua casa.
 
 Oferecendo serviços remotos aos seus clientes, a empresa busca manter o cliente o mais
 confortável possível sem ter a necessidade de se deslocar para realizar a lavagem. Muito
-diferente do habitual, onde grande parte das lojas de "lava-rápido"realizam seus serviços
+diferente do habitual, onde grande parte das lojas de "lava-rápido" realizam seus serviços
 em locais fixos.
 
+---
+
 ## 1.2 Identificação da Oportunidade 🔍
-📈 Nos últimos anos, os serviços remotos de lava-jato têm crescido constantemente, impulsionando o interesse e a procura dos clientes. Esse crescimento, no entanto, traz consigo diversos desafios para as empresas. A gestão da informação e a administração se tornam complexas, especialmente para visualizar os agendamentos e as necessidades dos clientes.
+Nos últimos anos, os serviços remotos de lava-jato têm crescido constantemente, impulsionando o interesse e a procura dos clientes. Esse crescimento, no entanto, traz consigo diversos desafios para as empresas. A gestão da informação e a administração se tornam complexas, especialmente para visualizar os agendamentos e as necessidades dos clientes.
 
 A logística de deslocamento é outro obstáculo importante: uma dificuldade acaba gerando outra, afetando diretamente a pontualidade e a eficiência. Situações como atrasos nos pedidos e uma experiência de compra frustrante são comuns, o que pode limitar as vendas e a fidelização dos clientes. Além disso, a falta de controle e organização pode levar à diminuição da qualidade do serviço.
 
----
+--- 
 
 !!! warning "Causa principal"
     Grande parte dessas falhas surge da ausência de ferramentas adequadas para listar, organizar e agendar os serviços.  
@@ -28,10 +30,13 @@ A logística de deslocamento é outro obstáculo importante: uma dificuldade aca
 ---
 
 ### Gráfico de Ishikawa 📊
+A figura a seguir apresenta o Diagrama de Ishikawa sobre o problema enfretado pela *VB*:
 ![Grafico de ishikawa](../img/Ishikawa.jpg)
 
+---
+
 ## 1.3 Desafios do Projeto 🧗
-🎯 A empresa VB enfrenta uma série de desafios que se estendem para além da simples
+A empresa VB enfrenta uma série de desafios que se estendem para além da simples
 operação de seus serviços. Entre os principais problemas, destaca-se a necessidade de uma
 constante visualização e análise dos dados de serviço e das informações dos clientes. 
 
@@ -48,12 +53,12 @@ aplicação web, exigirá um processo de transição e treinamento.
 Embora o orçamento não seja uma preocupação central no momento, a capacidade de
 equilibrar custo, qualidade e entrega é um desafio inerente ao modelo de negócio. 
 
----
-
 Em suma, a superação desses obstáculos não se resume apenas à implementação de um novo
 software. Trata-se de um processo de adaptação e evolução que exige uma mudança na
 cultura da empresa, focada na otimização de processos, na adoção de tecnologias e na
 busca contínua por eficiência operacional.
+
+---
 
 ## 1.4 Segmentação de Clientes 🎯
 👤 A empresa VB atende os três principais segmentos de clientes:
@@ -71,6 +76,8 @@ busca contínua por eficiência operacional.
     Este grupo inclui gestores de frota, autônomos e executivos com a agenda apertada, que valorizam a otimização
     do tempo. Eles utilizam o serviço para manter veículos da empresa ou pessoais
     limpos, sem que isso interfira na sua produtividade diária.
+
+---
 
 ## Hisórico de Versão 🔄
 
