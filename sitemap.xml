@@ -2,94 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Diagn%C3%B3stico/desafios/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/entregas/video_unidade_1/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Diagn%C3%B3stico/identificacao_oportunidade/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/politicas_equipe/branches/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Diagn%C3%B3stico/segmentacao_clientes/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/politicas_equipe/commits/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Equipe/composicao_equipe/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/politicas_equipe/issues/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Guias/branches/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/politicas_equipe/pull_request/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Guias/commits/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/backlog_produto/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Guias/issues/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/bibliografia/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Guias/pull_request/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/cenario_atual/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Planejamento/comunicacao/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/cronograma_entregas/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Planejamento/cronograma_entregas/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/dod_dor/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Planejamento/justificativa/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/engenharia_requisitos/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Planejamento/processo_validacao/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/estrategias/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Planejamento/quadro_comparativo/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/interacao_equipe/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Proposta/analise_viabilidade/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/licoes_aprendidas/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Proposta/caracteristicas_solucao/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/requisitos_software/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
     <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Proposta/estrategia_priorizada/</loc>
-         <lastmod>2025-09-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Proposta/impacto_solucao/</loc>
-         <lastmod>2025-09-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Proposta/objetivos/</loc>
-         <lastmod>2025-09-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Proposta/pesquisa_mercado/</loc>
-         <lastmod>2025-09-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Requisitos/requisitos_funcionais/</loc>
-         <lastmod>2025-09-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Requisitos/requisitos_nao_funcionais/</loc>
-         <lastmod>2025-09-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/Unidade%201/unidade_um/</loc>
-         <lastmod>2025-09-23</lastmod>
+         <loc>https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/solucao_proposta/</loc>
+         <lastmod>2025-09-25</lastmod>
     </url>
 </urlset>
