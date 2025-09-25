@@ -1,6 +1,16 @@
-# ✒ Quadro Comparativo
+# 3. **Estratégias de Engenharia de Software**
 
-🎲 O quadro a seguir apresenta características relacionadas ao **RAD (Rapid Application Development)** e ao **Scrum/XP**, com ajustes para tornar a comparação mais precisa e útil na escolha do processo mais adequado ao caso da VB.
+## 3.1 **Estratégia Priorizada** 📕
+
+- **Abordagem:** Ágil
+- **Ciclo de Vida:** Interativo Incremental
+- **Processo:** RAD
+
+---
+
+## **3.2 Quadro Comparativo** 📋
+
+O quadro a seguir apresenta características relacionadas ao **RAD (Rapid Application Development)** e ao **Scrum/XP**, com ajustes para tornar a comparação mais precisa e útil na escolha do processo mais adequado ao caso da VB.
 
 |                                 | **RAD**                                                                                                                                                    | **Scrum/XP**                                                                                                                                                      |
 | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,3 +28,24 @@
 | **Documentação de usuário**     | Protótipos servem como artefatos primários para guiar o usuário; documentação formal reduzida.                                                             | Documentação funcional mínima e atualizada; ênfase em entrega testada e na comunicação direta com stakeholders.                                                   |
 | **Velocidade de Implementação** | Muito rápida nas fases iniciais (prototipagem); velocidade para produto final depende de esforço de engenharia adicional.                                  | Ritmo moderado e previsível em sprints; menos rápido que um protótipo, mas entrega valor consistente e sustentável ao longo do tempo.                             |
 | **Documentação**                | Leve, focada em comunicação direta e nos protótipos.                                                                                                       | Leve e funcional — apenas o necessário para compreensão, manutenção e onboarding.                                                                                 |
+
+---
+
+## **3.3 Justificativa** 🛎️
+
+Considerando o quadro comparativo apresentado, bem como nossas abordagens e ciclo de vida, as vantagens do **RAD** se mostram mais expressivas em relação ao **ScrumXP**, especialmente ao avaliarmos fatores como tamanho da equipe, escalabilidade e o perfil do cliente. Neste projeto, o cliente possui conhecimento limitado sobre tecnologias e necessitará de feedbacks constantes e iterações frequentes.
+
+Dessa forma, a adoção do **RAD** como processo, com seu enfoque em protótipos, representa a opção mais adequada para atender às necessidades do projeto.
+
+---
+
+## **Hisórico de Versão** 🔄
+
+| Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
+|------------|--------|---------------------------------------------------|------------------|-----------------|
+|            |        |                                                   |                  |                 |
+|            |        |                                                   |                  |                 |
+|            |        |                                                   |                  |                 |
+|            |        |                                                   |                  |                 |
+|            |        |                                                   |                  |                 |
+

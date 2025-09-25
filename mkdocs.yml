@@ -1,47 +1,52 @@
-site_name: WaveON
+site_name: "WaveON"
 site_description: Documentação WAVEon
 site_url: https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn
 repo_url: https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn
 repo_name: mdsreq-fga-unb/2025.2-T01-WaveOn
-edit_uri: edit/main/docs/
+edit_uri: edit/docs/docs/
 
 nav:
-  - Início: index.md
-  - Produto:
-      - Diagnóstico:
-          - 🔍 Identificação da Oportunidade: Diagnóstico/identificacao_oportunidade.md
-          - 🧗 Desafios do Projeto: Diagnóstico/desafios.md
-          - 🎯 Segmentação de Clientes: Diagnóstico/segmentacao_clientes.md
-      - Proposta:
-          - 🚀 Objetivos do produto: Proposta/objetivos.md
-          - 🧩 Características da Solução: Proposta/caracteristicas_solucao.md
-          - 💰 Pesquisa de Mercado e Análise Competitiva: Proposta/pesquisa_mercado.md
-          - 🔎 Análise de Viabilidade: Proposta/analise_viabilidade.md
-          - ⚖️ Impacto da Solução: Proposta/impacto_solucao.md
-          - 📕 Estratégia Priorizada: Proposta/estrategia_priorizada.md
-      - Planejamento:
-          - ✒ Quadro Comparativo: Planejamento/quadro_comparativo.md
-          - 🛎️ Justificativa: Planejamento/justificativa.md
-          - 📅 Cronograma e Entregas: Planejamento/cronograma_entregas.md
-          - 🔈 Comunicação: Planejamento/comunicacao.md
-          - ✅ Processo de Validação: Planejamento/processo_validacao.md
-      - Equipe:
-          - 😁 Composição de Equipe: Equipe/composicao_equipe.md
-      - Unidade 1:
-          - 1️⃣ Unidade um: Unidade 1/unidade_um.md
-      - Requisitos De Software:
-          - 🛠️ Requisitos Funcionais(RF): Requisitos/requisitos_funcionais.md
-          - 🔒 Requisitos Não-Funcionais(RNF): Requisitos/requisitos_nao_funcionais.md
-      - Guias Boas Práticas:
-          - 💾 Commit: Guias/commits.md
-          - 🌳 Branch: Guias/branches.md
-          - 🚩 Issue: Guias/issues.md
-          - 🔃 Pull Request(PR): Guias/pull_request.md
+
+  - Início: index.md  
+  - Visão do produto e Projeto:
+      - 1. Cenário Atual do Cliente e do Negócio: visao_produto/cenario_atual.md
+      - 2. Solução Proposta: visao_produto/solucao_proposta.md
+      - 3. Estratégias de Engenharia de Software: visao_produto/estrategias.md
+      - 4. Engenharia de Requisitos: visao_produto/engenharia_requisitos.md
+      - 5. Cronogramas e Entregas: visao_produto/cronograma_entregas.md
+      - 6. Interação Entre Equipe e Cliente: visao_produto/interacao_equipe.md
+      - 7. Requisitos de Software: visao_produto/requisitos_software.md
+      - 8. DoR & DoD: visao_produto/dod_dor.md
+      - 9. Backlog de Produto: visao_produto/backlog_produto.md
+      - 10. Lições Aprendidas e Melhorias para o Processo: visao_produto/licoes_aprendidas.md
+      - 11. Referências Bibliográficas: visao_produto/bibliografia.md
+
+  #- Fases & Backlogs:
+
+  - Entregas: 
+      - Entrega Unidade 1:
+          - Video de apresentação: entregas/video_unidade_1.md
+
+  - Políticas da Equipe:
+      - Política de Commit: politicas_equipe/commits.md
+      - Política de Branch: politicas_equipe/branches.md
+      - Política de Issue: politicas_equipe/issues.md
+      - Política de Pull Request(PR): politicas_equipe/pull_request.md
 
 theme:
   name: material
   language: pt-BR
+  logo: img/logo_aba.png
+  favicon: img/logo_aba.png
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  custom_dir: overrides
+
   features:
+    - navigation.tabs
     - navigation.instant
     - navigation.tracking
     - navigation.sections
@@ -49,36 +54,24 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
+
   palette:
     - scheme: default
+      primary: blue
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
+      primary: blue
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  icon:
-    repo: fontawesome/brands/github
-
-plugins:
-  - search
 
 markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - tables
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
   - attr_list
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/mdsreq-fga-unb/2025.2-T01-WaveOn
-    - icon: fontawesome/brands/twitter
-      link: https://x.com/mdsreq-fga-unb
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
