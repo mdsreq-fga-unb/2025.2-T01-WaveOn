@@ -6,7 +6,7 @@
 
 | Papel                           | Descrição                                                                                 | Responsável               | Participantes |
 |---------------------------------|-------------------------------------------------------------------------------------------|---------------------------|---------------|
-| Gerente do Produto(Product Owner)              | Coordena o projeto, garante a comunicação entre cliente e equipe, controla prazos e entregas. | Bernardo Watanabe   | -             |
+| Gerente do Produto              | Coordena o projeto, garante a comunicação entre cliente e equipe, controla prazos e entregas. | Bernardo Watanabe   | -             |
 | Desenvolvedor Front-End Web          | Responsável pela interface do usuário, design e implementação das funcionalidades no lado do cliente. | Eduardo Ribeiro   | Toda a equipe |
 | Desenvolvedor Back-End Web           | Implementa a lógica de negócios, gerenciar o banco de dados e integrar APIs.                     | Bernardo Watanabe e Guilherme Negreiros   | Toda a equipe |
 | Designer de Interface de Usuário (UI) | Desenvolve a aparência visual do software.                                               | Guilerme Negreiros   | Toda a equipe |
