@@ -51,6 +51,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -75,3 +76,6 @@ markdown_extensions:
   - md_in_html
   - pymdownx.superfences
   - admonition
+
+extra_css:
+  - stylesheets/extra.css

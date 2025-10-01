@@ -1,6 +1,6 @@
 # 4. **Engenharia de Requisitos**
 
-## **4.1 Atividades e Técnicas de ER**
+## **4.1 Atividades e Técnicas de ER** 📌
 
 ### **Elicitação e Descoberta**
 - **Entrevista com Stakeholders:** serão conduzidas entrevistas com o cliente da VB e seus colaboradores, a fim de compreender suas necessidades, expectativas e principais dificuldades relacionadas à prestação do serviço de lavagem automotiva. As informações obtidas servirão de base para a definição dos requisitos do sistema WaveON.
@@ -50,9 +50,7 @@
 
 ---
 
-## **4.2 Engenharia de Requisitos e o RAD**
-
-## Estrutura de Ciclos RAD no Projeto WaveON (VB)
+## **4.2 Engenharia de Requisitos e o RAD** 🏗️
 
 Cada ciclo do RAD será composto pelas quatro fases principais: **Planejamento de Requisitos**, **Design do Usuário**, **Construção** e **Transição/Implementação**.  
 O processo se repetirá até que o sistema esteja completo, com entregas incrementais a cada ciclo.  O [Cronograma de Entregas](https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/cronograma_entregas/) estutura a organização e quantidade de ciclos necessários para garantir a entrega do MVP.
