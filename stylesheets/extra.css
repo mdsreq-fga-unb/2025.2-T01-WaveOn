@@ -1,0 +1,75 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 30%;        
+  }
+
+.equipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;              
+    justify-items: center;
+    margin-top: 20px;
+  }
+
+.membro {
+    text-align: center;
+  }
+
+.equipe {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,.25);
+    transition: transform 0.2s ease-in-out;
+}
+
+.equipe:hover {
+    transform: scale(1.05);
+    border: 2px solid #1e88e5;
+}
+
+.equipe-nome {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+table th {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center; 
+    padding: 8px;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.md-footer {
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.md-footer-meta {
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+[data-md-color-scheme="default"] .md-footer,
+[data-md-color-scheme="default"] .md-footer-meta {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #000 !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+[data-md-color-scheme="slate"] .md-footer,
+[data-md-color-scheme="slate"] .md-footer-meta {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #fff !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.74);
+}
