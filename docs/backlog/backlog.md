@@ -33,15 +33,14 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
 
 | Código | Feature Associada | Requisito Funcional Relacionado | Declaração |
 |--------|-------------------|---------------------------------|------------|
-| US-C01 | F01 | RF-C01 | Como cliente, quero visualizar os serviços de lavagem e suas características para poder escolher a melhor opção. |
-| US-C02 | F01 | RF-C02 | Como cliente, quero ver os preços das lavagens disponíveis para escolher o melhor preço. |
-| US-C03 | F04 | RF-C03 | Como cliente, quero acesso a telefones e Instagram da empresa para uma comunicação mais direta. |
-| US-C04 | F02 | RF-C04 | Como cliente, quero um calendário em que eu possa selecionar os dias para marcar uma lavagem. |
-| US-C05 | F02 | RF-C05 | Como cliente, quero poder entrar nos meus agendamentos com um cadastro simples e rápido de usuário e senha. |
-| US-C06 | F02 | RF-C06 | Como cliente, quero poder visualizar e gerenciar meus agendamentos. |
-| US-C07 | F03 | RF-C07 | Como cliente, quero pagar por PIX adiantado o serviço. |
-| US-C08 | F02 | RF-C08 | Como cliente, quero cancelar meu agendamento caso eu não precise mais da lavagem. |
-| US-C09 | F05 | RF-C09 | Como cliente, quero ver informações de quanto tempo demora a lavagem e quais produtos são usados. |
+| US-C01 | F01 | RF-C01 | Como cliente, quero visualizar os serviços de lavagem, suas características para poder escolher a melhor opção e ver os preços das lavagens disponíveis para escolher o melhor preço. |
+| US-C02 | F04 | RF-C02 | Como cliente, quero acesso a telefones e Instagram da empresa para uma comunicação mais direta. |
+| US-C03 | F02 | RF-C03 | Como cliente, quero um calendário em que eu possa selecionar os dias para marcar uma lavagem. |
+| US-C04 | F02 | RF-C04 | Como cliente, quero poder entrar nos meus agendamentos com um cadastro simples e rápido de usuário e senha. |
+| US-C05 | F02 | RF-C05 | Como cliente, quero poder visualizar e gerenciar meus agendamentos. |
+| US-C06 | F03 | RF-C06 | Como cliente, quero pagar por PIX adiantado o serviço. |
+| US-C07 | F02 | RF-C07 | Como cliente, quero cancelar meu agendamento caso eu não precise mais da lavagem. |
+| US-C08 | F05 | RF-C08 | Como cliente, quero ver informações de quanto tempo demora a lavagem e quais produtos são usados. |
 
 ---
 
@@ -50,13 +49,12 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
 | Código | Feature Associada | Requisito Funcional Relacionado | Declaração |
 |--------|-------------------|---------------------------------|------------|
 | US-A01 | F06 | RF-A01 | Como dono, quero acessar o sistema administrativo de forma segura para gerenciar o negócio. |
-| US-A02 | F06 | RF-A02 | Como dono, quero visualizar, editar e cancelar agendamentos para manter a organização. |
+| US-A02 | F06 | RF-A02 | Como dono, quero visualizar, editar, cancelar agendamentos para manter a organização, que a duração mínima entre lavagens seja respeitada (4h) e que não haja agendamentos acima de 7 dias.. |
 | US-A03 | F06 | RF-A03 | Como dono, quero ter uma visão da agenda diária e semanal para organizar os serviços. |
 | US-A04 | F06 | RF-A04 | Como dono, quero ver os dados dos clientes como número de celular e endereço para contato e logística. |
 | US-A05 | F01 | RF-A05 | Como dono, quero gerenciar os serviços (cadastrar, editar e inativar), preços e duração. |
-| US-A06 | F07 | RF-A06 | Como dono, quero que a duração mínima entre lavagens seja respeitada (4h) e que não haja agendamentos acima de 7 dias. |
-| US-A07 | F05 | RF-A07 | Como dono, quero poder adicionar observações e informações adicionais aos clientes e agendamentos. |
-| US-A08 | F06 | RF-A08 | Como dono, quero gerar relatórios de lavagens feitas por período e valores recebidos. |
+| US-A06 | F05 | RF-A06 | Como dono, quero poder adicionar observações e informações adicionais aos clientes e agendamentos. |
+| US-A07 | F06 | RF-A08 | Como dono, quero gerar relatórios de lavagens feitas por período e valores recebidos. |
 
 ### **9.1.3 — Lista de requisitos não-funcionais**
   - **RNF-U01**: A interface do usuário deve ser intuitiva, seguindo um design moderno com as cores temáticas preto e vermelho. O processo de agendamento deve ser concluído em no máximo 3 cliques.  
@@ -98,6 +96,8 @@ A seguir, detalham-se os três critérios utilizados:
 - **Facilidade:** avalia o nível de simplicidade, velocidade e baixo custo envolvidos na implementação do requisito.
 Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 
+### **9.2.1 — Tabela MoSCoW + ICE**
+
 | **Nome (US Sugerida)**        | **Requisito Associado** | **MoSCoW**   | **Impacto** | **Confiança** | **Facilidade** | **ICE Score** | **Quadrante** |
 |--------------------------------|-------------------------|--------------|-------------|---------------|----------------|---------------|---------------|
 | US01 (Login Cliente)           | RF-C05                  | Must Have    | 10          | 9             | 9              | 810           | 1             |
@@ -129,12 +129,21 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 
 A matriz de esforço e impacto será utilizada como apoio na definição das prioridades das histórias de usuário que compõem o MVP. Para isso, essa ferramenta é estruturada em dois eixos: o eixo vertical representa o impacto, ou seja, o valor de negócio que cada funcionalidade pode gerar; enquanto o eixo horizontal representa o esforço, que corresponde à complexidade e aos recursos necessários para sua implementação.
 
-Dessa forma, a combinação desses dois critérios permite visualizar com clareza quais funcionalidades devem ser priorizadas. A seguir, estão descritos os quatro quadrantes da matriz através de sua relação com o MVP:
+### **9.2.1 — Gráfico de Quadrantes**
+A combinação desses dois critérios(**MoSCoW** e **ICE**) permite visualizar com clareza quais funcionalidades devem ser priorizadas. A seguir, estão descritos os quatro quadrantes da matriz através de sua relação com o MVP:
 
-- Quadrante 1 — Baixo esforço e alto impacto: deve compor o MVP. Alto impacto é considerado Must Have ou Should Have no Moscow pela equipe. Baixo esforço é a partir do 500 no ICE pela equipe.
-- Quadrante 2 — Alto esforço e alto impacto: pode compor parcialmente o MVP, caso seja essencial. Alto impacto é considerado Must Have ou Should Have no Moscow pela equipe. Alto esforço é abaixo do 500 no ICE pela equipe.
-- Quadrante 3 — Baixo esforço e baixo impacto: pode compor o MVP, se houver margem de tempo ou recursos disponíveis. Baixo impacto é considerado Could Have ou Won’t Have no Moscow pela equipe. Baixo esforço é a partir do 500 no ICE pela equipe.
-- Quadrante 4 — Alto esforço e baixo impacto: não deve compor o MVP, pois apresenta baixo retorno em relação ao investimento. Baixo impacto é considerado Could Have ou Won’t Have no Moscow pela equipe. Alto esforço é abaixo do 500 no ICE pela equipe.
+- **Quadrante 1** — Baixo esforço e alto impacto: deve compor o MVP. Alto impacto é considerado Must Have ou Should Have no Moscow pela equipe. Baixo esforço é a partir do 500 no ICE pela equipe.
+- **Quadrante 2** — Alto esforço e alto impacto: pode compor parcialmente o MVP, caso seja essencial. Alto impacto é considerado Must Have ou Should Have no Moscow pela equipe. Alto esforço é abaixo do 500 no ICE pela equipe.
+- **Quadrante 3** — Baixo esforço e baixo impacto: pode compor o MVP, se houver margem de tempo ou recursos disponíveis. Baixo impacto é considerado Could Have ou Won’t Have no Moscow pela equipe. Baixo esforço é a partir do 500 no ICE pela equipe.
+- **Quadrante 4** — Alto esforço e baixo impacto: não deve compor o MVP, pois apresenta baixo retorno em relação ao investimento. Baixo impacto é considerado Could Have ou Won’t Have no Moscow pela equipe. Alto esforço é abaixo do 500 no ICE pela equipe.
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://miro.com/app/board/uXjVJ_0Toc4=/?share_link_id=784161617368"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 ## **9.3 MVP**
 
