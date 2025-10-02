@@ -17,11 +17,12 @@ nav:
       - 6. Interação Entre Equipe e Cliente: visao_produto/interacao_equipe.md
       - 7. Requisitos de Software: visao_produto/requisitos_software.md
       - 8. DoR & DoD: visao_produto/dod_dor.md
-      - 9. Backlog de Produto: visao_produto/backlog_produto.md
+      - 9. Backlog de Produto: backlog/backlog.md
       - 10. Lições Aprendidas e Melhorias para o Processo: visao_produto/licoes_aprendidas.md
       - 11. Referências Bibliográficas: visao_produto/bibliografia.md
 
-  #- Fases & Backlogs:
+  - Ciclos & Backlog:
+      - 9.Backlog Geral: backlog/backlog.md
 
   - Entregas: 
       - Entrega Unidade 1:
