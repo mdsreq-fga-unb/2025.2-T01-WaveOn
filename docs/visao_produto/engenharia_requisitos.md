@@ -2,14 +2,14 @@
 
 ## **4.1 Atividades e Técnicas de ER** 📌
 
-### **Elicitação e Descoberta**
+### **4.1.1 — Elicitação e Descoberta**
 - **Entrevista com Stakeholders:** serão conduzidas entrevistas com o cliente da VB e seus colaboradores, a fim de compreender suas necessidades, expectativas e principais dificuldades relacionadas à prestação do serviço de lavagem automotiva. As informações obtidas servirão de base para a definição dos requisitos do sistema WaveON.
 
 - **Brainstorming:** será aplicado em reuniões internas da equipe de desenvolvimento, com o objetivo de estimular a geração de ideias de funcionalidades e soluções. Essa técnica permitirá explorar alternativas diversas e selecionar as mais adequadas às demandas da VB.
 
 ---
 
-### **Análise e consenso**
+### **4.1.2 — Análise e consenso**
 - **User Story Mapping(USM):** será utilizado para organizar as funcionalidades do sistema em torno da jornada do usuário, como agendamento, pagamento e acompanhamento do serviço. Essa técnica possibilitará a definição do MVP e o planejamento das entregas incrementais do projeto WaveON.
 
 - **Priorização MoSCoW:** será empregada para classificar os requisitos em *Must, Should, Could e Won’t*, auxiliando na definição das funcionalidades que deverão ser implementadas nos primeiros protótipos e das que poderão ser postergadas.
@@ -18,12 +18,12 @@
 
 ---
 
-### **Declaração de Requisitos**
+### **4.1.3 — Declaração de Requisitos**
 - **User Story:** os requisitos serão descritos no formato de histórias do usuário, por exemplo: “Eu, como cliente, quero poder pagar por pix adiantado o serviço.” Essa forma de documentação tornará a comunicação mais clara e centrada no valor para o usuário.
 
 ---
 
-### **Representação de Requisitos:**
+### **4.1.4 — Representação de Requisitos:**
 - **Mapa Mental:** será elaborado para representar visualmente os requisitos identificados, agrupando funcionalidades e relacionando-as aos objetivos do negócio. Essa técnica ajudará a manter uma visão global do sistema.
 
 - **Mockups:** serão desenvolvidos para simular as principais telas do aplicativo WaveON, permitindo a discussão inicial de usabilidade e design junto aos stakeholders antes da implementação.
@@ -32,7 +32,7 @@
 
 ---
 
-### **Verificação e Validação de Requisitos**
+### **4.1.5 — Verificação e Validação de Requisitos**
 - **Checklist de Validação e Verificação:** será utilizado para revisar os requisitos documentados, garantindo consistência, completude e alinhamento com os objetivos do projeto..
 
 - **Definition of Done(DoD):** será estabelecida para definir critérios de aceitação de cada requisito, assegurando que cada incremento esteja implementado, testado e integrado antes de ser considerado concluído.
@@ -45,7 +45,7 @@
 
 ---
 
-### **Organização e Atualização de Requisitos**
+### **4.1.6 — Organização e Atualização de Requisitos**
 - **Backlog de Requisitos:** embora não seja um artefato nativo do RAD, será adotado no WaveON como ferramenta de organização dinâmica dos requisitos. Esse backlog possibilitará atualizar e repriorizar itens ao longo das iterações, mantendo rastreabilidade e transparência no processo.
 
 ---

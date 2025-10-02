@@ -1,5 +1,7 @@
 # 5. **Cronograma de Entregas** 📅
 
+## 5.1 **Tabela de Entregas Cícilcas**
+
 A partir da estratégia de desenvolvimento de software estabelecida, segue a proposta de cronograma em conformidade com a abordagem RAD, organizada de forma **sequencial** para atender às datas de entrega das Unidades.
 
 | Fase | Período | Objetivo Principal | Entregas Esperadas |
