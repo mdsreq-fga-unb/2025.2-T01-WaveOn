@@ -145,6 +145,30 @@ A combinação desses dois critérios(**MoSCoW** e **ICE**) permite visualizar c
   allowfullscreen>
 </iframe>
 
+### **9.2.2 — Correlação entre Objetivos e MVP**
+
+O MVP foi desenhado para endereçar os **três Objetivos Específicos mais críticos (OE1, OE3 e OE4)**, que representam o valor fundamental e a eficiência operacional imediata para a empresa VB. O escopo foi rigorosamente focado em construir a **jornada completa de contratação e serviço**, garantindo:
+
+1.  A **aceleração e desburocratização do fluxo de agendamento e pagamento (OE3)** para o cliente.
+2.  A **gestão eficiente da agenda e logística (OE1)**.
+3.  A **melhoria na tomada de decisão gerencial (OE4)** através de dados operacionais básicos e em tempo real.
+
+Este foco estratégico permite à VB validar a eficiência e usabilidade do produto antes de expandir para funcionalidades secundárias, como a comunicação de status em tempo real (OE2).
+
+| Objetivo Específico | Escopo do MVP | User Stories (MUST HAVE) Inclusas no MVP |
+| :--- | :--- | :--- |
+| **OE1** - Otimizar a gestão e logística de agendamentos. | **Gestão de Agendamentos e Logística** | **US-A02** (Visualizar agenda Admin) |
+| | | **US-A04** (Visualizar dados e endereço do Cliente) |
+| | | **US-A06** (Regras de intervalo e limite da agenda) |
+| | | **US-C04** (Acessar calendário para agendar) |
+| **OE2** - Simplificar a comunicação e status do serviço. | **(Parcialmente Adressado)** | **Nenhuma US Funcional Direta** [O objetivo será endereçado em fases futuras, após o MVP, com a implementação de notificações de status (US Should Have/Could Have).] |
+| **OE3** - Acelerar e desburocratizar a contratação. | **Fluxo de Contratação e Pagamento** | **US-C01** (Visualizar serviços) |
+| | | **US-C02** (Visualizar preços) |
+| | | **US-C07** (Realizar pagamento PIX) |
+| | | **US-C08** (Cancelar agendamento) |
+| **OE4** - Melhorar a tomada de decisão com dados em tempo real. | **Relatórios e Visão Operacional** | **US-A08** (Visualizar relatórios básicos) |
+| | | **US-A02** (Visualizar agenda Admin) |
+
 ## **9.3 MVP**
 
 O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requisitos funcionais considerados essenciais para validar a proposta de valor junto ao cliente VB e seus usuários finais. A seleção dos itens priorizou as funcionalidades Must Have, indispensáveis para o funcionamento básico do sistema, além de algumas Should Have que complementam a experiência do usuário sem comprometer a viabilidade técnica inicial.
