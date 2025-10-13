@@ -98,34 +98,67 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 
 ### **9.2.1 — Tabela MoSCoW + ICE**
 
-| **Nome (US Sugerida)**        | **Requisito Associado** | **MoSCoW**   | **Impacto** | **Confiança** | **Facilidade** | **ICE Score** | **Quadrante** |
-|--------------------------------|-------------------------|--------------|-------------|---------------|----------------|---------------|---------------|
-| US01 (Login Cliente)           | RF-C05                  | Must Have    | 10          | 9             | 9              | 810           | 1             |
-| US02 (Visualizar Serviços)     | RF-C01                  | Must Have    | 10          | 9             | 8              | 720           | 1             |
-| US03 (Login Admin)             | RF-A01                  | Must Have    | 9           | 9             | 8              | 648           | 1             |
-| US04 (Agendamento Cliente)     | RF-C06                  | Must Have    | 9           | 8             | 9              | 648           | 1             |
-| US05 (Pagamento PIX)           | RF-C07                  | Must Have    | 9           | 8             | 8              | 576           | 1             |
-| US06 (Gestão Agenda Admin)     | RF-A03                  | Must Have    | 8           | 9             | 8              | 576           | 1             |
-| US07 (RNF Usabilidade)         | RNF-U01                 | Must Have    | 10          | 9             | 6              | 540           | 2             |
-| US08 (RNF Responsividade)      | RNF-P01                 | Must Have    | 9           | 9             | 6              | 486           | 2             |
-| US09 (Cadastro Cliente)        | RF-C05                  | Must Have    | 7           | 8             | 8              | 448           | 2             |
-| US10 (RNF Segurança/LGPD)      | RNF-S02                 | Must Have    | 10          | 8             | 5              | 400           | 2             |
-| US11 (Gestão Serviços)         | RF-A05                  | Must Have    | 7           | 7             | 8              | 392           | 2             |
-| US12 (Regra Intervalo Agend.)  | RF-A06                  | Must Have    | 8           | 7             | 7              | 392           | 2             |
-| US13 (Visualizar Preços)       | RF-C02                  | Must Have    | 7           | 7             | 8              | 392           | 2             |
-| US14 (Consultar Disponibilidade)| RF-C04                 | Must Have    | 6           | 8             | 8              | 384           | 2             |
-| US15 (RNF Desempenho)          | RNF-D01                 | Must Have    | 8           | 6             | 7              | 336           | 2             |
-| US16 (RNF Disponibilidade)     | RNF-C01                 | Must Have    | 8           | 6             | 7              | 336           | 2             |
-| US17 (Visualizar Agendamentos) | RF-C09                  | Should Have  | 8           | 8             | 5              | 320           | 2             |
-| US18 (Gerenciar Agendamentos)  | RF-A02                  | Should Have  | 8           | 7             | 5              | 280           | 2             |
-| US19 (RNF Logging/Notificação) | RNF-SU01                | Should Have  | 7           | 7             | 5              | 245           | 2             |
-| US20 (Cancelar Agendamento)    | RF-C08                  | Should Have  | 7           | 6             | 5              | 210           | 2             |
-| US21 (Visualizar Dados Cliente)| RF-A04                  | Should Have  | 6           | 7             | 4              | 168           | 2             |
-| US22 (RNF Interface Admin)     | RNF-U02                 | Should Have  | 6           | 6             | 4              | 144           | 2             |
-| US23 (Acesso Redes Sociais)    | RF-C03                  | Could Have   | 5           | 8             | 8              | 320           | 4             |
-| US24 (RNF Código Modular)      | RNF-M01                 | Could Have   | 5           | 7             | 6              | 210           | 4             |
-| US25 (Gerar Relatórios)        | RF-A08                  | Could Have   | 6           | 6             | 5              | 180           | 4             |
-| US26 (Adicionar Observações)   | RF-A07                  | Could Have   | 5           | 5             | 6              | 150           | 4             |
+| **Nome (US Sugerida)** | **Requisito Associado** | **MoSCoW** | **ICE Score** | **Quadrante** |
+|--------------------------------|-------------------------|--------------|---------------|---------------|
+| US01 (Login Cliente)           | RF-C05                  | Must Have    | 810           | 1             |
+| US02 (Visualizar Serviços)     | RF-C01                  | Must Have    | 720           | 1             |
+| US03 (Login Admin)             | RF-A01                  | Must Have    | 648           | 1             |
+| US04 (Agendamento Cliente)     | RF-C06                  | Must Have    | 648           | 1             |
+| US05 (Pagamento PIX)           | RF-C07                  | Must Have    | 576           | 1             |
+| US06 (Gestão Agenda Admin)     | RF-A03                  | Must Have    | 576           | 1             |
+| US07 (RNF Usabilidade)         | RNF-U01                 | Must Have    | 540           | 2             |
+| US08 (RNF Responsividade)      | RNF-P01                 | Must Have    | 486           | 2             |
+| US09 (Cadastro Cliente)        | RF-C05                  | Must Have    | 448           | 2             |
+| US10 (RNF Segurança/LGPD)      | RNF-S02                 | Must Have    | 400           | 2             |
+| US11 (Gestão Serviços)         | RF-A05                  | Must Have    | 392           | 2             |
+| US12 (Regra Intervalo Agend.)  | RF-A06                  | Must Have    | 392           | 2             |
+| US13 (Visualizar Preços)       | RF-C02                  | Must Have    | 392           | 2             |
+| US14 (Consultar Disponibilidade)| RF-C04                 | Must Have    | 384           | 2             |
+| US15 (RNF Desempenho)          | RNF-D01                 | Must Have    | 336           | 2             |
+| US16 (RNF Disponibilidade)     | RNF-C01                 | Must Have    | 336           | 2             |
+| US17 (Visualizar Agendamentos) | RF-C09                  | Should Have  | 320           | 2             |
+| US18 (Gerenciar Agendamentos)  | RF-A02                  | Should Have  | 280           | 2             |
+| US19 (RNF Logging/Notificação) | RNF-SU01                | Should Have  | 245           | 2             |
+| US20 (Cancelar Agendamento)    | RF-C08                  | Should Have  | 210           | 2             |
+| US21 (Visualizar Dados Cliente)| RF-A04                  | Should Have  | 168           | 2             |
+| US22 (RNF Interface Admin)     | RNF-U02                 | Should Have  | 144           | 2             |
+| US23 (Acesso Redes Sociais)    | RF-C03                  | Could Have   | 320           | 4             |
+| US24 (RNF Código Modular)      | RNF-M01                 | Could Have   | 210           | 4             |
+| US25 (Gerar Relatórios)        | RF-A08                  | Could Have   | 180           | 4             |
+| US26 (Adicionar Observações)   | RF-A07                  | Could Have   | 150           | 4             |
+
+<details markdown="1">
+<summary>Clique para visualizar os critérios de avaliação (Impacto, Confiança e Facilidade) de cada User Story</summary>
+
+| **Nome (US Sugerida)** | **Impacto** | **Confiança** | **Facilidade** |
+|:--------------------------------|:-----------:|:-------------:|:--------------:|
+| US01 (Login Cliente)           | 10          | 9             | 9              |
+| US02 (Visualizar Serviços)     | 10          | 9             | 8              |
+| US03 (Login Admin)             | 9           | 9             | 8              |
+| US04 (Agendamento Cliente)     | 9           | 8             | 9              |
+| US05 (Pagamento PIX)           | 9           | 8             | 8              |
+| US06 (Gestão Agenda Admin)     | 8           | 9             | 8              |
+| US07 (RNF Usabilidade)         | 10          | 9             | 6              |
+| US08 (RNF Responsividade)      | 9           | 9             | 6              |
+| US09 (Cadastro Cliente)        | 7           | 8             | 8              |
+| US10 (RNF Segurança/LGPD)      | 10          | 8             | 5              |
+| US11 (Gestão Serviços)         | 7           | 7             | 8              |
+| US12 (Regra Intervalo Agend.)  | 8           | 7             | 7              |
+| US13 (Visualizar Preços)       | 7           | 7             | 8              |
+| US14 (Consultar Disponibilidade)| 6           | 8             | 8              |
+| US15 (RNF Desempenho)          | 8           | 6             | 7              |
+| US16 (RNF Disponibilidade)     | 8           | 6             | 7              |
+| US17 (Visualizar Agendamentos) | 8           | 8             | 5              |
+| US18 (Gerenciar Agendamentos)  | 8           | 7             | 5              |
+| US19 (RNF Logging/Notificação) | 7           | 7             | 5              |
+| US20 (Cancelar Agendamento)    | 7           | 6             | 5              |
+| US21 (Visualizar Dados Cliente)| 6           | 7             | 4              |
+| US22 (RNF Interface Admin)     | 6           | 6             | 4              |
+| US23 (Acesso Redes Sociais)    | 5           | 8             | 8              |
+| US24 (RNF Código Modular)      | 5           | 7             | 6              |
+| US25 (Gerar Relatórios)        | 6           | 6             | 5              |
+| US26 (Adicionar Observações)   | 5           | 5             | 6              |
+</details>
 
 A matriz de esforço e impacto será utilizada como apoio na definição das prioridades das histórias de usuário que compõem o MVP. Para isso, essa ferramenta é estruturada em dois eixos: o eixo vertical representa o impacto, ou seja, o valor de negócio que cada funcionalidade pode gerar; enquanto o eixo horizontal representa o esforço, que corresponde à complexidade e aos recursos necessários para sua implementação.
 
@@ -149,25 +182,25 @@ A combinação desses dois critérios(**MoSCoW** e **ICE**) permite visualizar c
 
 O MVP foi desenhado para endereçar os **três Objetivos Específicos mais críticos (OE1, OE3 e OE4)**, que representam o valor fundamental e a eficiência operacional imediata para a empresa VB. O escopo foi rigorosamente focado em construir a **jornada completa de contratação e serviço**, garantindo:
 
-1.  A **aceleração e desburocratização do fluxo de agendamento e pagamento (OE3)** para o cliente.
-2.  A **gestão eficiente da agenda e logística (OE1)**.
-3.  A **melhoria na tomada de decisão gerencial (OE4)** através de dados operacionais básicos e em tempo real.
+1.  A **aceleração e desburocratização do fluxo de agendamento e pagamento (OE3)** para o cliente.
+2.  A **gestão eficiente da agenda e logística (OE1)**.
+3.  A **melhoria na tomada de decisão gerencial (OE4)** através de dados operacionais básicos e em tempo real.
 
 Este foco estratégico permite à VB validar a eficiência e usabilidade do produto antes de expandir para funcionalidades secundárias, como a comunicação de status em tempo real (OE2).
 
-| Objetivo Específico | Escopo do MVP | User Stories (MUST HAVE) Inclusas no MVP |
-| :--- | :--- | :--- |
-| **OE1** - Otimizar a gestão e logística de agendamentos. | **Gestão de Agendamentos e Logística** | **US-A02** (Visualizar agenda Admin) |
-| | | **US-A04** (Visualizar dados e endereço do Cliente) |
-| | | **US-A06** (Regras de intervalo e limite da agenda) |
-| | | **US-C04** (Acessar calendário para agendar) |
-| **OE2** - Simplificar a comunicação e status do serviço. | **(Parcialmente Adressado)** | **Nenhuma US Funcional Direta** [O objetivo será endereçado em fases futuras, após o MVP, com a implementação de notificações de status (US Should Have/Could Have).] |
-| **OE3** - Acelerar e desburocratizar a contratação. | **Fluxo de Contratação e Pagamento** | **US-C01** (Visualizar serviços) |
-| | | **US-C02** (Visualizar preços) |
-| | | **US-C07** (Realizar pagamento PIX) |
-| | | **US-C08** (Cancelar agendamento) |
-| **OE4** - Melhorar a tomada de decisão com dados em tempo real. | **Relatórios e Visão Operacional** | **US-A08** (Visualizar relatórios básicos) |
-| | | **US-A02** (Visualizar agenda Admin) |
+| Objetivo Específico | Feature (F) | Requisito Funcional (RF) | User Story (US) Inclusa no MVP |
+| :--- | :--- | :--- | :--- |
+| **OE1** - Otimizar a gestão e logística de agendamentos. | F06 | RF-A02 | **US-A02** (Visualizar agenda Admin) |
+| | F06 | RF-A04 | **US-A04** (Visualizar dados e endereço do Cliente) |
+| | F07 | RF-A02 | **US-A06** (Regras de intervalo e limite da agenda) |
+| | F02 | RF-C03 | **US-C04** (Acessar calendário para agendar) |
+| **OE2** - Simplificar a comunicação e status do serviço. | N/A | N/A | **Nenhuma US Funcional Direta** [O objetivo será endereçado em fases futuras, após o MVP, com a implementação de notificações de status (US Should Have/Could Have).] |
+| **OE3** - Acelerar e desburocratizar a contratação. | F01 | RF-C01 | **US-C01** (Visualizar serviços) |
+| | F01 | RF-C01 | **US-C02** (Visualizar preços) |
+| | F03 | RF-C06 | **US-C07** (Realizar pagamento PIX) |
+| | F02 | RF-C07 | **US-C08** (Cancelar agendamento) |
+| **OE4** - Melhorar a tomada de decisão com dados em tempo real. | F06 | RF-A08 | **US-A08** (Visualizar relatórios básicos) |
+| | F06 | RF-A02 | **US-A02** (Visualizar agenda Admin) |
 
 ## **9.3 MVP**
 
