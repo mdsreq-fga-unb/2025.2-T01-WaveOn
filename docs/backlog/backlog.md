@@ -94,6 +94,28 @@ A seguir, detalham-se os três critérios utilizados:
 - **Impacto:** refere-se ao potencial do requisito em gerar valor para o negócio.
 - **Confiança:** expressa o grau de certeza da equipe em relação à ocorrência do impacto estimado.
 - **Facilidade:** avalia o nível de simplicidade, velocidade e baixo custo envolvidos na implementação do requisito.
+
+### **Critérios Objetivos de Pontuação (ICE)**
+
+Para garantir a objetividade na aplicação da pontuação (1 a 10) do modelo ICE, a equipe do WaveON definiu critérios claros baseados no valor de negócio (Impacto), no esforço técnico (Facilidade) e na certeza da estimativa (Confiança), conforme detalhado abaixo:
+
+<details markdown="1">
+<summary>Clique para visualizar os critérios de Pontuação (Impacto, Facilidade e Confiança)</summary>
+
+| Critério | Faixa de Pontuação (1-10) | Qualificação | Descrição Objetiva e Métrica |
+| :--- | :--- | :--- | :--- |
+| **Impacto** | 8 - 10 | **Alto** | Funcionalidade essencial para o MVP. Adere diretamente à Proposta de Valor e garante a sobrevivência da VB no mercado (Must Have). |
+| | 4 - 7 | **Médio** | Funcionalidade importante, mas não essencial. Gera valor significativo para a experiência do usuário ou eficiência interna (Should Have). |
+| | 1 - 3 | **Baixo** | Funcionalidade que agrega valor mínimo ou atende a um nicho pequeno de usuários. Pode ser facilmente adiada (Could Have/Won't Have). |
+| **Facilidade** | 8 - 10 | **Alto (Baixo Esforço)** | Implementação simples que utiliza tecnologias já dominadas e não exige pesquisa ou infraestrutura nova. **Métrica de Esforço: ≤ 2 semanas (Ciclo Curto)**. |
+| | 4 - 7 | **Médio (Esforço Moderado)** | Implementação de dificuldade moderada. Envolve integração de APIs de terceiros ou desenvolvimento de lógica de negócio complexa. **Métrica de Esforço: entre 2 e 4 semanas**. |
+| | 1 - 3 | **Baixo (Alto Esforço)** | Implementação de alta complexidade, exigindo prova de conceito (PoC), aprendizado de tecnologia nova ou impacto grande na arquitetura de software. **Métrica de Esforço: > 4 semanas**. |
+| **Confiança** | 8 - 10 | **Alto** | Requisitos totalmente definidos, caminho técnico claro e sem bloqueadores conhecidos. Estimativa de esforço possui alta certeza. |
+| | 4 - 7 | **Médio** | Há algumas incertezas técnicas (ex: dependência de serviços externos) ou os requisitos ainda podem sofrer pequenos ajustes. Risco gerenciável. |
+| | 1 - 3 | **Baixo** | Requisito vago, alta dependência de PoC, ou a estimativa de esforço é baseada em pouca experiência da equipe. Alto risco de estouro de prazo. |
+
+</details>
+
 Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 
 ### **9.2.1 — Tabela MoSCoW + ICE**
