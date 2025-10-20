@@ -601,9 +601,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hisorico-de-versao" class="md-nav__link">
+  <a href="#historico-de-versao" class="md-nav__link">
     <span class="md-ellipsis">
-      Hisórico de Versão 🔄
+      Histórico de Versão 🔄
     </span>
   </a>
   
@@ -1138,9 +1138,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hisorico-de-versao" class="md-nav__link">
+  <a href="#historico-de-versao" class="md-nav__link">
     <span class="md-ellipsis">
-      Hisórico de Versão 🔄
+      Histórico de Versão 🔄
     </span>
   </a>
   
@@ -1176,47 +1176,83 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Fase</th>
+<th style="text-align: left;">Ciclo/Fase</th>
 <th style="text-align: left;">Período</th>
-<th style="text-align: left;">Objetivo Principal</th>
+<th style="text-align: left;">Objetivo Principal do Ciclo/Fase</th>
 <th style="text-align: left;">Entregas Esperadas</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Fase 1: Planejamento de Requisitos</strong></td>
-<td style="text-align: left;">26/08 a 18/09</td>
-<td style="text-align: left;">Levantamento inicial dos requisitos e definição da arquitetura mínima.</td>
-<td style="text-align: left;">Documento inicial de requisitos priorizados.</td>
+<td style="text-align: left;"><strong>Fase 1: Planejamento Global</strong></td>
+<td style="text-align: left;"><strong>26/08 a 06/09</strong></td>
+<td style="text-align: left;"><strong>(Fase Única Inicial)</strong> Levantamento dos requisitos <em>totais</em> e definição do escopo final do <strong>MVP</strong>. Divisão das funcionalidades em 2 Incrementos.</td>
+<td style="text-align: left;">Documento de Requisitos (Completo), Escopo do MVP e Arquitetura Base.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Fase 2: Prototipagem e Definição do MVP</strong></td>
-<td style="text-align: left;">23/09 a 23/10</td>
-<td style="text-align: left;">Criação de protótipos navegáveis e definição do MVP; validação com cliente.</td>
-<td style="text-align: left;">Protótipos e artefatos de validação.</td>
+<td style="text-align: left;"><strong>CICLO 1: INCREMENTO 1</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Foco:</strong> Entregar a <em>base</em> estrutural e parte das funcionalidades do MVP.</td>
+<td style="text-align: left;"><strong>Saída:</strong> Incremento 1 Funcional.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Fase 3: Construção (Implementação)</strong></td>
-<td style="text-align: left;">24/10 a 18/11</td>
-<td style="text-align: left;">Implementação das funcionalidades do MVP, integração contínua e testes iniciais.</td>
-<td style="text-align: left;">Versão funcional integrada (release candidate).</td>
+<td style="text-align: left;"><strong>Fase 1.1: Planejamento de Requisitos (Inc. 1)</strong></td>
+<td style="text-align: left;"><strong>09/09 a 13/09</strong></td>
+<td style="text-align: left;">Refinamento dos requisitos <em>somente</em> para o Incremento 1.</td>
+<td style="text-align: left;">Requisitos detalhados do Incremento 1.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Fase 4: Ajustes e Preparação para Release</strong></td>
-<td style="text-align: left;">19/11 a 30/11</td>
-<td style="text-align: left;">Correção de defeitos, refino de funcionalidades e preparação da versão candidata.</td>
-<td style="text-align: left;">Versão candidata pronta para testes finais.</td>
+<td style="text-align: left;"><strong>Fase 1.2: Design e Prototipagem (Inc. 1)</strong></td>
+<td style="text-align: left;"><strong>16/09 a 23/10</strong></td>
+<td style="text-align: left;">Criação de protótipos do Inc. 1, interação e validação intensiva com o cliente.</td>
+<td style="text-align: left;">Protótipos aprovados e artefatos de design.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Fase 5: Teste de Aceitação e Implantação</strong></td>
-<td style="text-align: left;">01/12 a 11/12</td>
-<td style="text-align: left;">Testes finais em ambiente real, validação com o cliente e implantação.</td>
-<td style="text-align: left;">Entrega final do produto.</td>
+<td style="text-align: left;"><strong>Fase 1.3: Construção Rápida (Inc. 1)</strong></td>
+<td style="text-align: left;"><strong>24/10 a 07/11</strong></td>
+<td style="text-align: left;">Codificação e implementação do Incremento 1; testes unitários e de integração da base.</td>
+<td style="text-align: left;">Versão funcional (Alpha/Beta) do Incremento 1.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fase 1.4: Finalização e Implantação (Inc. 1)</strong></td>
+<td style="text-align: left;"><strong>08/11 a 15/11</strong></td>
+<td style="text-align: left;">Testes de aceitação (piloto), correção de <em>bugs</em> e entrega do Incremento 1 para uso inicial (internamente).</td>
+<td style="text-align: left;"><strong>Entrega Funcional 1</strong> (Base utilizável).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>CICLO 2: INCREMENTO 2</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Foco:</strong> Concluir as funcionalidades restantes para o <strong>MVP</strong> e refinar o Inc. 1.</td>
+<td style="text-align: left;"><strong>Saída:</strong> MVP Completo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fase 2.1: Planejamento de Requisitos (Inc. 2)</strong></td>
+<td style="text-align: left;"><strong>18/11 a 22/11</strong></td>
+<td style="text-align: left;">Refinamento dos requisitos finais para o MVP e incorporação de <em>feedback</em> do Inc. 1.</td>
+<td style="text-align: left;">Requisitos detalhados do Incremento 2.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fase 2.2: Design e Prototipagem (Inc. 2)</strong></td>
+<td style="text-align: left;"><strong>25/11 a 29/11</strong></td>
+<td style="text-align: left;">Design e prototipagem das funcionalidades finais do MVP (Incremento 2).</td>
+<td style="text-align: left;">Protótipos aprovados do Incremento 2.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fase 2.3: Construção Rápida (Inc. 2)</strong></td>
+<td style="text-align: left;"><strong>02/12 a 06/12</strong></td>
+<td style="text-align: left;">Codificação e implementação do Incremento 2; integração total e testes de sistema (MVP).</td>
+<td style="text-align: left;">Versão candidata (Release Candidate) do <strong>MVP</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Fase 2.4: Finalização e Implantação (Inc. 2)</strong></td>
+<td style="text-align: left;"><strong>09/12 a 11/12</strong></td>
+<td style="text-align: left;">Testes de aceitação finais do MVP, ajustes, documentação e <strong>Entrega Final</strong>.</td>
+<td style="text-align: left;"><strong>Projeto Entregue</strong>.</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="hisorico-de-versao"><strong>Hisórico de Versão</strong> 🔄</h2>
+<h2 id="historico-de-versao"><strong>Histórico de Versão</strong> 🔄</h2>
 <table>
 <thead>
 <tr>
@@ -1229,11 +1265,11 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>20/10/2025</td>
+<td>3</td>
+<td>Cronograma revisado para o modelo RAD, tornado iterativo incremental</td>
+<td>Anna Brandão</td>
+<td>Guilherme Negreiros</td>
 </tr>
 <tr>
 <td></td>
