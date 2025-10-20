@@ -755,6 +755,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#criterios-objetivos-de-pontuacao-ice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios Objetivos de Pontuação (ICE)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#921-tabela-moscow-ice" class="md-nav__link">
     <span class="md-ellipsis">
       9.2.1 — Tabela MoSCoW + ICE
@@ -1036,6 +1045,15 @@
   
     <nav class="md-nav" aria-label="9.2 Priorização">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-objetivos-de-pontuacao-ice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios Objetivos de Pontuação (ICE)
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#921-tabela-moscow-ice" class="md-nav__link">
@@ -1463,6 +1481,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#criterios-objetivos-de-pontuacao-ice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios Objetivos de Pontuação (ICE)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#921-tabela-moscow-ice" class="md-nav__link">
     <span class="md-ellipsis">
       9.2.1 — Tabela MoSCoW + ICE
@@ -1744,9 +1771,80 @@ ICE Score = Impacto × Confiança × Facilidade
 <ul>
 <li><strong>Impacto:</strong> refere-se ao potencial do requisito em gerar valor para o negócio.</li>
 <li><strong>Confiança:</strong> expressa o grau de certeza da equipe em relação à ocorrência do impacto estimado.</li>
-<li><strong>Facilidade:</strong> avalia o nível de simplicidade, velocidade e baixo custo envolvidos na implementação do requisito.
-Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.</li>
+<li><strong>Facilidade:</strong> avalia o nível de simplicidade, velocidade e baixo custo envolvidos na implementação do requisito.</li>
 </ul>
+<h3 id="criterios-objetivos-de-pontuacao-ice"><strong>Critérios Objetivos de Pontuação (ICE)</strong></h3>
+<p>Para garantir a objetividade na aplicação da pontuação (1 a 10) do modelo ICE, a equipe do WaveON definiu critérios claros baseados no valor de negócio (Impacto), no esforço técnico (Facilidade) e na certeza da estimativa (Confiança), conforme detalhado abaixo:</p>
+<details>
+<summary>Clique para visualizar os critérios de Pontuação (Impacto, Facilidade e Confiança)</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Critério</th>
+<th style="text-align: left;">Faixa de Pontuação (1-10)</th>
+<th style="text-align: left;">Qualificação</th>
+<th style="text-align: left;">Descrição Objetiva e Métrica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Impacto</strong></td>
+<td style="text-align: left;">8 - 10</td>
+<td style="text-align: left;"><strong>Alto</strong></td>
+<td style="text-align: left;">Funcionalidade essencial para o MVP. Adere diretamente à Proposta de Valor e garante a sobrevivência da VB no mercado (Must Have).</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4 - 7</td>
+<td style="text-align: left;"><strong>Médio</strong></td>
+<td style="text-align: left;">Funcionalidade importante, mas não essencial. Gera valor significativo para a experiência do usuário ou eficiência interna (Should Have).</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 - 3</td>
+<td style="text-align: left;"><strong>Baixo</strong></td>
+<td style="text-align: left;">Funcionalidade que agrega valor mínimo ou atende a um nicho pequeno de usuários. Pode ser facilmente adiada (Could Have/Won't Have).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Facilidade</strong></td>
+<td style="text-align: left;">8 - 10</td>
+<td style="text-align: left;"><strong>Alto (Baixo Esforço)</strong></td>
+<td style="text-align: left;">Implementação simples que utiliza tecnologias já dominadas e não exige pesquisa ou infraestrutura nova. <strong>Métrica de Esforço: ≤ 2 semanas (Ciclo Curto)</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4 - 7</td>
+<td style="text-align: left;"><strong>Médio (Esforço Moderado)</strong></td>
+<td style="text-align: left;">Implementação de dificuldade moderada. Envolve integração de APIs de terceiros ou desenvolvimento de lógica de negócio complexa. <strong>Métrica de Esforço: entre 2 e 4 semanas</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 - 3</td>
+<td style="text-align: left;"><strong>Baixo (Alto Esforço)</strong></td>
+<td style="text-align: left;">Implementação de alta complexidade, exigindo prova de conceito (PoC), aprendizado de tecnologia nova ou impacto grande na arquitetura de software. <strong>Métrica de Esforço: &gt; 4 semanas</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Confiança</strong></td>
+<td style="text-align: left;">8 - 10</td>
+<td style="text-align: left;"><strong>Alto</strong></td>
+<td style="text-align: left;">Requisitos totalmente definidos, caminho técnico claro e sem bloqueadores conhecidos. Estimativa de esforço possui alta certeza.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4 - 7</td>
+<td style="text-align: left;"><strong>Médio</strong></td>
+<td style="text-align: left;">Há algumas incertezas técnicas (ex: dependência de serviços externos) ou os requisitos ainda podem sofrer pequenos ajustes. Risco gerenciável.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 - 3</td>
+<td style="text-align: left;"><strong>Baixo</strong></td>
+<td style="text-align: left;">Requisito vago, alta dependência de PoC, ou a estimativa de esforço é baseada em pouca experiência da equipe. Alto risco de estouro de prazo.</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.</p>
 <h3 id="921-tabela-moscow-ice"><strong>9.2.1 — Tabela MoSCoW + ICE</strong></h3>
 <table>
 <thead>
