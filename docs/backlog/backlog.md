@@ -232,21 +232,20 @@ O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requ
 
 O foco foi garantir que o cliente da VB tenha uma jornada simples e funcional para visualizar os serviços, realizar agendamentos e efetuar pagamentos, enquanto o dono da VB possa gerenciar os agendamentos, clientes e relatórios de maneira segura e organizada. Dessa forma, o MVP permitirá validar rapidamente se a solução atende às expectativas de eficiência e usabilidade, possibilitando iterações futuras para evolução do produto.
 
-| Código | Ator          |
-|--------|:-------------:|
-| US-C01 (Login Cliente)           | RF-C05                  | Must Have    | 810           | 1             |
-| US-C02 (Visualizar Serviços)     | RF-C01                  | Must Have    | 720           | 1             |
-| US-03 (Login Admin)             | RF-A01                  | Must Have    | 648           | 1             |
-| US-04 (Agendamento Cliente)     | RF-C06                  | Must Have    | 648           | 1             |
-| US-05 (Pagamento PIX)           | RF-C07                  | Must Have    | 576           | 1             |
-| US-06 (Gestão Agenda Admin)     | RF-A03                  | Must Have    | 576           | 1             |
-| US-07 (RNF Usabilidade)         | RNF-U01                 | Must Have    | 540           | 2             |
-| US-08 (RNF Responsividade)      | RNF-P01                 | Must Have    | 486           | 2             |
-| US-09 (Cadastro Cliente)        | RF-C05                  | Must Have    | 448           | 2             |
-| US-10 (RNF Segurança/LGPD)      | RNF-S02                 | Must Have    | 400           | 2             |
-| US-11 (Gestão Serviços)         | RF-A05                  | Must Have    | 392           | 2             |
-| US-12 (Regra Intervalo Agend.)  | RF-A06                  | Must Have    | 392           | 2             |
-| US-13 (Visualizar Preços)       | RF-C02                  | Must Have    | 392           | 2             |
-| US-14 (Consultar Disponibilidade)| RF-C04                 | Must Have    | 384           | 2             |
-| US-15 (RNF Desempenho)          | RNF-D01                 | Must Have    | 336           | 2             |
-| US-16 (RNF Disponibilidade)     | RNF-C01                 | Must Have    | 336           | 2             |
+| Código Oficial (US/RNF) | Requisito Associado (RF/RNF) |
+|:---|:---|
+| US-C04 (Login Cliente) | RF-C04 |
+| US-C01 (Visualizar Serviços/Preços) | RF-C01 |
+| US-A01 (Login Admin) | RF-A01 |
+| US-C03 (Selecionar Dias/Agendamento) | RF-C02 |
+| US-C06 (Pagamento PIX) | RF-C06 |
+| US-A03 (Gestão Agenda Admin) | RF-A03 |
+| RNF-U01 (RNF Usabilidade) | RNF-U01 |
+| RNF-P01 (RNF Responsividade) | RNF-P01 |
+| RF-C03 (Cadastro Cliente) | RF-C03 |
+| RNF-S02 (RNF Segurança/LGPD) | RNF-S02 |
+| US-A05 (Gestão Serviços) | RF-A05 |
+| US-A02 (Regra Intervalo Agend.) | RF-A02 |
+| US-C07 (Cancelar Agendamento) | RF-C07 |
+| RNF-D01 (RNF Desempenho) | RNF-D01 |
+| RNF-S01 (RNF SQL/XSS) | RNF-S01 |
