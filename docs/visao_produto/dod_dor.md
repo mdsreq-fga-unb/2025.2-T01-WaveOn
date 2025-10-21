@@ -1,7 +1,9 @@
-# 8. DoD & DoR
+# 8. **DoR & DoD**
 ## 8.1 **Definition of Ready (DoR)**
 
-### 8.1.1 **Planejamento e Requisitos**
+> **Uma história de usuário estará ***PRONTA*** para desenvolvimento quando atender aos seguintes critérios:**
+
+### 8.1.1 — **Planejamento e Requisitos**
 
  - Os requisitos funcionais e não funcionais associados foram identificados e validados.
 
@@ -13,7 +15,7 @@
 
  - O escopo da entrega (Incremento 1 ou 2) foi validado com o grupo e o orientador.
 
-### 8.1.2 **Design e Protótipo**
+### 8.1.2 — **Design e Protótipo**
 
  - O protótipo ou wireframe foi criado e aprovado pelo grupo.
 
@@ -21,7 +23,7 @@
 
  - O design cumpre os RNFs de usabilidade, compatibilidade e responsividade.
 
-### 8.1.3 **Preparação Técnica**
+### 8.1.3 — **Preparação Técnica**
 
  - As tecnologias e bibliotecas necessárias para o incremento foram definidas (ex.: Node.js, PostgreSQL, Tailwind).
 
@@ -35,9 +37,9 @@
 
 ## 8.2 **Definition of Done (DoD)**
 
-Um incremento ou história é considerado concluído e pronto para entrega quando cumpre os seguintes critérios:
+>**Um incremento ou história é considerado concluído e pronto para entrega quando cumpre os seguintes critérios:**
 
-### 8.2.1 **Codificação e Integração**
+### 8.2.1 — **Codificação e Integração**
 
  - A funcionalidade foi totalmente implementada e testada localmente.
 
@@ -47,7 +49,7 @@ Um incremento ou história é considerado concluído e pronto para entrega quand
 
  - As integrações entre frontend, backend e banco de dados estão funcionando.
 
-### 8.2.2 **Testes e Validação**
+### 8.2.2 — **Testes e Validação**
 
  - Foram realizados testes de unidade e funcionais (mínimo manual, se não automatizado).
 
@@ -57,7 +59,7 @@ Um incremento ou história é considerado concluído e pronto para entrega quand
 
  - Bugs identificados durante a fase de testes foram corrigidos.
 
-### 8.2.3 **Qualidade e Requisitos Não Funcionais**
+### 8.2.3 — **Qualidade e Requisitos Não Funcionais**
 
  - A interface cumpre os RNFs de usabilidade (RNF-U01/U02).
 
@@ -69,7 +71,7 @@ Um incremento ou história é considerado concluído e pronto para entrega quand
 
  - Há logs de erros e falhas (RNF-SU01) funcionando.
 
-### 8.2.4 **Entrega e Documentação**
+### 8.2.4 — **Entrega e Documentação**
 
  - O incremento foi validado como “utilizável” (base funcional do RAD).
 
@@ -88,4 +90,3 @@ Um incremento ou história é considerado concluído e pronto para entrega quand
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
-

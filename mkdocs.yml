@@ -24,9 +24,9 @@ nav:
   - Ciclos & Backlog:
       - 9.Backlog Geral: backlog/backlog.md
 
-  - Entregas: 
-      - Entrega Unidade 1:
-          - Video de apresentação: entregas/video_unidade_1.md
+  - Entregas:
+      - Entregas das Unidades: entregas\video_unidades.md
+      #- Entregas Cilente(Cronograma):
 
   - Políticas da Equipe:
       - Política de Commit: politicas_equipe/commits.md
