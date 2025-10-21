@@ -33,14 +33,14 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
 
 | Código | Feature Associada | Requisito Funcional Relacionado | Declaração |
 |--------|-------------------|---------------------------------|------------|
-| US-C01 | F01 | RF-C01 | Como cliente, quero visualizar os serviços de lavagem, suas características para poder escolher a melhor opção e ver os preços das lavagens disponíveis para escolher o melhor preço. |
-| US-C02 | F04 | RF-C02 | Como cliente, quero acesso a telefones e Instagram da empresa para uma comunicação mais direta. |
-| US-C03 | F02 | RF-C03 | Como cliente, quero um calendário em que eu possa selecionar os dias para marcar uma lavagem. |
-| US-C04 | F02 | RF-C04 | Como cliente, quero poder entrar nos meus agendamentos com um cadastro simples e rápido de usuário e senha. |
-| US-C05 | F02 | RF-C05 | Como cliente, quero poder visualizar e gerenciar meus agendamentos. |
-| US-C06 | F03 | RF-C06 | Como cliente, quero pagar por PIX adiantado o serviço. |
-| US-C07 | F02 | RF-C07 | Como cliente, quero cancelar meu agendamento caso eu não precise mais da lavagem. |
-| US-C08 | F05 | RF-C08 | Como cliente, quero ver informações de quanto tempo demora a lavagem e quais produtos são usados. |
+| <a id="us-c01"></a>US-C01 | F01 | RF-C01 | Como cliente, quero visualizar os serviços de lavagem, suas características para poder escolher a melhor opção e ver os preços das lavagens disponíveis para escolher o melhor preço. |
+| <a id="us-c02"></a>US-C02 | F04 | RF-C02 | Como cliente, quero acesso a telefones e Instagram da empresa para uma comunicação mais direta. |
+| <a id="us-c03"></a>US-C03 | F02 | RF-C03 | Como cliente, quero um calendário em que eu possa selecionar os dias para marcar uma lavagem. |
+| <a id="us-c04"></a>US-C04 | F02 | RF-C04 | Como cliente, quero poder entrar nos meus agendamentos com um cadastro simples e rápido de usuário e senha. |
+| <a id="us-c05"></a>US-C05 | F02 | RF-C05 | Como cliente, quero poder visualizar e gerenciar meus agendamentos. |
+| <a id="us-c06"></a>US-C06 | F03 | RF-C06 | Como cliente, quero pagar por PIX adiantado o serviço. |
+| <a id="us-c07"></a>US-C07 | F02 | RF-C07 | Como cliente, quero cancelar meu agendamento caso eu não precise mais da lavagem. |
+| <a id="us-c08"></a>US-C08 | F05 | RF-C08 | Como cliente, quero ver informações de quanto tempo demora a lavagem e quais produtos são usados. |
 
 ---
 
@@ -48,13 +48,13 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
 
 | Código | Feature Associada | Requisito Funcional Relacionado | Declaração |
 |--------|-------------------|---------------------------------|------------|
-| US-A01 | F06 | RF-A01 | Como dono, quero acessar o sistema administrativo de forma segura para gerenciar o negócio. |
-| US-A02 | F06 | RF-A02 | Como dono, quero visualizar, editar, cancelar agendamentos para manter a organização, que a duração mínima entre lavagens seja respeitada (4h) e que não haja agendamentos acima de 7 dias.. |
-| US-A03 | F06 | RF-A03 | Como dono, quero ter uma visão da agenda diária e semanal para organizar os serviços. |
-| US-A04 | F06 | RF-A04 | Como dono, quero ver os dados dos clientes como número de celular e endereço para contato e logística. |
-| US-A05 | F01 | RF-A05 | Como dono, quero gerenciar os serviços (cadastrar, editar e inativar), preços e duração. |
-| US-A06 | F05 | RF-A06 | Como dono, quero poder adicionar observações e informações adicionais aos clientes e agendamentos. |
-| US-A07 | F06 | RF-A08 | Como dono, quero gerar relatórios de lavagens feitas por período e valores recebidos. |
+| <a id="us-a01"></a>US-A01 | F06 | RF-A01 | Como dono, quero acessar o sistema administrativo de forma segura para gerenciar o negócio. |
+| <a id="us-a02"></a>US-A02 | F06 | RF-A02 | Como dono, quero visualizar, editar, cancelar agendamentos para manter a organização, que a duração mínima entre lavagens seja respeitada (4h) e que não haja agendamentos acima de 7 dias. |
+| <a id="us-a03"></a>US-A03 | F06 | RF-A03 | Como dono, quero ter uma visão da agenda diária e semanal para organizar os serviços. |
+| <a id="us-a04"></a>US-A04 | F06 | RF-A04 | Como dono, quero ver os dados dos clientes como número de celular e endereço para contato e logística. |
+| <a id="us-a05"></a>US-A05 | F01 | RF-A05 | Como dono, quero gerenciar os serviços (cadastrar, editar e inativar), preços e duração. |
+| <a id="us-a06"></a>US-A06 | F05 | RF-A06 | Como dono, quero poder adicionar observações e informações adicionais aos clientes e agendamentos. |
+| <a id="us-a07"></a>US-A07 | F06 | RF-A08 | Como dono, quero gerar relatórios de lavagens feitas por período e valores recebidos. |
 
 ### **9.1.3 — Lista de requisitos não-funcionais**
   - **RNF-U01**: A interface do usuário deve ser intuitiva, seguindo um design moderno com as cores temáticas preto e vermelho. O processo de agendamento deve ser concluído em no máximo 3 cliques.  
@@ -226,19 +226,18 @@ Este foco estratégico permite à VB validar a eficiência e usabilidade do prod
 
 ## **9.3 MVP**
 
-O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requisitos funcionais considerados essenciais para validar a proposta de valor junto ao cliente VB e seus usuários finais. A seleção dos itens priorizou as funcionalidades Must Have, indispensáveis para o funcionamento básico do sistema, além de algumas Should Have que complementam a experiência do usuário sem comprometer a viabilidade técnica inicial.
+O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requisitos funcionais considerados essenciais para validar a proposta de valor junto ao cliente VB e seus usuários finais. A seleção dos itens priorizou as funcionalidades Must Have, indispensáveis para o funcionamento básico do sistema.
 
 O foco foi garantir que o cliente da VB tenha uma jornada simples e funcional para visualizar os serviços, realizar agendamentos e efetuar pagamentos, enquanto o dono da VB possa gerenciar os agendamentos, clientes e relatórios de maneira segura e organizada. Dessa forma, o MVP permitirá validar rapidamente se a solução atende às expectativas de eficiência e usabilidade, possibilitando iterações futuras para evolução do produto.
 
-| Código | Descrição |
-|--------|-----------|
-| US-C01 | Como cliente, quero visualizar os serviços de lavagem e suas características para que eu possa escolher a melhor opção. |
-| US-C02 | Como cliente, quero visualizar os preços das lavagens disponíveis para escolher o melhor preço. |
-| US-C04 | Como cliente, quero acessar um calendário em que eu possa selecionar os dias disponíveis para agendar uma lavagem. |
-| US-C06 | Como cliente, quero poder visualizar meus agendamentos em uma área logada para acompanhar os serviços. |
-| US-C07 | Como cliente, quero realizar o pagamento do serviço via PIX para garantir o agendamento. |
-| US-C08 | Como cliente, quero cancelar meu agendamento caso não precise mais do serviço. |
-| US-A02 | Como dono, quero visualizar todos os agendamentos do dia e da semana para ter melhor organização. |
-| US-A04 | Como dono, quero visualizar os dados de contato e endereço dos clientes para planejar os atendimentos. |
-| US-A06 | Como dono, quero que o sistema respeite as regras de agenda, impedindo intervalos menores que 4 horas entre lavagens e agendamentos além de 7 dias. |
-| US-A08 | Como dono, quero visualizar relatórios básicos contendo quantidade de lavagens realizadas e valores recebidos por período. |
+| Código | Ator          |
+|--------|:-------------:|
+| [US-C01](#us-c01) | Cliente       |
+| [US-C02](#us-c02) | Cliente       | 
+| [US-C04](#us-c04) | Cliente       | 
+| [US-C06](#us-c06) | Cliente       | 
+| [US-C08](#us-c08) | Cliente       | 
+| [US-A02](#us-a02) | Administrador | 
+| [US-A04](#us-a04) | Administrador | 
+| [US-A06](#us-a06) | Administrador | 
+| [US-A07](#us-a07) | Administrador | 
