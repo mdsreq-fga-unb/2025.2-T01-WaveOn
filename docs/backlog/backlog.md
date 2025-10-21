@@ -121,30 +121,30 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 ### **9.2.1 — Tabela MoSCoW + ICE**
 
 | **Nome (US Sugerida)** | **Requisito Associado** | **MoSCoW** | **ICE Score** | **Quadrante** |
-|--------------------------------|-------------------------|--------------|---------------|---------------|
+|:---|:---|:---|:---|:---|
 | US-C03 – Selecionar dias de lavagem (calendário) | RF-C03 | Must | 720 | I |
 | RNF-P01 – Aplicação web responsiva | RNF-P01 | Must | 648 | I |
 | US-C05 – Gerenciar agendamentos | RF-C05 | Must | 630 | I |
-| RNF-D01 – Tempo de resposta < 3 segundos | RNF-D01 | Must | 567 | II |
 | US-C01 – Visualizar serviços e preços | RF-C01 | Must | 576 | II |
 | RNF-U01 – Interface intuitiva e moderna | RNF-U01 | Should | 576 | II |
+| RNF-D01 – Tempo de resposta < 3 segundos | RNF-D01 | Must | 567 | II |
 | US-A02 – Gerenciar agendamentos e restrições | RF-A02 | Must | 560 | II |
+| RNF-S01 – Proteção contra SQL Injection e XSS | RNF-S01 | Must | 512 | II |
+| US-A01 – Acesso administrativo seguro | RF-A01 | Must | 512 | II |
 | US-A05 – Gerenciar serviços, preços e duração | RF-A05 | Must | 504 | II |
 | US-C04 – Cadastro e login de cliente | RF-C04 | Must | 504 | II |
 | RNF-U02 – Interface administrativa simples | RNF-U02 | Should | 504 | II |
 | RNF-C02 – Compatibilidade com navegadores | RNF-C02 | Should | 504 | II |
+| RNF-S02 – Criptografia e conformidade LGPD | RNF-S02 | Must | 504 | II |
 | US-A03 – Visualizar agenda diária e semanal | RF-A03 | Should | 448 | III |
 | US-A04 – Visualizar dados dos clientes | RF-A04 | Should | 448 | III |
 | US-C07 – Cancelar agendamento | RF-C07 | Should | 448 | III |
 | US-C02 – Acessar contatos e redes sociais | RF-C02 | Could | 405 | III |
 | RNF-M01 – Código modular e documentado | RNF-M01 | Should | 392 | III |
 | RNF-C01 – Disponibilidade 99.5% (24/7) | RNF-C01 | Should | 384 | III |
-| US-A01 – Acesso administrativo seguro | RF-A01 | Must | 384 | III |
 | US-C08 – Ver tempo e produtos usados | RF-C08 | Could | 384 | III |
 | US-A07 – Gerar relatórios de lavagens e valores | RF-A08 | Should | 336 | IV |
-| RNF-S01 – Proteção contra SQL Injection e XSS | RNF-S01 | Must | 320 | IV |
-| RNF-S02 – Criptografia e conformidade LGPD | RNF-S02 | Must | 288 | IV |
-| US-A06 – Adicionar observações aos agendamentos | RF-A06 | Could | 280 | IV |
+| US-A06 – Adicionar observações aos agendamentos | RF-A07 | Could | 280 | IV |
 | RNF-SU01 – Logging e notificação de falhas | RNF-SU01 | Could | 240 | IV |
 
 
@@ -154,30 +154,30 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 
 | **US** | **Impacto** | **Confiança** | **Facilidade** | **ICE Score** |
 |---------|--------------|----------------|----------------|----------------|
-| **US-C03 – Selecionar dias de lavagem (calendário)** | 10 | 9 | 8 | **720** |
-| **RNF-P01 – Aplicação web responsiva** | 9 | 9 | 8 | **648** |
-| **US-C05 – Gerenciar agendamentos** | 10 | 9 | 7 | **630** |
-| **RNF-D01 – Tempo de resposta < 3 segundos** | 9 | 9 | 7 | **567** |
-| **US-C01 – Visualizar serviços e preços** | 9 | 8 | 8 | **576** |
-| **RNF-U01 – Interface intuitiva e moderna** | 8 | 9 | 8 | **576** |
-| **US-A02 – Gerenciar agendamentos e restrições** | 10 | 8 | 7 | **560** |
-| **US-A05 – Gerenciar serviços, preços e duração** | 9 | 8 | 7 | **504** |
-| **US-C04 – Cadastro e login de cliente** | 8 | 9 | 7 | **504** |
-| **RNF-U02 – Interface administrativa simples** | 7 | 9 | 8 | **504** |
-| **RNF-C02 – Compatibilidade com navegadores** | 7 | 9 | 8 | **504** |
-| **US-A03 – Visualizar agenda diária e semanal** | 8 | 8 | 7 | **448** |
-| **US-A04 – Visualizar dados dos clientes** | 8 | 8 | 7 | **448** |
-| **US-C07 – Cancelar agendamento** | 7 | 8 | 8 | **448** |
-| **US-C02 – Acessar contatos e redes sociais** | 5 | 9 | 9 | **405** |
-| **RNF-M01 – Código modular e documentado** | 7 | 8 | 7 | **392** |
-| **RNF-C01 – Disponibilidade 99.5% (24/7)** | 8 | 8 | 6 | **384** |
-| **US-A01 – Acesso administrativo seguro** | 8 | 8 | 6 | **384** |
-| **US-C08 – Ver tempo e produtos usados** | 6 | 8 | 8 | **384** |
-| **US-A07 – Gerar relatórios de lavagens e valores** | 7 | 8 | 6 | **336** |
-| **RNF-S01 – Proteção contra SQL Injection e XSS** | 8 | 8 | 5 | **320** |
-| **RNF-S02 – Criptografia e conformidade LGPD** | 9 | 8 | 4 | **288** |
-| **US-A06 – Adicionar observações aos agendamentos** | 5 | 8 | 7 | **280** |
-| **RNF-SU01 – Logging e notificação de falhas** | 5 | 8 | 6 | **240** |
+| **US-C03 – Selecionar dias de lavagem (calendário)** | 10 | 9 | 8 | 720 |
+| **RNF-P01 – Aplicação web responsiva** | 9 | 9 | 8 | 648 |
+| **US-C05 – Gerenciar agendamentos** | 10 | 9 | 7 | 630 |
+| **US-C01 – Visualizar serviços e preços** | 9 | 8 | 8 | 576 |
+| **RNF-U01 – Interface intuitiva e moderna** | 8 | 9 | 8 | 576 |
+| **RNF-D01 – Tempo de resposta < 3 segundos** | 9 | 9 | 7 | 567 |
+| **US-A02 – Gerenciar agendamentos e restrições** | 10 | 8 | 7 | 560 |
+| **RNF-S01 – Proteção contra SQL Injection e XSS** | 8 | 8 | 8 | 512 |
+| **US-A01 – Acesso administrativo seguro** | 8 | 8 | 8 | 512 |
+| **US-A05 – Gerenciar serviços, preços e duração** | 9 | 8 | 7 | 504 |
+| **US-C04 – Cadastro e login de cliente** | 8 | 9 | 7 | 504 |
+| **RNF-U02 – Interface administrativa simples** | 7 | 9 | 8 | 504 |
+| **RNF-C02 – Compatibilidade com navegadores** | 7 | 9 | 8 | 504 |
+| **RNF-S02 – Criptografia e conformidade LGPD** | 9 | 8 | 7 | 504 |
+| **US-A03 – Visualizar agenda diária e semanal** | 8 | 8 | 7 | 448 |
+| **US-A04 – Visualizar dados dos clientes** | 8 | 8 | 7 | 448 |
+| **US-C07 – Cancelar agendamento** | 7 | 8 | 8 | 448 |
+| **US-C02 – Acessar contatos e redes sociais** | 5 | 9 | 9 | 405 |
+| **RNF-M01 – Código modular e documentado** | 7 | 8 | 7 | 392 |
+| **RNF-C01 – Disponibilidade 99.5% (24/7)** | 8 | 8 | 6 | 384 |
+| **US-C08 – Ver tempo e produtos usados** | 6 | 8 | 8 | 384 |
+| **US-A07 – Gerar relatórios de lavagens e valores** | 7 | 8 | 6 | 336 |
+| **US-A06 – Adicionar observações aos agendamentos** | 5 | 8 | 7 | 280 |
+| **RNF-SU01 – Logging e notificação de falhas** | 5 | 8 | 6 | 240 |
 
 </details>
 
