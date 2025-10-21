@@ -1,5 +1,7 @@
-# 8. DoD & DoR
+# 8. **DoD & DoR**
 ## 8.1 **Definition of Ready (DoR)**
+
+> **Uma história de usuário estará ***PRONTA*** para desenvolvimento quando atender aos seguintes critérios:**
 
 ### 8.1.1 **Planejamento e Requisitos**
 
@@ -35,7 +37,7 @@
 
 ## 8.2 **Definition of Done (DoD)**
 
-Um incremento ou história é considerado concluído e pronto para entrega quando cumpre os seguintes critérios:
+>**Um incremento ou história é considerado concluído e pronto para entrega quando cumpre os seguintes critérios:**
 
 ### 8.2.1 **Codificação e Integração**
 
