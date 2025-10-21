@@ -1,4 +1,4 @@
-# 8. **DoD & DoR**
+# 8. **DoR & DoD**
 ## 8.1 **Definition of Ready (DoR)**
 
 > **Uma história de usuário estará ***PRONTA*** para desenvolvimento quando atender aos seguintes critérios:**
