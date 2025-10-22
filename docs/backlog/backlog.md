@@ -121,65 +121,64 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 ### **9.2.1 — Tabela MoSCoW + ICE**
 
 | **Nome (US Sugerida)** | **Requisito Associado** | **MoSCoW** | **ICE Score** | **Quadrante** |
-|--------------------------------|-------------------------|--------------|---------------|---------------|
-| US01 (Login Cliente)           | RF-C05                  | Must Have    | 810           | 1             |
-| US02 (Visualizar Serviços)     | RF-C01                  | Must Have    | 720           | 1             |
-| US03 (Login Admin)             | RF-A01                  | Must Have    | 648           | 1             |
-| US04 (Agendamento Cliente)     | RF-C06                  | Must Have    | 648           | 1             |
-| US05 (Pagamento PIX)           | RF-C07                  | Must Have    | 576           | 1             |
-| US06 (Gestão Agenda Admin)     | RF-A03                  | Must Have    | 576           | 1             |
-| US07 (RNF Usabilidade)         | RNF-U01                 | Must Have    | 540           | 2             |
-| US08 (RNF Responsividade)      | RNF-P01                 | Must Have    | 486           | 2             |
-| US09 (Cadastro Cliente)        | RF-C05                  | Must Have    | 448           | 2             |
-| US10 (RNF Segurança/LGPD)      | RNF-S02                 | Must Have    | 400           | 2             |
-| US11 (Gestão Serviços)         | RF-A05                  | Must Have    | 392           | 2             |
-| US12 (Regra Intervalo Agend.)  | RF-A06                  | Must Have    | 392           | 2             |
-| US13 (Visualizar Preços)       | RF-C02                  | Must Have    | 392           | 2             |
-| US14 (Consultar Disponibilidade)| RF-C04                 | Must Have    | 384           | 2             |
-| US15 (RNF Desempenho)          | RNF-D01                 | Must Have    | 336           | 2             |
-| US16 (RNF Disponibilidade)     | RNF-C01                 | Must Have    | 336           | 2             |
-| US17 (Visualizar Agendamentos) | RF-C09                  | Should Have  | 320           | 2             |
-| US18 (Gerenciar Agendamentos)  | RF-A02                  | Should Have  | 280           | 2             |
-| US19 (RNF Logging/Notificação) | RNF-SU01                | Should Have  | 245           | 2             |
-| US20 (Cancelar Agendamento)    | RF-C08                  | Should Have  | 210           | 2             |
-| US21 (Visualizar Dados Cliente)| RF-A04                  | Should Have  | 168           | 2             |
-| US22 (RNF Interface Admin)     | RNF-U02                 | Should Have  | 144           | 2             |
-| US23 (Acesso Redes Sociais)    | RF-C03                  | Could Have   | 320           | 4             |
-| US24 (RNF Código Modular)      | RNF-M01                 | Could Have   | 210           | 4             |
-| US25 (Gerar Relatórios)        | RF-A08                  | Could Have   | 180           | 4             |
-| US26 (Adicionar Observações)   | RF-A07                  | Could Have   | 150           | 4             |
+|:---|:---|:---|:---|:---|
+| US-C03 – Selecionar dias de lavagem (calendário) | RF-C03 | Must | 720 | I |
+| RNF-P01 – Aplicação web responsiva | RNF-P01 | Must | 648 | I |
+| US-C05 – Gerenciar agendamentos | RF-C05 | Must | 630 | I |
+| US-C01 – Visualizar serviços e preços | RF-C01 | Must | 576 | II |
+| RNF-U01 – Interface intuitiva e moderna | RNF-U01 | Should | 576 | II |
+| RNF-D01 – Tempo de resposta < 3 segundos | RNF-D01 | Must | 567 | II |
+| US-A02 – Gerenciar agendamentos e restrições | RF-A02 | Must | 560 | II |
+| RNF-S01 – Proteção contra SQL Injection e XSS | RNF-S01 | Must | 512 | II |
+| US-A01 – Acesso administrativo seguro | RF-A01 | Must | 512 | II |
+| US-A05 – Gerenciar serviços, preços e duração | RF-A05 | Must | 504 | II |
+| US-C04 – Cadastro e login de cliente | RF-C04 | Must | 504 | II |
+| RNF-U02 – Interface administrativa simples | RNF-U02 | Should | 504 | II |
+| RNF-C02 – Compatibilidade com navegadores | RNF-C02 | Should | 504 | II |
+| RNF-S02 – Criptografia e conformidade LGPD | RNF-S02 | Must | 504 | II |
+| US-A03 – Visualizar agenda diária e semanal | RF-A03 | Should | 448 | III |
+| US-A04 – Visualizar dados dos clientes | RF-A04 | Should | 448 | III |
+| US-C07 – Cancelar agendamento | RF-C07 | Should | 448 | III |
+| US-C02 – Acessar contatos e redes sociais | RF-C02 | Could | 405 | III |
+| RNF-M01 – Código modular e documentado | RNF-M01 | Should | 392 | III |
+| RNF-C01 – Disponibilidade 99.5% (24/7) | RNF-C01 | Should | 384 | III |
+| US-C08 – Ver tempo e produtos usados | RF-C08 | Could | 384 | III |
+| US-A07 – Gerar relatórios de lavagens e valores | RF-A08 | Should | 336 | IV |
+| US-A06 – Adicionar observações aos agendamentos | RF-A07 | Could | 280 | IV |
+| RNF-SU01 – Logging e notificação de falhas | RNF-SU01 | Could | 240 | IV |
+
+
 
 <details markdown="1">
 <summary>Clique para visualizar os critérios de avaliação (Impacto, Confiança e Facilidade) de cada User Story</summary>
 
-| **Nome (US Sugerida)** | **Impacto** | **Confiança** | **Facilidade** |
-|:--------------------------------|:-----------:|:-------------:|:--------------:|
-| US01 (Login Cliente)           | 10          | 9             | 9              |
-| US02 (Visualizar Serviços)     | 10          | 9             | 8              |
-| US03 (Login Admin)             | 9           | 9             | 8              |
-| US04 (Agendamento Cliente)     | 9           | 8             | 9              |
-| US05 (Pagamento PIX)           | 9           | 8             | 8              |
-| US06 (Gestão Agenda Admin)     | 8           | 9             | 8              |
-| US07 (RNF Usabilidade)         | 10          | 9             | 6              |
-| US08 (RNF Responsividade)      | 9           | 9             | 6              |
-| US09 (Cadastro Cliente)        | 7           | 8             | 8              |
-| US10 (RNF Segurança/LGPD)      | 10          | 8             | 5              |
-| US11 (Gestão Serviços)         | 7           | 7             | 8              |
-| US12 (Regra Intervalo Agend.)  | 8           | 7             | 7              |
-| US13 (Visualizar Preços)       | 7           | 7             | 8              |
-| US14 (Consultar Disponibilidade)| 6           | 8             | 8              |
-| US15 (RNF Desempenho)          | 8           | 6             | 7              |
-| US16 (RNF Disponibilidade)     | 8           | 6             | 7              |
-| US17 (Visualizar Agendamentos) | 8           | 8             | 5              |
-| US18 (Gerenciar Agendamentos)  | 8           | 7             | 5              |
-| US19 (RNF Logging/Notificação) | 7           | 7             | 5              |
-| US20 (Cancelar Agendamento)    | 7           | 6             | 5              |
-| US21 (Visualizar Dados Cliente)| 6           | 7             | 4              |
-| US22 (RNF Interface Admin)     | 6           | 6             | 4              |
-| US23 (Acesso Redes Sociais)    | 5           | 8             | 8              |
-| US24 (RNF Código Modular)      | 5           | 7             | 6              |
-| US25 (Gerar Relatórios)        | 6           | 6             | 5              |
-| US26 (Adicionar Observações)   | 5           | 5             | 6              |
+| **US** | **Impacto** | **Confiança** | **Facilidade** | **ICE Score** |
+|---------|--------------|----------------|----------------|----------------|
+| **US-C03 – Selecionar dias de lavagem (calendário)** | 10 | 9 | 8 | 720 |
+| **RNF-P01 – Aplicação web responsiva** | 9 | 9 | 8 | 648 |
+| **US-C05 – Gerenciar agendamentos** | 10 | 9 | 7 | 630 |
+| **US-C01 – Visualizar serviços e preços** | 9 | 8 | 8 | 576 |
+| **RNF-U01 – Interface intuitiva e moderna** | 8 | 9 | 8 | 576 |
+| **RNF-D01 – Tempo de resposta < 3 segundos** | 9 | 9 | 7 | 567 |
+| **US-A02 – Gerenciar agendamentos e restrições** | 10 | 8 | 7 | 560 |
+| **RNF-S01 – Proteção contra SQL Injection e XSS** | 8 | 8 | 8 | 512 |
+| **US-A01 – Acesso administrativo seguro** | 8 | 8 | 8 | 512 |
+| **US-A05 – Gerenciar serviços, preços e duração** | 9 | 8 | 7 | 504 |
+| **US-C04 – Cadastro e login de cliente** | 8 | 9 | 7 | 504 |
+| **RNF-U02 – Interface administrativa simples** | 7 | 9 | 8 | 504 |
+| **RNF-C02 – Compatibilidade com navegadores** | 7 | 9 | 8 | 504 |
+| **RNF-S02 – Criptografia e conformidade LGPD** | 9 | 8 | 7 | 504 |
+| **US-A03 – Visualizar agenda diária e semanal** | 8 | 8 | 7 | 448 |
+| **US-A04 – Visualizar dados dos clientes** | 8 | 8 | 7 | 448 |
+| **US-C07 – Cancelar agendamento** | 7 | 8 | 8 | 448 |
+| **US-C02 – Acessar contatos e redes sociais** | 5 | 9 | 9 | 405 |
+| **RNF-M01 – Código modular e documentado** | 7 | 8 | 7 | 392 |
+| **RNF-C01 – Disponibilidade 99.5% (24/7)** | 8 | 8 | 6 | 384 |
+| **US-C08 – Ver tempo e produtos usados** | 6 | 8 | 8 | 384 |
+| **US-A07 – Gerar relatórios de lavagens e valores** | 7 | 8 | 6 | 336 |
+| **US-A06 – Adicionar observações aos agendamentos** | 5 | 8 | 7 | 280 |
+| **RNF-SU01 – Logging e notificação de falhas** | 5 | 8 | 6 | 240 |
+
 </details>
 
 A matriz de esforço e impacto será utilizada como apoio na definição das prioridades das histórias de usuário que compõem o MVP. Para isso, essa ferramenta é estruturada em dois eixos: o eixo vertical representa o impacto, ou seja, o valor de negócio que cada funcionalidade pode gerar; enquanto o eixo horizontal representa o esforço, que corresponde à complexidade e aos recursos necessários para sua implementação.
@@ -187,10 +186,13 @@ A matriz de esforço e impacto será utilizada como apoio na definição das pri
 ### **9.2.1 — Gráfico de Quadrantes**
 A combinação desses dois critérios(**MoSCoW** e **ICE**) permite visualizar com clareza quais funcionalidades devem ser priorizadas. A seguir, estão descritos os quatro quadrantes da matriz através de sua relação com o MVP:
 
-- **Quadrante 1** — Baixo esforço e alto impacto: deve compor o MVP. Alto impacto é considerado Must Have ou Should Have no Moscow pela equipe. Baixo esforço é a partir do 500 no ICE pela equipe.
-- **Quadrante 2** — Alto esforço e alto impacto: pode compor parcialmente o MVP, caso seja essencial. Alto impacto é considerado Must Have ou Should Have no Moscow pela equipe. Alto esforço é abaixo do 500 no ICE pela equipe.
-- **Quadrante 3** — Baixo esforço e baixo impacto: pode compor o MVP, se houver margem de tempo ou recursos disponíveis. Baixo impacto é considerado Could Have ou Won’t Have no Moscow pela equipe. Baixo esforço é a partir do 500 no ICE pela equipe.
-- **Quadrante 4** — Alto esforço e baixo impacto: não deve compor o MVP, pois apresenta baixo retorno em relação ao investimento. Baixo impacto é considerado Could Have ou Won’t Have no Moscow pela equipe. Alto esforço é abaixo do 500 no ICE pela equipe.
+| Faixa ICE | Quadrante | Interpretação                          | MoSCoW típico  |
+| --------- | --------- | -------------------------------------- | -------------- |
+| ≥ 600     | **I**     | Essencial ao MVP                       | Must           |
+| 500–599   | **II**    | Alta prioridade, sustentação principal | Must / Should  |
+| 400–499   | **III**   | Valor médio, suporte e experiência     | Should / Could |
+| < 400     | **IV**    | Melhorias ou backlog futuro            | Could / Won’t  |
+
 
 <iframe
   width="100%"
@@ -230,14 +232,20 @@ O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requ
 
 O foco foi garantir que o cliente da VB tenha uma jornada simples e funcional para visualizar os serviços, realizar agendamentos e efetuar pagamentos, enquanto o dono da VB possa gerenciar os agendamentos, clientes e relatórios de maneira segura e organizada. Dessa forma, o MVP permitirá validar rapidamente se a solução atende às expectativas de eficiência e usabilidade, possibilitando iterações futuras para evolução do produto.
 
-| Código | Ator          |
-|--------|:-------------:|
-| [US-C01](#us-c01) | Cliente       |
-| [US-C02](#us-c02) | Cliente       | 
-| [US-C04](#us-c04) | Cliente       | 
-| [US-C06](#us-c06) | Cliente       | 
-| [US-C08](#us-c08) | Cliente       | 
-| [US-A02](#us-a02) | Administrador | 
-| [US-A04](#us-a04) | Administrador | 
-| [US-A06](#us-a06) | Administrador | 
-| [US-A07](#us-a07) | Administrador | 
+| Código Oficial (US/RF/RNF) | Requisito Associado (RF/RNF) |
+|:---|:---|
+| US-C04 (Login Cliente) | RF-C04 |
+| US-C01 (Visualizar Serviços/Preços) | RF-C01 |
+| US-A01 (Login Admin) | RF-A01 |
+| US-C03 (Selecionar Dias/Agendamento) | RF-C02 |
+| US-C06 (Pagamento PIX) | RF-C06 |
+| US-A03 (Gestão Agenda Admin) | RF-A03 |
+| RNF-U01 (RNF Usabilidade) | RNF-U01 |
+| RNF-P01 (RNF Responsividade) | RNF-P01 |
+| RF-C03 (Cadastro Cliente) | RF-C03 |
+| RNF-S02 (RNF Segurança/LGPD) | RNF-S02 |
+| US-A05 (Gestão Serviços) | RF-A05 |
+| US-A02 (Regra Intervalo Agend.) | RF-A02 |
+| US-C07 (Cancelar Agendamento) | RF-C07 |
+| RNF-D01 (RNF Desempenho) | RNF-D01 |
+| RNF-S01 (RNF SQL/XSS) | RNF-S01 |
