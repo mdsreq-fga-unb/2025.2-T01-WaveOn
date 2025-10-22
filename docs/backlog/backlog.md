@@ -232,7 +232,7 @@ O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requ
 
 O foco foi garantir que o cliente da VB tenha uma jornada simples e funcional para visualizar os serviços, realizar agendamentos e efetuar pagamentos, enquanto o dono da VB possa gerenciar os agendamentos, clientes e relatórios de maneira segura e organizada. Dessa forma, o MVP permitirá validar rapidamente se a solução atende às expectativas de eficiência e usabilidade, possibilitando iterações futuras para evolução do produto.
 
-| Código Oficial (US/RNF) | Requisito Associado (RF/RNF) |
+| Código Oficial (US/RF/RNF) | Requisito Associado (RF/RNF) |
 |:---|:---|
 | US-C04 (Login Cliente) | RF-C04 |
 | US-C01 (Visualizar Serviços/Preços) | RF-C01 |
