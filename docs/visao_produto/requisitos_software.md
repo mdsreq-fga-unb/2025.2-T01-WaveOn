@@ -52,16 +52,16 @@ Os requisitos não-funcionais definem a **qualidade** e as **restrições do sis
 
 | Categoria          | Requisito Não-Funcional | Descrição                                                                 |
 |--------------------|-------------------------|---------------------------------------------------------------------------|
-| Usabilidade        | RNF-U01                 | A interface deve seguir o guia de estilo definido (cores predominantes preto #000000 e vermelho #FF0000). O processo de agendamento deve ser concluído em no máximo **3 cliques**. Será considerado conforme se **95% das telas** seguirem o guia de estilo. |
-| Usabilidade (Admin)| RNF-U02                 | A interface administrativa deve permitir que um usuário sem experiência técnica realize as operações principais (cadastrar, listar e editar) em **até 4 cliques**. A conformidade será validada com teste de usabilidade envolvendo ao menos **3 usuários**, atingindo **80% de sucesso**. |
-| Desempenho         | RNF-D01                 | O tempo de resposta do sistema para qualquer ação do usuário deve ser **inferior a 3 segundos** em condições normais de operação. |
-| Confiabilidade     | RNF-C01                 | O sistema deve manter **disponibilidade mínima de 99,5%**, garantindo acesso ao agendamento 24/7. |
-| Portabilidade      | RNF-P01                 | O sistema deve ser responsivo e manter funcionamento consistente em resoluções entre **360px e 1920px**, cobrindo desktop, tablets e smartphones. |
+| Usabilidade        | RNF-U01                 | A interface deve seguir o guia de estilo definido (cores predominantes preto #000000 e vermelho #FF0000). O processo de agendamento deve ser concluído em no máximo 3 cliques. Será considerado conforme se 95% das telas seguirem o guia de estilo. |
+| Usabilidade (Admin)| RNF-U02                 | A interface administrativa deve permitir que um usuário sem experiência técnica realize as operações principais (cadastrar, listar e editar) em até 4 cliques. A conformidade será validada com teste de usabilidade envolvendo ao menos 3 usuários, atingindo 80% de sucesso. |
+| Desempenho         | RNF-D01                 | O tempo de resposta do sistema para qualquer ação do usuário deve ser inferior a 3 segundos em condições normais de operação. |
+| Confiabilidade     | RNF-C01                 | O sistema deve manter disponibilidade mínima de 99,5%, garantindo acesso ao agendamento 24/7. |
+| Portabilidade      | RNF-P01                 | O sistema deve ser responsivo e manter funcionamento consistente em resoluções entre 360px e 1920px, cobrindo desktop, tablets e smartphones. |
 | Compatibilidade    | RNF-C02                 | A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome (138.0), Mozilla Firefox (143.0), Microsoft Edge (140.0) e Opera (Opera One). |
 | Segurança          | RNF-S01                 | Todas as operações de banco de dados devem utilizar consultas parametrizadas, prevenindo SQL Injection. A verificação será feita mediante análise de código e testes automatizados. |
-| Segurança (Dados)  | RNF-S02                 | Todos os dados sensíveis devem ser criptografados utilizando **AES-256 em repouso** e **TLS 1.2+ em trânsito**. O sistema deve possuir mecanismos de consentimento, revisão e exclusão de dados do usuário, atendendo aos requisitos da LGPD. |
-| Manutenibilidade   | RNF-M01                 | O código-fonte deve seguir o padrão de estilo definido e possuir comentários em pelo menos **80% das funções públicas**. Os módulos devem ter no máximo **300 linhas** para garantir modularidade. |
-| Suporte            | RNF-SU01                | O sistema deve registrar erros, acessos e operações críticas através de um serviço de logging centralizado. Falhas críticas devem gerar **notificação automática** à equipe técnica em até **1 minuto** via e-mail ou webhook. |
+| Segurança (Dados)  | RNF-S02                 | Todos os dados sensíveis devem ser criptografados utilizando AES-256 em repouso e TLS 1.2+ em trânsito. O sistema deve possuir mecanismos de consentimento, revisão e exclusão de dados do usuário, atendendo aos requisitos da LGPD. |
+| Manutenibilidade   | RNF-M01                 | O código-fonte deve seguir o padrão de estilo definido e possuir comentários em pelo menos 80% das funções públicas. Os módulos devem ter no máximo 300 linhas para garantir modularidade. |
+| Suporte            | RNF-SU01                | O sistema deve registrar erros, acessos e operações críticas através de um serviço de logging centralizado. Falhas críticas devem gerar notificação automática à equipe técnica em até 1 minuto via e-mail ou webhook. |
 
 ---
 
