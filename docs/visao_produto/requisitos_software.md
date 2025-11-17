@@ -52,7 +52,7 @@ Os requisitos não-funcionais definem a **qualidade** e as **restrições do sis
 
 | Categoria          | Requisito Não-Funcional | Descrição                                                                 |
 |--------------------|-------------------------|---------------------------------------------------------------------------|
-| Usabilidade        | RNF-U01                 | A interface deve seguir o guia de estilo definido (cores predominantes preto #000000 e vermelho #FF0000). O processo de agendamento deve ser concluído em no máximo 3 cliques. Será considerado conforme se 95% das telas seguirem o guia de estilo. |
+| Usabilidade        | RNF-U01                 | A interface deve seguir o guia de estilo definido (cores predominantes azul #08A4BD, branco #ffffffff e preto #000000). O processo de agendamento deve ser concluído em no máximo 3 cliques. Será considerado conforme se 95% das telas seguirem o guia de estilo. |
 | Usabilidade (Admin)| RNF-U02                 | A interface administrativa deve permitir que um usuário sem experiência técnica realize as operações principais (cadastrar, listar e editar) em até 4 cliques. A conformidade será validada com teste de usabilidade envolvendo ao menos 3 usuários, atingindo 80% de sucesso. |
 | Desempenho         | RNF-D01                 | O tempo de resposta do sistema para qualquer ação do usuário deve ser inferior a 3 segundos em condições normais de operação. |
 | Confiabilidade     | RNF-C01                 | O sistema deve manter disponibilidade mínima de 99,5%, garantindo acesso ao agendamento 24/7. |
