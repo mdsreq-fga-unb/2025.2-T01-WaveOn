@@ -1,5 +1,19 @@
 # **9. Backlog do Produto**
 
+## 9.0 **User Story Mapping (USM)**
+O USM organiza objetivos, atividades, passos e histórias por persona, servindo de base para priorização (MoSCoW + ICE) e para a definição do MVP.
+
+### 9.0.1 Visualização
+*Mapa visual de referência (Miro):*
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://miro.com/app/board/uXjVJAVHV7c=/?share_link_id=514154185367"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
 ## 9.1 **Backlog Geral 📋**
 No projeto WaveON, desenvolvido para a empresa VB, utilizamos o **User Story Mapping** como técnica inicial de organização e entendimento das necessidades tanto dos clientes quanto do dono da empresa. Através do mapeamento, conseguimos identificar as atividades principais do usuário e decompô-las em histórias de usuário, o que nos deu uma visão clara do fluxo de valor do sistema e das funcionalidades que precisariam ser implementadas.
 

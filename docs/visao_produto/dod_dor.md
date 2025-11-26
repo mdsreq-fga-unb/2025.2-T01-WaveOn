@@ -81,11 +81,11 @@
 
  - A funcionalidade foi apresentada e aprovada para seguir ao próximo ciclo.
 
-## Hisórico de Versão 🔄
+## Histórico de Versão 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
-|            |        |                                                   |                  |                 |
+| 26/11/2025 | 1.0    | Correções de tópicos no documento                  | Bernardo Watanabe| Anna Brandão    |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |

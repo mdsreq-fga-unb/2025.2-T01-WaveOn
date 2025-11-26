@@ -10,7 +10,7 @@
 ---
 
 ### **4.1.2 — Análise e consenso** {#analise-e-consenso}
-- **User Story Mapping(USM):** será utilizado para organizar as funcionalidades do sistema em torno da jornada do usuário, como agendamento, pagamento e acompanhamento do serviço. Essa técnica possibilitará a definição do MVP e o planejamento das entregas incrementais do projeto WaveON.
+- **User Story Mapping (USM) — método transversal:** o USM é aplicado de forma contínua e transversal em todo o processo de ER, não apenas na análise e consenso. Ele organiza a jornada por objetivos, atividades, passos e histórias (US), orienta a priorização (MoSCoW + ICE) e dá origem ao Backlog do Produto e ao MVP. Ver o mapeamento consolidado em `Backlog de Produto`.
 
 - **Priorização MoSCoW:** será empregada para classificar os requisitos em *Must, Should, Could e Won’t*, auxiliando na definição das funcionalidades que deverão ser implementadas nos primeiros protótipos e das que poderão ser postergadas.
 
@@ -26,9 +26,12 @@
 ### **4.1.4 — Representação de Requisitos:** {#representacao-de-requisitos}
 - **Mapa Mental:** será elaborado para representar visualmente os requisitos identificados, agrupando funcionalidades e relacionando-as aos objetivos do negócio. Essa técnica ajudará a manter uma visão global do sistema.
 
-- **Mockups:** serão desenvolvidos para simular as principais telas do aplicativo WaveON, permitindo a discussão inicial de usabilidade e design junto aos stakeholders antes da implementação.
+- **Mockups / Baixa fidelidade:** protótipos iniciais para cliente e admin (ver evidências em [Evidências de Execução](../entregas/evidencias_execucao.md)).
 
-- **Protótipos de Alta Fidelidade:** serão produzidos em etapas posteriores para aproximar a experiência do usuário da versão final do sistema, possibilitando testes realistas e validação mais precisa junto ao cliente da VB.
+- **Protótipos de Alta Fidelidade:** referência publicada no Figma: 
+  https://www.figma.com/design/G5HVjXRLeve1BeBBazx2S8/WaveOn---UI-UX-Design?node-id=0-1&t=1De0YUykvUV4vG3U-1
+  
+  Esses protótipos aproximam a experiência do usuário da versão final do sistema, possibilitando testes realistas e validação mais precisa junto ao cliente da VB.
 
 ---
 
@@ -46,7 +49,7 @@
 ---
 
 ### **4.1.6 — Organização e Atualização de Requisitos** {#organizacao-e-atualizacao-de-requisitos}
-- **Backlog de Requisitos:** embora não seja um artefato nativo do RAD, será adotado no WaveON como ferramenta de organização dinâmica dos requisitos. Esse backlog possibilitará atualizar e repriorizar itens ao longo das iterações, mantendo rastreabilidade e transparência no processo.
+- **Backlog do Produto derivado do USM:** o backlog é derivado diretamente do USM (mapa de objetivos→atividades→passos→US). Embora o RAD não tenha backlog nativo, adotamos o Backlog do Produto para organização dinâmica e rastreabilidade, mantendo alinhamento com o USM e com as priorizações MoSCoW/ICE.
 
 ---
 
@@ -58,10 +61,10 @@ O processo se repetirá até que o sistema esteja completo, com entregas increme
 Fases do Processo RAD    | Atividades ER | Prática | Técnica | Resultado Esperado
 -------- | ------ | --------- | ----- | ---------
 **Planejamento de Requisitos** | [Elicitação e Descoberta](#elicitacao-e-descoberta) | Levantamento de requisitos | Entrevistas com Stakeholders, Brainstorming| Entedimento de problemas, identificação de funcionalidades e lista de necessidades |
- | [Análise e Consenso](#analise-e-consenso) | Priorização dos Requisitos | User Story Mapping(USM), Priorização MoSCoW, Priorização ICE | Escopo e funcionalidades essenciais definidas e priorizadas em comum acordo. | 
+ | [Análise e Consenso](#analise-e-consenso) | Priorização dos Requisitos | USM (transversal), Priorização MoSCoW, Priorização ICE | Escopo e funcionalidades essenciais definidos e priorizados pelo USM + critérios. | 
 | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Validação de Requisitos | Checklist de Verificação e Validação, DoR | Confirmação de que requisito entrega valor |
- | [Declaração](#declaracao-de-requisitos) | Registro dos requisitos | User Story | Histórias de usuário que detalham as funcionalidades do projeto. |
-  | [Organização e Atualização](#organizacao-e-atualizacao-de-requisitos) | Organização dos requisitos implementados ou atrasados | Backlog de requisitos | Backlog atualizado |
+ | [Declaração](#declaracao-de-requisitos) | Registro dos requisitos | User Story | Histórias de usuário detalhando funcionalidades mapeadas no USM. |
+  | [Organização e Atualização](#organizacao-e-atualizacao-de-requisitos) | Organização dos requisitos implementados ou atrasados | Backlog do Produto (derivado do USM) | Backlog atualizado e rastreado ao USM |
 **Design de Usuário** | [Representação de Requisitos](#representacao-de-requisitos) | Prototipagem | Mapa Mental, Mockups, Protótipos de Alta Fidelidade | Ciclo iterativo de prototipagem, teste e refinamento.|
  | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Validação de Requisitos | Revisão Informal ou Formal, Feedback do Cliente | Ravisão formal do Designer com os Desenvolvedores e validação de prototipagem com o cliente. |
 **Construção** | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Verificação de implementação | Critérios de aceitação, Revisão informal ou formal, DoD | Confirmação de que entrega atende requisito | 
@@ -74,7 +77,7 @@ Fases do Processo RAD    | Atividades ER | Prática | Técnica | Resultado Esper
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
-|            |        |                                                   |                  |                 |
+|26/11/2025  |1.0     |Correções de tópicos no documento                  |Bernardo Watanabe |Anna Brandão     |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
