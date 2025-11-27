@@ -1,7 +1,7 @@
 # 8. **DoR & DoD**
 ## 8.1 **Definition of Ready (DoR)**
 
-> **Uma história de usuário estará ***PRONTA*** para desenvolvimento quando atender aos seguintes critérios:**
+> **Uma história de usuário estará ***PREPARADA*** para desenvolvimento quando atender aos seguintes critérios:**
 
 ### 8.1.1 — **Planejamento e Requisitos**
 
@@ -81,11 +81,11 @@
 
  - A funcionalidade foi apresentada e aprovada para seguir ao próximo ciclo.
 
-## Hisórico de Versão 🔄
+## Histórico de Versão 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
-|            |        |                                                   |                  |                 |
+| 26/11/2025 | 1.0    | Correções de tópicos no documento                  | Bernardo Watanabe| Anna Brandão    |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |

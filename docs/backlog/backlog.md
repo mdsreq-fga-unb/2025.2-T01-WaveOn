@@ -1,5 +1,19 @@
 # **9. Backlog do Produto**
 
+## 9.0 **User Story Mapping (USM)**
+O USM organiza objetivos, atividades, passos e histórias por persona, servindo de base para priorização (MoSCoW + ICE) e para a definição do MVP.
+
+### 9.0.1 Visualização
+*Mapa visual de referência (Miro):*
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://miro.com/app/board/uXjVJAVHV7c=/?share_link_id=514154185367"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
 ## 9.1 **Backlog Geral 📋**
 No projeto WaveON, desenvolvido para a empresa VB, utilizamos o **User Story Mapping** como técnica inicial de organização e entendimento das necessidades tanto dos clientes quanto do dono da empresa. Através do mapeamento, conseguimos identificar as atividades principais do usuário e decompô-las em histórias de usuário, o que nos deu uma visão clara do fluxo de valor do sistema e das funcionalidades que precisariam ser implementadas.
 
@@ -57,7 +71,7 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
 | <a id="us-a07"></a>US-A07 | F06 | RF-A08 | Como dono, quero gerar relatórios de lavagens feitas por período e valores recebidos. |
 
 ### **9.1.3 — Lista de requisitos não-funcionais**
-  - **RNF-U01**: A interface do usuário deve ser intuitiva, seguindo um design moderno com as cores temáticas preto e vermelho. O processo de agendamento deve ser concluído em no máximo 3 cliques.  
+  - **RNF-U01**: A interface do usuário deve ser intuitiva, seguindo um design moderno com as cores temáticas branco e azul. O processo de agendamento deve ser concluído em no máximo 3 cliques.  
   - **RNF-U02**: A interface administrativa deve ser simples e direta, adequada para usuários sem grande experiência técnica.  
   - **RNF-D01**: O tempo de resposta do sistema para qualquer ação do usuário (como carregar uma página ou confirmar um agendamento) deve ser inferior a 3 segundos em condições normais.  
   - **RNF-C01**: O sistema deve garantir uma disponibilidade (uptime) superior a 99.5%, permitindo agendamentos 24 horas por dia, 7 dias por semana.  
