@@ -1083,6 +1083,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/evidencias_execucao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evidências de Execução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1432,7 +1460,7 @@
 <h3 id="analise-e-consenso"><strong>4.1.2 — Análise e consenso</strong></h3>
 <ul>
 <li>
-<p><strong>User Story Mapping(USM):</strong> será utilizado para organizar as funcionalidades do sistema em torno da jornada do usuário, como agendamento, pagamento e acompanhamento do serviço. Essa técnica possibilitará a definição do MVP e o planejamento das entregas incrementais do projeto WaveON.</p>
+<p><strong>User Story Mapping (USM) — método transversal:</strong> o USM é aplicado de forma contínua e transversal em todo o processo de ER, não apenas na análise e consenso. Ele organiza a jornada por objetivos, atividades, passos e histórias (US), orienta a priorização (MoSCoW + ICE) e dá origem ao Backlog do Produto e ao MVP. Ver o mapeamento consolidado em <code>Backlog de Produto</code>.</p>
 </li>
 <li>
 <p><strong>Priorização MoSCoW:</strong> será empregada para classificar os requisitos em <em>Must, Should, Could e Won’t</em>, auxiliando na definição das funcionalidades que deverão ser implementadas nos primeiros protótipos e das que poderão ser postergadas.</p>
@@ -1453,12 +1481,14 @@
 <p><strong>Mapa Mental:</strong> será elaborado para representar visualmente os requisitos identificados, agrupando funcionalidades e relacionando-as aos objetivos do negócio. Essa técnica ajudará a manter uma visão global do sistema.</p>
 </li>
 <li>
-<p><strong>Mockups:</strong> serão desenvolvidos para simular as principais telas do aplicativo WaveON, permitindo a discussão inicial de usabilidade e design junto aos stakeholders antes da implementação.</p>
+<p><strong>Mockups / Baixa fidelidade:</strong> protótipos iniciais para cliente e admin (ver evidências em <a href="../../entregas/evidencias_execucao/">Evidências de Execução</a>).</p>
 </li>
 <li>
-<p><strong>Protótipos de Alta Fidelidade:</strong> serão produzidos em etapas posteriores para aproximar a experiência do usuário da versão final do sistema, possibilitando testes realistas e validação mais precisa junto ao cliente da VB.</p>
+<p><strong>Protótipos de Alta Fidelidade:</strong> referência publicada no Figma: 
+  https://www.figma.com/design/G5HVjXRLeve1BeBBazx2S8/WaveOn---UI-UX-Design?node-id=0-1&amp;t=1De0YUykvUV4vG3U-1</p>
 </li>
 </ul>
+<p>Esses protótipos aproximam a experiência do usuário da versão final do sistema, possibilitando testes realistas e validação mais precisa junto ao cliente da VB.</p>
 <hr />
 <h3 id="verificacao-e-validacao-de-requisitos"><strong>4.1.5 — Verificação e Validação de Requisitos</strong></h3>
 <ul>
@@ -1481,7 +1511,7 @@
 <hr />
 <h3 id="organizacao-e-atualizacao-de-requisitos"><strong>4.1.6 — Organização e Atualização de Requisitos</strong></h3>
 <ul>
-<li><strong>Backlog de Requisitos:</strong> embora não seja um artefato nativo do RAD, será adotado no WaveON como ferramenta de organização dinâmica dos requisitos. Esse backlog possibilitará atualizar e repriorizar itens ao longo das iterações, mantendo rastreabilidade e transparência no processo.</li>
+<li><strong>Backlog do Produto derivado do USM:</strong> o backlog é derivado diretamente do USM (mapa de objetivos→atividades→passos→US). Embora o RAD não tenha backlog nativo, adotamos o Backlog do Produto para organização dinâmica e rastreabilidade, mantendo alinhamento com o USM e com as priorizações MoSCoW/ICE.</li>
 </ul>
 <hr />
 <h2 id="42-engenharia-de-requisitos-e-o-rad"><strong>4.2 Engenharia de Requisitos e o RAD</strong> 🏗️</h2>
@@ -1509,8 +1539,8 @@ O processo se repetirá até que o sistema esteja completo, com entregas increme
 <td></td>
 <td><a href="#analise-e-consenso">Análise e Consenso</a></td>
 <td>Priorização dos Requisitos</td>
-<td>User Story Mapping(USM), Priorização MoSCoW, Priorização ICE</td>
-<td>Escopo e funcionalidades essenciais definidas e priorizadas em comum acordo.</td>
+<td>USM (transversal), Priorização MoSCoW, Priorização ICE</td>
+<td>Escopo e funcionalidades essenciais definidos e priorizados pelo USM + critérios.</td>
 </tr>
 <tr>
 <td></td>
@@ -1524,14 +1554,14 @@ O processo se repetirá até que o sistema esteja completo, com entregas increme
 <td><a href="#declaracao-de-requisitos">Declaração</a></td>
 <td>Registro dos requisitos</td>
 <td>User Story</td>
-<td>Histórias de usuário que detalham as funcionalidades do projeto.</td>
+<td>Histórias de usuário detalhando funcionalidades mapeadas no USM.</td>
 </tr>
 <tr>
 <td></td>
 <td><a href="#organizacao-e-atualizacao-de-requisitos">Organização e Atualização</a></td>
 <td>Organização dos requisitos implementados ou atrasados</td>
-<td>Backlog de requisitos</td>
-<td>Backlog atualizado</td>
+<td>Backlog do Produto (derivado do USM)</td>
+<td>Backlog atualizado e rastreado ao USM</td>
 </tr>
 <tr>
 <td><strong>Design de Usuário</strong></td>
@@ -1584,11 +1614,11 @@ O processo se repetirá até que o sistema esteja completo, com entregas increme
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>26/11/2025</td>
+<td>1.0</td>
+<td>Correções de tópicos no documento</td>
+<td>Bernardo Watanabe</td>
+<td>Anna Brandão</td>
 </tr>
 <tr>
 <td></td>
