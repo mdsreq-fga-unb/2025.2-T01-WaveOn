@@ -41,6 +41,19 @@ Este documento consolida as evidências de execução do cronograma, do processo
 <iframe style="border:1px solid rgba(0,0,0,0.1);" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/G5HVjXRLeve1BeBBazx2S8/WaveOn---UI-UX-Design?type=design&node-id=0-1&mode=design" allowfullscreen></iframe>
 
 
+### **Aplicação inicial do código**
+
+As imagens abaixo evidenciam a primeira aplicação do código e como ficaram algumas telas do protótipo inicial:
+
+![Tela inicial do protótipo](../img/TelaInicialWaveOnPrototipo.png)
+
+![Cadastro no protótipo](../img/CadastroWaveOnPrototipo.png)
+
+![Lavagem simples no protótipo](../img/LavagemSimplesWaveOnPrototipo.png)
+
+![Lavagem completa no protótipo](../img/LavagemCompletaWaveOnPrototipo.png)
+
+
 ## **4. Mídias das Unidades**
 
 | Unidade | Evidência | Link |

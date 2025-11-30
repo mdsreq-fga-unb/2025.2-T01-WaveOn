@@ -54,15 +54,18 @@ Antes de abrir uma contribuição, consulte esses guias para garantir consistên
 
 1. **Fork** este repositório para a sua conta.  
 2. **Clone** o fork localmente:  
-   ```bash
-   git clone https://github.com/seu-usuario/2025.2-T01-WaveOn.git
+  ```bash
+  git clone https://github.com/seu-usuario/2025.2-T01-WaveOn.git
+  ```
 3. Crie uma **branch** descritiva para sua contribuição:  
-   ```bash
-   git checkout -b minha-feature
+  ```bash
+  git checkout -b minha-feature
+  ```
 4. Faça suas alterações seguindo as boas práticas de commits.  
 5. **Push** da sua branch para o seu fork:  
-   ```bash
-   git push origin minha-feature
+  ```bash
+  git push origin minha-feature
+  ```
 6. Abra um **Pull Request** para a branch adequada do repositório principal.
 
 7. Aguarde a revisão e feedback do time ✨.
