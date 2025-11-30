@@ -1,52 +1,71 @@
-# **Entregas das Unidades**
+# Entregas das Unidades
 
-## 1. **Vídeo da Apresentação da Unidade 1** ✅
+## 1. Vídeo da Apresentação da Unidade 1
 
-<iframe width="560" height="315" 
+<iframe 
+    width="100%" 
+    height="400" 
     src="https://www.youtube.com/embed/Aayzri2vlJs?si=3vSRuVEQWIHTUOrV" 
-    title="YouTube video player" 
+    title="Vídeo Unidade 1" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    loading="lazy" 
     allowfullscreen>
 </iframe>
 
-## 2. **Vídeo da Apresentação da Unidade 2** ✅
+[Assistir no YouTube](https://www.youtube.com/watch?v=Aayzri2vlJs)
 
-<iframe width="560" height="315" 
+## 2. Vídeo da Apresentação da Unidade 2
+
+<iframe 
+    width="100%" 
+    height="400" 
     src="https://www.youtube.com/embed/UmF2fQpwBJA?si=-X1KF1PUnogMCA5_" 
-    title="YouTube video player" 
+    title="Vídeo Unidade 2" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    loading="lazy" 
     allowfullscreen>
 </iframe>
 
-### **Atividades da Unidade 2 — Visualização**
+[Assistir no YouTube](https://www.youtube.com/watch?v=UmF2fQpwBJA)
 
-*Mapa visual de referência (Miro):*
+## 3. Atividades da Unidade 2 (Miro)
+
+As atividades abaixo estão publicadas em quadros Miro com acesso por link. Caso o embed peça autenticação, use o link direto abaixo de cada visualização.
 
 #### 🧩 PBB (Product Backlog Building)
 <iframe
     width="100%"
     height="400"
     src="https://miro.com/app/board/uXjVJtBBjG8=/?share_link_id=460692625088"
+    title="Miro – PBB (Product Backlog Building)"
     frameborder="0"
+    loading="lazy"
     allowfullscreen>
 </iframe>
+[Abrir no Miro](https://miro.com/app/board/uXjVJtBBjG8=/?share_link_id=460692625088)
 
 #### 🗺️ USM (User Story Mapping)
 <iframe
     width="100%"
     height="400"
     src="https://miro.com/app/board/uXjVJwXYkWQ=/?share_link_id=996370785897"
+    title="Miro – USM (User Story Mapping)"
     frameborder="0"
+    loading="lazy"
     allowfullscreen>
 </iframe>
+[Abrir no Miro](https://miro.com/app/board/uXjVJwXYkWQ=/?share_link_id=996370785897)
 
 #### 🔗 Casos de Uso
 <iframe
     width="100%"
     height="400"
     src="https://miro.com/app/board/uXjVJkSFcMY=/?share_link_id=595921737642"
+    title="Miro – Casos de Uso"
     frameborder="0"
+    loading="lazy"
     allowfullscreen>
 </iframe>
+[Abrir no Miro](https://miro.com/app/board/uXjVJkSFcMY=/?share_link_id=595921737642)
