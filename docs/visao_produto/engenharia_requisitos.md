@@ -10,7 +10,7 @@
 ---
 
 ### **4.1.2 — Análise e consenso** {#analise-e-consenso}
-- **User Story Mapping (USM) — método transversal:** o USM é aplicado de forma contínua e transversal em todo o processo de ER, não apenas na análise e consenso. Ele organiza a jornada por objetivos, atividades, passos e histórias (US), orienta a priorização (MoSCoW + ICE) e dá origem ao Backlog do Produto e ao MVP. Ver o mapeamento consolidado em `Backlog de Produto`.
+- **User Story Mapping (USM) — método transversal:** o USM é aplicado de forma contínua e transversal em todo o processo de ER, não apenas na análise e consenso. Ele organiza a jornada por objetivos, atividades, passos e histórias (US), orienta a priorização (MoSCoW + ICE) e dá origem ao Backlog do Produto e ao MVP.
 
 - **Priorização MoSCoW:** será empregada para classificar os requisitos em *Must, Should, Could e Won’t*, auxiliando na definição das funcionalidades que deverão ser implementadas nos primeiros protótipos e das que poderão ser postergadas.
 
@@ -19,7 +19,7 @@
 ---
 
 ### **4.1.3 — Declaração de Requisitos** {#declaracao-de-requisitos}
-- **User Story:** os requisitos serão descritos no formato de histórias do usuário, por exemplo: “Eu, como cliente, quero poder pagar por pix adiantado o serviço.” Essa forma de documentação tornará a comunicação mais clara e centrada no valor para o usuário.
+- **User Story:** os requisitos serão descritos no formato de histórias do usuário, por exemplo: “Eu, como cliente, quero poder pagar por pix adiantado o serviço.” Essa forma de documentação tornará a comunicação mais clara e centrada no valor para o usuário. As histórias são derivadas e organizadas pelo **USM**, garantindo rastreabilidade entre objetivos, atividades, passos e US.
 
 ---
 
@@ -32,6 +32,8 @@
   https://www.figma.com/design/G5HVjXRLeve1BeBBazx2S8/WaveOn---UI-UX-Design?node-id=0-1&t=1De0YUykvUV4vG3U-1
   
   Esses protótipos aproximam a experiência do usuário da versão final do sistema, possibilitando testes realistas e validação mais precisa junto ao cliente da VB.
+
+  As representações (mapa mental, mockups e protótipos) são orientadas pelo **USM** para preservar o fluxo da jornada e a priorização acordada.
 
 ---
 
@@ -46,6 +48,8 @@
 
 - **Feedback do Cliente:** será coletado continuamente durante as validações dos protótipos e incrementos entregues, permitindo ajustes rápidos e validação constante dos requisitos.
 
+  A verificação e validação consideram as **histórias mapeadas pelo USM** e seus critérios de aceitação, assegurando que o fluxo de valor (objetivos→atividades→passos→US) esteja coberto e rastreado.
+
 ---
 
 ### **4.1.6 — Organização e Atualização de Requisitos** {#organizacao-e-atualizacao-de-requisitos}
@@ -56,20 +60,20 @@
 ## **4.2 Engenharia de Requisitos e o RAD** 🏗️
 
 Cada ciclo do RAD será composto pelas quatro fases principais: **Planejamento de Requisitos**, **Design do Usuário**, **Construção** e **Transição/Implementação**.  
-O processo se repetirá até que o sistema esteja completo, com entregas incrementais a cada ciclo.  O [Cronograma de Entregas](https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/cronograma_entregas/) estutura a organização e quantidade de ciclos necessários para garantir a entrega do MVP.
+O processo se repetirá até que o sistema esteja completo, com entregas incrementais a cada ciclo.  O [Cronograma de Entregas](https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/visao_produto/cronograma_entregas/) estrutura a organização e quantidade de ciclos necessários para garantir a entrega do MVP.
 
 Fases do Processo RAD    | Atividades ER | Prática | Técnica | Resultado Esperado
 -------- | ------ | --------- | ----- | ---------
-**Planejamento de Requisitos** | [Elicitação e Descoberta](#elicitacao-e-descoberta) | Levantamento de requisitos | Entrevistas com Stakeholders, Brainstorming| Entedimento de problemas, identificação de funcionalidades e lista de necessidades |
- | [Análise e Consenso](#analise-e-consenso) | Priorização dos Requisitos | USM (transversal), Priorização MoSCoW, Priorização ICE | Escopo e funcionalidades essenciais definidos e priorizados pelo USM + critérios. | 
+**Planejamento de Requisitos** | [Elicitação e Descoberta](#elicitacao-e-descoberta) | Levantamento de requisitos | Entrevistas com Stakeholders, Brainstorming| Entendimento de problemas, identificação de funcionalidades e lista de necessidades |
+ | [Análise e Consenso](#analise-e-consenso) | Priorização dos Requisitos | USM (método transversal; ver 4.1.2), Priorização MoSCoW, Priorização ICE | Escopo e funcionalidades essenciais definidos e priorizados pelo USM + critérios. | 
 | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Validação de Requisitos | Checklist de Verificação e Validação, DoR | Confirmação de que requisito entrega valor |
  | [Declaração](#declaracao-de-requisitos) | Registro dos requisitos | User Story | Histórias de usuário detalhando funcionalidades mapeadas no USM. |
   | [Organização e Atualização](#organizacao-e-atualizacao-de-requisitos) | Organização dos requisitos implementados ou atrasados | Backlog do Produto (derivado do USM) | Backlog atualizado e rastreado ao USM |
 **Design de Usuário** | [Representação de Requisitos](#representacao-de-requisitos) | Prototipagem | Mapa Mental, Mockups, Protótipos de Alta Fidelidade | Ciclo iterativo de prototipagem, teste e refinamento.|
- | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Validação de Requisitos | Revisão Informal ou Formal, Feedback do Cliente | Ravisão formal do Designer com os Desenvolvedores e validação de prototipagem com o cliente. |
+ | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Validação de Requisitos | Revisão Informal ou Formal, Feedback do Cliente | Revisão formal do Designer com os Desenvolvedores e validação de prototipagem com o cliente. |
 **Construção** | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Verificação de implementação | Critérios de aceitação, Revisão informal ou formal, DoD | Confirmação de que entrega atende requisito | 
 **Transição/Implementação** | [Verificação e Validação](#verificacao-e-validacao-de-requisitos) | Apresentação ao cliente dos incrementos desenvolvidos ao longo do Ciclo. | Feedback do Cliente. | Funcionalidades avaliadas com base no retorno dos clientes. |
- | [Organização e Atualização](#organizacao-e-atualizacao-de-requisitos) | Organização dos requisitos implementados ou atrasados | Backlog de requisitos | Backlog atualizado |
+ | [Organização e Atualização](#organizacao-e-atualizacao-de-requisitos) | Organização dos itens de backlog (US/épicos) implementados ou replanejados | Backlog do Produto (derivado do USM) | Backlog atualizado e rastreado ao USM |
 
 ---
 
