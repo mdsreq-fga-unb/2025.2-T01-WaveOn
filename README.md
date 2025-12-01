@@ -36,7 +36,7 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
     </td>
     <td align="center">
       <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/anna_clara.jpg" width="150" style="border-radius:50%;" /><br>
-      <b>Anna Clara Cardoso</b>
+      <b>Anna Clara Brandão</b>
     </td>
   </tr>
 </table>
