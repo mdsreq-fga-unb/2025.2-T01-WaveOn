@@ -46,6 +46,14 @@ web, com funcionalidades que atendem diretamente aos objetivos definidos:
 
 ## 2.3 **Tecnologias a Serem Utilizadas** 💻
 
+As tecnologias utilizadas durante  o desenvolvimento do produto, são:
+
+- NestJS: para o Front-end;
+- Next.js: para o Back-end;
+- PostgreSQL: para o banco de dados;
+- Miro: para USM;
+- Discord: para reuniões entre a equipe.
+
 ---
 
 ## 2.4 **Pesquisa de mercado e Análise competitiva** 💰
@@ -76,7 +84,7 @@ A solução da VB irá se diferenciar por:
 ## **2.5 Análise de Viabilidade** 🔎
 
 A viabilidade técnica do projeto é **alta**, pois a equipe tem experiência comprovada em
-tecnologias modernas e escaláveis como **React Native**, **React.js**, **Node.js** e **MongoDB**.
+tecnologias modernas e escaláveis como **NestJS**, **Next.js** e **PostgreSQL**.
 A comunicação entre os sistemas será feita por meio de **APIs RESTful**, garantindo uma
 integração eficiente.
 
@@ -125,7 +133,7 @@ operações quanto os resultados do negócio:
 
 ---
 
-## **Hisórico de Versão** 🔄
+## **Histórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

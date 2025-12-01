@@ -3,7 +3,7 @@
 ## 3.1 **Estratégia Priorizada** 📕
 
 - **Abordagem:** Ágil
-- **Ciclo de Vida:** Interativo Incremental
+- **Ciclo de Vida:** Iterativo Incremental
 - **Processo:** RAD
 
 ---
@@ -39,7 +39,7 @@ Dessa forma, a adoção do **RAD** como processo, com seu enfoque em protótipos
 
 ---
 
-## **Hisórico de Versão** 🔄
+## **Histórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

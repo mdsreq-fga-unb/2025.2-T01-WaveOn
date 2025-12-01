@@ -48,7 +48,7 @@ Com uma interface intuitiva e acessível, o projeto busca unir **inovação, pra
   </div>
 
   <div class="membro">
-    <img src="img/anna_clara.jpg" alt="Anna Clara Cardoso" class="equipe">
-    <span class="equipe-nome">Anna Clara Cardoso</span>
+    <img src="img/anna_clara.jpg" alt="Anna Clara Brandão" class="equipe">
+    <span class="equipe-nome">Anna Clara Brandão</span>
   </div>
 </div>
