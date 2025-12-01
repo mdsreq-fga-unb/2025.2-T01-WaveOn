@@ -48,8 +48,8 @@ web, com funcionalidades que atendem diretamente aos objetivos definidos:
 
 As tecnologias utilizadas durante  o desenvolvimento do produto, são:
 
-- NestJS: para o Front-end;
-- Next.js: para o Back-end;
+- Next.js: para o Front-end;
+- NestJS: para o Back-end;
 - PostgreSQL: para o banco de dados;
 - Miro: para USM;
 - Discord: para reuniões entre a equipe.
@@ -116,7 +116,7 @@ operações quanto os resultados do negócio:
     otimização da logística permitirão atender mais clientes em menos tempo, reduzindo
     deslocamentos desnecessários e desperdícios de recursos.
 
-!!! info ""Experiência de Cliente Simplificada""
+!!! info "Experiência de Cliente Simplificada"
     Um fluxo de contratação rápido, aliado a
     múltiplas opções de pagamento, proporcionará praticidade, melhorando a jornada
     de compra e reduzindo barreiras de contratação.
@@ -137,8 +137,9 @@ operações quanto os resultados do negócio:
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
-|            |        |                                                   |                  |                 |
-|            |        |                                                   |                  |                 |
+| 01/12/2025 | 1.0    | Criação do documento                              | Bernardo Watanabe| Bernardo Watanabe; Bernardo Broetto; Douglas Wilson; Eduardo Ribeiro; Guilherme Negreiros; Anna Clara Brandão |
+| 01/12/2025 | 1.1    | Revisão final pré-entrega                         | Bernardo Watanabe| Anna Brandão    |
+| 01/12/2025 | 1.2    | Correção tecnológica (Next.js Front-end; NestJS Back-end) e ajuste de título com aspas | Bernardo Watanabe| Anna Brandão    |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |

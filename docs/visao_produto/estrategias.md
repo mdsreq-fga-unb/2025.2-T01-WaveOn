@@ -43,8 +43,8 @@ Dessa forma, a adoção do **RAD** como processo, com seu enfoque em protótipos
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
-|            |        |                                                   |                  |                 |
-|            |        |                                                   |                  |                 |
+| 01/12/2025 | 1.0    | Criação do documento                              | Bernardo Watanabe| Bernardo Watanabe; Bernardo Broetto; Douglas Wilson; Eduardo Ribeiro; Guilherme Negreiros; Anna Clara Brandão |
+| 01/12/2025 | 1.1    | Revisão final pré-entrega                         | Bernardo Watanabe| Anna Brandão    |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |

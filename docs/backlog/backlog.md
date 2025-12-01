@@ -48,13 +48,13 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
 | Código | Feature Associada | Requisito Funcional Relacionado | Declaração |
 |--------|-------------------|---------------------------------|------------|
 | <a id="us-c01"></a>US-C01 | F01 | RF-C01 | Como cliente, quero visualizar os serviços de lavagem, suas características para poder escolher a melhor opção e ver os preços das lavagens disponíveis para escolher o melhor preço. |
-| <a id="us-c02"></a>US-C02 | F04 | RF-C02 | Como cliente, quero acesso a telefones e Instagram da empresa para uma comunicação mais direta. |
-| <a id="us-c03"></a>US-C03 | F02 | RF-C03 | Como cliente, quero um calendário em que eu possa selecionar os dias para marcar uma lavagem. |
+| <a id="us-c02"></a>US-C02 | F04 | — | Como cliente, quero acesso a telefones e Instagram da empresa para uma comunicação mais direta. |
+| <a id="us-c03"></a>US-C03 | F02 | RF-C02 | Como cliente, quero um calendário em que eu possa selecionar os dias para marcar uma lavagem. |
 | <a id="us-c04"></a>US-C04 | F02 | RF-C04 | Como cliente, quero poder entrar nos meus agendamentos com um cadastro simples e rápido de usuário e senha. |
-| <a id="us-c05"></a>US-C05 | F02 | RF-C05 | Como cliente, quero poder visualizar e gerenciar meus agendamentos. |
+| <a id="us-c05"></a>US-C05 | F02 | RF-C08 | Como cliente, quero poder visualizar e gerenciar meus agendamentos. |
 | <a id="us-c06"></a>US-C06 | F03 | RF-C06 | Como cliente, quero pagar por PIX adiantado o serviço. |
 | <a id="us-c07"></a>US-C07 | F02 | RF-C07 | Como cliente, quero cancelar meu agendamento caso eu não precise mais da lavagem. |
-| <a id="us-c08"></a>US-C08 | F05 | RF-C08 | Como cliente, quero ver informações de quanto tempo demora a lavagem e quais produtos são usados. |
+| <a id="us-c08"></a>US-C08 | F05 | RF-C01 | Como cliente, quero ver informações de quanto tempo demora a lavagem e quais produtos são usados. |
 
 ---
 
@@ -67,11 +67,11 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
 | <a id="us-a03"></a>US-A03 | F06 | RF-A03 | Como dono, quero ter uma visão da agenda diária e semanal para organizar os serviços. |
 | <a id="us-a04"></a>US-A04 | F06 | RF-A04 | Como dono, quero ver os dados dos clientes como número de celular e endereço para contato e logística. |
 | <a id="us-a05"></a>US-A05 | F01 | RF-A05 | Como dono, quero gerenciar os serviços (cadastrar, editar e inativar), preços e duração. |
-| <a id="us-a06"></a>US-A06 | F05 | RF-A06 | Como dono, quero poder adicionar observações e informações adicionais aos clientes e agendamentos. |
+| <a id="us-a06"></a>US-A06 | F05 | RF-A07 | Como dono, quero poder adicionar observações e informações adicionais aos clientes e agendamentos. |
 | <a id="us-a07"></a>US-A07 | F06 | RF-A08 | Como dono, quero gerar relatórios de lavagens feitas por período e valores recebidos. |
 
 ### **9.1.3 — Lista de requisitos não-funcionais**
-  - **RNF-U01**: A interface do usuário deve ser intuitiva, seguindo um design moderno com as cores temáticas branco e azul. O processo de agendamento deve ser concluído em no máximo 3 cliques.  
+  - **RNF-U01**: A interface do usuário deve ser intuitiva, seguindo um design moderno com as cores do guia de estilo (azul #08A4BD, preto #000000 e branco #ffffffff). O processo de agendamento deve ser concluído em no máximo 3 cliques.  
   - **RNF-U02**: A interface administrativa deve ser simples e direta, adequada para usuários sem grande experiência técnica.  
   - **RNF-D01**: O tempo de resposta do sistema para qualquer ação do usuário (como carregar uma página ou confirmar um agendamento) deve ser inferior a 3 segundos em condições normais.  
   - **RNF-C01**: O sistema deve garantir uma disponibilidade (uptime) superior a 99.5%, permitindo agendamentos 24 horas por dia, 7 dias por semana.  
@@ -136,9 +136,9 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 
 | **Nome (US Sugerida)** | **Requisito Associado** | **MoSCoW** | **ICE Score** | **Quadrante** |
 |:---|:---|:---|:---|:---|
-| US-C03 – Selecionar dias de lavagem (calendário) | RF-C03 | Must | 720 | I |
+| US-C03 – Selecionar dias de lavagem (calendário) | RF-C02 | Must | 720 | I |
 | RNF-P01 – Aplicação web responsiva | RNF-P01 | Must | 648 | I |
-| US-C05 – Gerenciar agendamentos | RF-C05 | Must | 630 | I |
+| US-C05 – Gerenciar agendamentos | RF-C08 | Must | 630 | I |
 | US-C01 – Visualizar serviços e preços | RF-C01 | Must | 576 | II |
 | RNF-U01 – Interface intuitiva e moderna | RNF-U01 | Should | 576 | II |
 | RNF-D01 – Tempo de resposta < 3 segundos | RNF-D01 | Must | 567 | II |
@@ -153,10 +153,10 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 | US-A03 – Visualizar agenda diária e semanal | RF-A03 | Should | 448 | III |
 | US-A04 – Visualizar dados dos clientes | RF-A04 | Should | 448 | III |
 | US-C07 – Cancelar agendamento | RF-C07 | Should | 448 | III |
-| US-C02 – Acessar contatos e redes sociais | RF-C02 | Could | 405 | III |
+| US-C02 – Acessar contatos e redes sociais | — | Could | 405 | III |
 | RNF-M01 – Código modular e documentado | RNF-M01 | Should | 392 | III |
 | RNF-C01 – Disponibilidade 99.5% (24/7) | RNF-C01 | Should | 384 | III |
-| US-C08 – Ver tempo e produtos usados | RF-C08 | Could | 384 | III |
+| US-C08 – Ver tempo e produtos usados | RF-C01 | Could | 384 | III |
 | US-A07 – Gerar relatórios de lavagens e valores | RF-A08 | Should | 336 | IV |
 | US-A06 – Adicionar observações aos agendamentos | RF-A07 | Could | 280 | IV |
 | RNF-SU01 – Logging e notificação de falhas | RNF-SU01 | Could | 240 | IV |
@@ -197,7 +197,7 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 
 A matriz de esforço e impacto será utilizada como apoio na definição das prioridades das histórias de usuário que compõem o MVP. Para isso, essa ferramenta é estruturada em dois eixos: o eixo vertical representa o impacto, ou seja, o valor de negócio que cada funcionalidade pode gerar; enquanto o eixo horizontal representa o esforço, que corresponde à complexidade e aos recursos necessários para sua implementação.
 
-### **9.2.1 — Gráfico de Quadrantes**
+### **9.2.2 — Gráfico de Quadrantes**
 A combinação desses dois critérios(**MoSCoW** e **ICE**) permite visualizar com clareza quais funcionalidades devem ser priorizadas. A seguir, estão descritos os quatro quadrantes da matriz através de sua relação com o MVP:
 
 | Faixa ICE | Quadrante | Interpretação                          | MoSCoW típico  |
@@ -216,7 +216,7 @@ A combinação desses dois critérios(**MoSCoW** e **ICE**) permite visualizar c
   allowfullscreen>
 </iframe>
 
-### **9.2.2 — Correlação entre Objetivos e MVP**
+### **9.2.3 — Correlação entre Objetivos e MVP**
 
 O MVP foi desenhado para endereçar os **três Objetivos Específicos mais críticos (OE1, OE3 e OE4)**, que representam o valor fundamental e a eficiência operacional imediata para a empresa VB. O escopo foi rigorosamente focado em construir a **jornada completa de contratação e serviço**, garantindo:
 
@@ -228,21 +228,20 @@ Este foco estratégico permite à VB validar a eficiência e usabilidade do prod
 
 | Objetivo Específico | Feature (F) | Requisito Funcional (RF) | User Story (US) Inclusa no MVP |
 | :--- | :--- | :--- | :--- |
-| **OE1** - Otimizar a gestão e logística de agendamentos. | F06 | RF-A02 | **US-A02** (Visualizar agenda Admin) |
-| | F06 | RF-A04 | **US-A04** (Visualizar dados e endereço do Cliente) |
-| | F07 | RF-A02 | **US-A06** (Regras de intervalo e limite da agenda) |
-| | F02 | RF-C03 | **US-C04** (Acessar calendário para agendar) |
+| **OE1** - Otimizar a gestão e logística de agendamentos. | F06 | RF-A02 | **US-A02** (Gerenciar agendamentos e restrições) |
+| | F06 | RF-A03 | **US-A03** (Visualizar agenda Admin) |
+| | F07 | RF-A02 | **US-A02** (Regras de intervalo e limite da agenda) |
+| | F02 | RF-C02 | **US-C03** (Acessar calendário para agendar) |
 | **OE2** - Simplificar a comunicação e status do serviço. | N/A | N/A | **Nenhuma US Funcional Direta** [O objetivo será endereçado em fases futuras, após o MVP, com a implementação de notificações de status (US Should Have/Could Have).] |
-| **OE3** - Acelerar e desburocratizar a contratação. | F01 | RF-C01 | **US-C01** (Visualizar serviços) |
-| | F01 | RF-C01 | **US-C02** (Visualizar preços) |
-| | F03 | RF-C06 | **US-C07** (Realizar pagamento PIX) |
-| | F02 | RF-C07 | **US-C08** (Cancelar agendamento) |
-| **OE4** - Melhorar a tomada de decisão com dados em tempo real. | F06 | RF-A08 | **US-A08** (Visualizar relatórios básicos) |
-| | F06 | RF-A02 | **US-A02** (Visualizar agenda Admin) |
+| **OE3** - Acelerar e desburocratizar a contratação. | F01 | RF-C01 | **US-C01** (Visualizar serviços e preços) |
+| | F03 | RF-C06 | **US-C06** (Realizar pagamento PIX) |
+| | F02 | RF-C07 | **US-C07** (Cancelar agendamento) |
+| **OE4** - Melhorar a tomada de decisão com dados em tempo real. | F06 | RF-A03 | **US-A03** (Visualizar agenda Admin) |
+| | F06 | RF-A02 | **US-A02** (Gerenciar agendamentos e restrições) |
 
 ## **9.3 MVP**
 
-O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requisitos funcionais considerados essenciais para validar a proposta de valor junto ao cliente VB e seus usuários finais. A seleção dos itens priorizou as funcionalidades Must Have, indispensáveis para o funcionamento básico do sistema.
+O MVP (Produto Mínimo Viável) do sistema WaveON foi definido com base nos requisitos funcionais considerados essenciais para validar a proposta de valor junto ao cliente VB e seus usuários finais. A seleção dos itens priorizou as funcionalidades Must Have e alguns Should essenciais, indispensáveis para o funcionamento básico do sistema.
 
 O foco foi garantir que o cliente da VB tenha uma jornada simples e funcional para visualizar os serviços, realizar agendamentos e efetuar pagamentos, enquanto o dono da VB possa gerenciar os agendamentos, clientes e relatórios de maneira segura e organizada. Dessa forma, o MVP permitirá validar rapidamente se a solução atende às expectativas de eficiência e usabilidade, possibilitando iterações futuras para evolução do produto.
 
@@ -253,7 +252,7 @@ O foco foi garantir que o cliente da VB tenha uma jornada simples e funcional pa
 | US-A01 (Login Admin) | RF-A01 |
 | US-C03 (Selecionar Dias/Agendamento) | RF-C02 |
 | US-C06 (Pagamento PIX) | RF-C06 |
-| US-A03 (Gestão Agenda Admin) | RF-A03 |
+| US-A03 (Visualizar Agenda Admin) | RF-A03 |
 | RNF-U01 (RNF Usabilidade) | RNF-U01 |
 | RNF-P01 (RNF Responsividade) | RNF-P01 |
 | RF-C03 (Cadastro Cliente) | RF-C03 |

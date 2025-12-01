@@ -9,7 +9,7 @@
 | Gerente do Produto              | Coordena o projeto, garante a comunicação entre cliente e equipe, controla prazos e entregas. | Bernardo Watanabe   | -             |
 | Desenvolvedor Front-End Web          | Responsável pela interface do usuário, design e implementação das funcionalidades no lado do cliente. | Eduardo Ribeiro   | Toda a equipe |
 | Desenvolvedor Back-End Web           | Implementa a lógica de negócios, gerenciar o banco de dados e integrar APIs.                     | Bernardo Watanabe e Guilherme Negreiros   | Toda a equipe |
-| Designer de Interface de Usuário (UI) | Desenvolve a aparência visual do software.                                               | Guilerme Negreiros   | Toda a equipe |
+| Designer de Interface de Usuário (UI) | Desenvolve a aparência visual do software.                                               | Guilherme Negreiros   | Toda a equipe |
 | Analista de QA           | Planeja e executa casos de teste, realiza a verificação e validação dos resultados e analisa a cobertura de testes da aplicação | -  | - |
 | Analista de Requisitos           | Define os requisitos funcionais e não funcionais do sistema e garante que eles sejam atendidos ao longo do desenvolvimento. | Anna Clara  | Toda a equipe |
 
@@ -61,8 +61,9 @@ O processo de validação da solução será realizado em quatro etapas principa
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
-|            |        |                                                   |                  |                 |
-|            |        |                                                   |                  |                 |
+| 01/12/2025 | 1.0    | Criação do documento                              | Bernardo Watanabe| Bernardo Watanabe; Bernardo Broetto; Douglas Wilson; Eduardo Ribeiro; Guilherme Negreiros; Anna Clara Brandão |
+| 01/12/2025 | 1.1    | Revisão final pré-entrega                         | Bernardo Watanabe| Anna Brandão    |
+| 01/12/2025 | 1.2    | Correção de grafia do nome (Guilherme)            | Bernardo Watanabe| Anna Brandão    |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
