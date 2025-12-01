@@ -30,7 +30,22 @@
 
 [Assistir no YouTube](https://www.youtube.com/watch?v=UmF2fQpwBJA)
 
-## 3. Atividades da Unidade 2 (Miro)
+## 3. Feedback do Cliente – Unidade 3
+
+<iframe 
+    width="100%" 
+    height="400" 
+    src="https://www.youtube.com/embed/6SvbSMZRuGI?si=44f9YDeRtpgbsVTj" 
+    title="Feedback do Cliente – Unidade 3" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    loading="lazy" 
+    allowfullscreen>
+</iframe>
+
+[Assistir no YouTube](https://www.youtube.com/watch?v=6SvbSMZRuGI)
+
+## 4. Atividades da Unidade 3 (Miro)
 
 As atividades abaixo estão publicadas em quadros Miro com acesso por link. Caso o embed peça autenticação, use o link direto abaixo de cada visualização.
 
