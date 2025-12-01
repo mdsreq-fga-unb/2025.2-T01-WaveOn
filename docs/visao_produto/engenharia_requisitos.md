@@ -73,7 +73,7 @@ Fases do Processo RAD    | Atividades ER | Prática | Técnica | Resultado Esper
 
 ---
 
-## **Hisórico de Versão** 🔄
+## **Histórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

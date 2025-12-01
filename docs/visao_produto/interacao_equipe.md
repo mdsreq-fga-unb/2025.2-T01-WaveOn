@@ -57,7 +57,7 @@ O processo de validação da solução será realizado em quatro etapas principa
 
 ---
 
-## **Hisórico de Versão** 🔄
+## **Histórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

@@ -31,7 +31,7 @@ A logística de deslocamento é outro obstáculo importante: uma dificuldade aca
 
 ---
 
-### **1.2.1 — Gráfico de Ishikawa** 📊
+### **1.2.1 — Diagrama de Ishikawa** 📊
 A figura a seguir apresenta o Diagrama de Ishikawa sobre o problema enfretado pela *VB*:
 ![Grafico de ishikawa](../img/Ishikawa.jpg)
 
@@ -41,8 +41,6 @@ A figura a seguir apresenta o Diagrama de Ishikawa sobre o problema enfretado pe
 A empresa VB enfrenta uma série de desafios que se estendem para além da simples
 operação de seus serviços. Entre os principais problemas, destaca-se a necessidade de uma
 constante visualização e análise dos dados de serviço e das informações dos clientes. 
-
----
 
 A falta de um sistema adequado para acompanhar essas métricas e priorizar atendimentos
 pode gerar ineficiência, especialmente em um cenário onde a quantidade de pedidos é alta
@@ -81,7 +79,7 @@ busca contínua por eficiência operacional.
 
 ---
 
-## **Hisórico de Versão** 🔄
+## **Histórico de Versão** 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|

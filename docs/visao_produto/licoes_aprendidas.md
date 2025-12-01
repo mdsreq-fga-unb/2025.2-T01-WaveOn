@@ -46,7 +46,7 @@ A interação inicial com o cliente foi menos frequente do que o ideal, levando 
 
 ## 10.2 **Unidade** 2️⃣
 
-## Hisórico de Versão 🔄
+## Histórico de Versão 🔄
 
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
