@@ -75,7 +75,6 @@ Assim, o backlog do WaveON não foi apenas uma lista de funcionalidades, mas um 
   - **RNF-U02**: A interface administrativa deve ser simples e direta, adequada para usuários sem grande experiência técnica.  
   - **RNF-D01**: O tempo de resposta do sistema para qualquer ação do usuário (como carregar uma página ou confirmar um agendamento) deve ser inferior a 3 segundos em condições normais.  
   - **RNF-C01**: O sistema deve garantir uma disponibilidade (uptime) superior a 99.5%, permitindo agendamentos 24 horas por dia, 7 dias por semana.  
-  - **RNF-P01**: O sistema deve ser uma aplicação web responsiva, funcionando de maneira otimizada e consistente em dispositivos desktop (computadores) e móveis (smartphones e tablets).  
   - **RNF-C02**: A aplicação deve ser compatível com as últimas três versões dos navegadores Google Chrome, Mozilla Firefox, Microsoft Edge e Opera.  
   - **RNF-S01**: O sistema deve ser imune a vulnerabilidades comuns como SQL Injection e XSS (Cross-Site Scripting).  
   - **RNF-S02**: Todos os dados sensíveis dos clientes (pessoais e de pagamento) devem ser criptografados. O sistema deve estar em conformidade com a LGPD (Lei Geral de Proteção de Dados).  
@@ -137,7 +136,6 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 | **Nome (US Sugerida)** | **Requisito Associado** | **MoSCoW** | **ICE Score** | **Quadrante** |
 |:---|:---|:---|:---|:---|
 | US-C03 – Selecionar dias de lavagem (calendário) | RF-C02 | Must | 720 | I |
-| RNF-P01 – Aplicação web responsiva | RNF-P01 | Must | 648 | I |
 | US-C05 – Gerenciar agendamentos | RF-C08 | Must | 630 | I |
 | US-C01 – Visualizar serviços e preços | RF-C01 | Must | 576 | II |
 | RNF-U01 – Interface intuitiva e moderna | RNF-U01 | Should | 576 | II |
@@ -169,7 +167,6 @@ Portanto, a tabela a seguir apresenta os requisitos devidamente priorizados.
 | **US** | **Impacto** | **Confiança** | **Facilidade** | **ICE Score** |
 |---------|--------------|----------------|----------------|----------------|
 | **US-C03 – Selecionar dias de lavagem (calendário)** | 10 | 9 | 8 | 720 |
-| **RNF-P01 – Aplicação web responsiva** | 9 | 9 | 8 | 648 |
 | **US-C05 – Gerenciar agendamentos** | 10 | 9 | 7 | 630 |
 | **US-C01 – Visualizar serviços e preços** | 9 | 8 | 8 | 576 |
 | **RNF-U01 – Interface intuitiva e moderna** | 8 | 9 | 8 | 576 |
@@ -254,7 +251,6 @@ O foco foi garantir que o cliente da VB tenha uma jornada simples e funcional pa
 | US-C06 (Pagamento PIX) | RF-C06 |
 | US-A03 (Visualizar Agenda Admin) | RF-A03 |
 | RNF-U01 (RNF Usabilidade) | RNF-U01 |
-| RNF-P01 (RNF Responsividade) | RNF-P01 |
 | RF-C03 (Cadastro Cliente) | RF-C03 |
 | RNF-S02 (RNF Segurança/LGPD) | RNF-S02 |
 | US-A05 (Gestão Serviços) | RF-A05 |
