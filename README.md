@@ -3,6 +3,11 @@
 ## Sobre o Projeto
 WaveON é um sistema de gestão e cadastro para serviços de lavagem de carros a domicílio, focado em oferecer a melhor experiência tanto para os clientes quanto para os prestadores de serviço.
 
+## Código, Commits, PRs e Deploy
+Foi usada uma organização do próprio GitHub para elaboração do projeto para facilidade de teste, implementação e desenvolvimento. Essa Organização está disponível para visualização dos repositórios Web-Frontend e Web-Backend em: [WaveON-Produto](https://github.com/WaveOn-Produto) e os repositórios para visualização de código, PRs e Commits de cada repositório em: [Web-Backend](https://github.com/WaveOn-Produto/web-backend) e [Web-Frontend](https://github.com/WaveOn-Produto/web-frontend)
+
+O deploy está disponível em: [VBLavagens](https://web-frontend-five-red.vercel.app/), foi usado Vercel e Railway para Frontend e Backend, respectivamente.
+
 ## Documentação
 A documentação completa do projeto está disponível em: [WaveON Docs](https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn)
 
@@ -36,7 +41,7 @@ A documentação completa do projeto está disponível em: [WaveON Docs](https:/
     </td>
     <td align="center">
       <img src="https://mdsreq-fga-unb.github.io/2025.2-T01-WaveOn/img/anna_clara.jpg" width="150" style="border-radius:50%;" /><br>
-      <b>Anna Clara Brandão</b>
+      <b>Anna Clara Cardoso</b>
     </td>
   </tr>
 </table>
@@ -54,18 +59,15 @@ Antes de abrir uma contribuição, consulte esses guias para garantir consistên
 
 1. **Fork** este repositório para a sua conta.  
 2. **Clone** o fork localmente:  
-  ```bash
-  git clone https://github.com/seu-usuario/2025.2-T01-WaveOn.git
-  ```
+   ```bash
+   git clone https://github.com/seu-usuario/2025.2-T01-WaveOn.git
 3. Crie uma **branch** descritiva para sua contribuição:  
-  ```bash
-  git checkout -b minha-feature
-  ```
+   ```bash
+   git checkout -b minha-feature
 4. Faça suas alterações seguindo as boas práticas de commits.  
 5. **Push** da sua branch para o seu fork:  
-  ```bash
-  git push origin minha-feature
-  ```
+   ```bash
+   git push origin minha-feature
 6. Abra um **Pull Request** para a branch adequada do repositório principal.
 
 7. Aguarde a revisão e feedback do time ✨.
