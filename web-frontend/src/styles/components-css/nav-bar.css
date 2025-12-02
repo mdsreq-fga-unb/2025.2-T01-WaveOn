@@ -1,0 +1,167 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  min-height: 80px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header.logo-only {
+  justify-content: center;
+  background: linear-gradient(90deg, #3a94e7 0%, #1f66a6 100%);
+  padding: 1.5rem 0;
+  width: 100%;
+}
+
+.header.logged {
+  background-color: #ffffff;
+}
+
+.header.logged .nav-links a {
+  color: #333;
+}
+
+/* Logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.85;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header.logo-only .logo-img {
+  filter: brightness(0) invert(1);
+}
+
+.logo-text {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navegação */
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Botões de Login / Cadastro (texto) */
+
+.login-btn {
+  padding: 0.6rem 1.5rem;
+  color: #3a94e7;
+  background: #fff;
+  border: 2px solid #3a94e7;
+  text-align: center;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #f0f8ff;
+  transform: translateY(-2px);
+}
+
+.cadastro-btn {
+  padding: 0.6rem 1.5rem;
+  text-align: center;
+  background: #3a94e7;
+  text-decoration: none;
+  color: white !important;
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 2px solid #3a94e7;
+  transition: all 0.3s ease;
+}
+
+.cadastro-btn:hover {
+  background: #1f66a6;
+  border-color: #1f66a6;
+  transform: translateY(-2px);
+}
+
+/* Links de navegação quando logado */
+
+.nav-link,
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-link svg,
+.logout-btn svg {
+  font-size: 1.2rem;
+  color: #3a94e7;
+}
+
+.nav-link:hover,
+.logout-btn:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.logout-btn:hover {
+  background: #fff0f0;
+  color: #ff4757;
+}
+
+.logout-btn:hover svg {
+  color: #ff4757;
+}
+
+/* Link especial para Admin */
+.nav-link.admin-link {
+  background: linear-gradient(135deg, #3a94e7 0%, #1f66a6 100%);
+  color: white;
+  font-weight: 700;
+}
+
+.nav-link.admin-link svg {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.nav-link.admin-link:hover {
+  background: linear-gradient(135deg, #2b7fd9 0%, #185a95 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(58, 148, 231, 0.4);
+}

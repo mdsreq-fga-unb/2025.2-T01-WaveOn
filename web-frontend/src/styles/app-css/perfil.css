@@ -1,0 +1,277 @@
+.perfil-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+}
+
+.perfil-page header {
+  background: #3a94e7 !important;
+}
+
+.perfil-page .logo-text {
+  color: white !important;
+}
+
+.perfil-page .nav-link {
+  color: white !important;
+}
+
+.perfil-page .nav-link svg {
+  color: white !important;
+}
+
+.perfil-page .logout-btn {
+  color: white !important;
+  border-color: white !important;
+}
+
+.perfil-page .logout-btn:hover {
+  background: white !important;
+  color: #3a94e7 !important;
+}
+
+.perfil-page .nav-link:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.perfil-page .nav-link:hover svg {
+  color: white !important;
+}
+
+.perfil-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px 20px 40px 20px;
+}
+
+.perfil-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+}
+
+.perfil-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.perfil-icon {
+  font-size: 4rem;
+  color: #3a94e7;
+  margin-bottom: 16px;
+}
+
+.perfil-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.perfil-section {
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.perfil-section:last-of-type {
+  border-bottom: none;
+}
+
+.perfil-field {
+  margin-bottom: 24px;
+}
+
+.field-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.field-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.field-value {
+  flex: 1;
+  font-size: 1rem;
+  color: #2c3e50;
+  font-family: var(--font-inter), sans-serif;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.field-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #3a94e7;
+  border-radius: 8px;
+  outline: none;
+  font-family: var(--font-inter), sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.field-input:focus {
+  border-color: #1f66a6;
+}
+
+.edit-icon-btn {
+  background: none;
+  border: none;
+  color: #3a94e7;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.edit-icon-btn:hover {
+  background: #f0f0f0;
+  color: #1f66a6;
+}
+
+.dropdown-section {
+  margin-bottom: 24px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dropdown-select {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-family: var(--font-inter), sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.dropdown-select:hover {
+  border-color: #3a94e7;
+}
+
+.dropdown-select:focus {
+  outline: none;
+  border-color: #3a94e7;
+}
+
+.add-icon-btn {
+  width: 44px;
+  height: 44px;
+  background: #3a94e7;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.add-icon-btn:hover {
+  background: #1f66a6;
+  transform: scale(1.1);
+}
+
+.perfil-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.btn-change-password {
+  padding: 12px 32px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-inter), sans-serif;
+  transition: all 0.3s ease;
+}
+
+.btn-change-password:hover {
+  background: #c82333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
+}
+
+.btn-back {
+  padding: 12px 32px;
+  background: #3a94e7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-inter), sans-serif;
+  transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+  background: #1f66a6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(58, 148, 231, 0.3);
+}
+
+.loading-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: #666;
+  font-family: var(--font-inter), sans-serif;
+}
+
+@media (max-width: 768px) {
+  .perfil-card {
+    padding: 24px;
+  }
+
+  .perfil-title {
+    font-size: 1.5rem;
+  }
+
+  .perfil-icon {
+    font-size: 3rem;
+  }
+
+  .perfil-actions {
+    flex-direction: column;
+  }
+
+  .btn-change-password,
+  .btn-back {
+    width: 100%;
+  }
+
+  .field-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .edit-icon-btn {
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,133 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id       String  @id @default(uuid())
+  name     String
+  email    String  @unique
+  password String
+  phone    String?
+  role     Role    @default(USER)
+
+  cars         Car[]
+  addresses    Address[]
+  appointments Appointment[]
+  payments     Payment[]      // <-- ADICIONADO
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Car {
+  id       String @id @default(uuid())
+  name     String
+  plate    String @unique
+  brand    String
+  model    String
+  category String // Pequeno / Médio / Grande
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  // RELAÇÃO INVERSA
+  appointments Appointment[]
+}
+
+model Address {
+  id         String  @id @default(uuid())
+  cep        String
+  street     String
+  number     String
+  complement String?
+  district   String
+  city       String
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  // RELAÇÃO INVERSA
+  appointments Appointment[]
+}
+
+model Appointment {
+  id           String            @id @default(uuid())
+  serviceType  String
+  date         DateTime
+  time         String
+  priceCents   Int
+  status       AppointmentStatus @default(SCHEDULED)
+  observations String?
+
+  userId    String
+  carId     String
+  addressId String
+
+  user    User    @relation(fields: [userId], references: [id])
+  car     Car     @relation(fields: [carId], references: [id])
+  address Address @relation(fields: [addressId], references: [id])
+
+  payment Payment?              // <-- ADICIONADO
+}
+
+model Pricing {
+  id              Int     @id @default(autoincrement())
+  serviceType     String
+  vehicleCategory String
+  priceCents      Int
+
+  @@unique([serviceType, vehicleCategory], name: "serviceType_vehicleCategory")
+}
+
+model BusinessRule {
+  id               Int @id @default(1)
+  minIntervalHours Int @default(4)
+  maxAdvanceDays   Int @default(7)
+}
+
+model Payment {
+  id             String   @id @default(uuid())
+  status         PaymentStatus @default(PENDING)
+  type           PaymentType
+  mercadoPagoId  String?
+  qrCode         String?
+  qrCodeBase64   String?
+  initPoint      String?
+  valueCents     Int
+
+  appointmentId String   @unique
+  appointment   Appointment @relation(fields: [appointmentId], references: [id])
+
+  userId String
+  user   User @relation(fields: [userId], references: [id])
+
+  createdAt DateTime @default(now())
+}
+
+enum AppointmentStatus {
+  SCHEDULED
+  COMPLETED
+  CANCELLED
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum PaymentStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  CANCELLED
+}
+
+enum PaymentType {
+  PIX
+  CARD
+}

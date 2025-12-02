@@ -1,0 +1,143 @@
+/* SEÇÃO SERVIÇOS */
+.services-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.services-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 60px;
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* GRID DOS SERVIÇOS */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+/* CARD DO SERVIÇO */
+.service-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* IMAGEM DO SERVIÇO */
+.service-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 70%;
+}
+
+/* CONTEÚDO DO CARD */
+.service-content {
+  padding: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+}
+
+.service-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+  font-family: var(--font-inter), sans-serif;
+  min-height: 80px;
+}
+
+.service-price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.service-button {
+  background: #348fe2;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--font-inter), sans-serif;
+  width: 100%;
+  max-width: 200px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.service-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(58, 148, 231, 0.3);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 60px 0;
+  }
+
+  .services-container {
+    padding: 0 20px;
+  }
+
+  .services-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .service-card {
+    max-width: 100%;
+  }
+
+  .service-content {
+    padding: 20px;
+  }
+}

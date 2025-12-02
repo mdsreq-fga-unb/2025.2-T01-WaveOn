@@ -1,0 +1,147 @@
+# -----------------------------------------------------------------
+# ARQUIVO DE TESTE DA API
+#
+# COMO USAR (com a extensão REST Client ou Thunder Client):
+# 1. Mude os dados do Teste 1 (Login) para um usuário real.
+# 2. Rode o Teste 1 (clique em 'Send Request').
+#    Isso vai salvar seu token automaticamente na variável {{token}}.
+# 3. Rode os outros testes na ordem.
+#
+# -----------------------------------------------------------------
+
+# Defina a porta do seu servidor aqui
+@host = http://localhost:3001
+
+### ======================================================
+### FASE 1: LOGIN E PREPARAÇÃO
+### ======================================================
+
+### Teste 1: Fazer Login (Obter o Token)
+# Rota: POST /auth/login (Pública)
+# @name loginRequest
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "seu-email-de-teste@gmail.com",
+  "password": "sua-senha-de-teste"
+}
+
+> {%
+# Este script salva o token na variável global 'token'
+client.global.set("token", response.body.access_token);
+%}
+
+### ======================================================
+### FASE 2: TESTAR ROTAS PÚBLICAS (SEM TOKEN)
+### Deve funcionar (200 OK ou 201 Created)
+### ======================================================
+
+### Teste 2: Criar Conta de Usuário
+# Rota: POST /users (Pública)
+POST {{host}}/users
+Content-Type: application/json
+
+{
+  "fullName": "Novo Usuário Teste http",
+  "username": "novouser-http",
+  "email": "novouser-http@example.com",
+  "senha": "password123"
+}
+
+### Teste 3: Listar Produtos
+# Rota: GET /produtos (Pública)
+GET {{host}}/produtos
+
+### Teste 4: Listar Lojas
+# Rota: GET /lojas (Pública)
+GET {{host}}/lojas
+
+### Teste 5: Listar Comentários
+# Rota: GET /comments (Pública)
+GET {{host}}/comments
+
+### Teste 6: Checar Saúde da API
+# Rota: GET /health (Pública)
+GET {{host}}/health
+
+### ======================================================
+### FASE 3: TESTAR ROTAS PROTEGIDAS (SEM TOKEN)
+### Deve FALHAR (401 Unauthorized)
+### ======================================================
+
+### Teste 7: Listar Usuários (Protegida)
+# Rota: GET /users
+GET {{host}}/users
+
+### Teste 8: Criar Produto (Protegida)
+# Rota: POST /produtos
+POST {{host}}/produtos
+Content-Type: application/json
+
+{ "nome": "Produto Falha", "preco": 10, "lojaId": 1 }
+
+### Teste 9: Criar Loja (Protegida)
+# Rota: POST /lojas
+POST {{host}}/lojas
+Content-Type: application/json
+
+{ "nome": "Loja Falha", "donoId": 1 }
+
+### Teste 10: Criar Comentário (Protegida)
+# Rota: POST /comments
+# (O DTO pode estar diferente, mas o 401 deve vir antes)
+POST {{host}}/comments
+Content-Type: application/json
+
+{ "content": "Comentário Falha" }
+
+### Teste 11: Ver Perfil "me" (Protegida)
+# Rota: GET /auth/me
+GET {{host}}/auth/me
+
+### ======================================================
+### FASE 4: TESTAR ROTAS PROTEGIDAS (COM TOKEN)
+### Deve funcionar (200 OK ou 201 Created)
+### ======================================================
+
+### Teste 12: Ver Perfil "me" (Pegar o ID do Dono)
+# Rota: GET /auth/me
+GET {{host}}/auth/me
+Authorization: Bearer {{token}}
+#
+# OLHE A RESPOSTA DESTE TESTE!
+# Pegue o número do "sub" (seu ID de usuário) para usar no Teste 13.
+#
+
+### Teste 13: Criar Loja (Autenticado)
+# Rota: POST /lojas
+POST {{host}}/lojas
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "nome": "Minha Loja de Teste (criada via HTTP)",
+  "donoId": 43 # <-- MUDE AQUI para o seu "sub" do Teste 12
+}
+#
+# OLHE A RESPOSTA DESTE TESTE!
+# Pegue o número do "id" da loja criada para usar no Teste 14.
+#
+
+### Teste 14: Criar Produto (Autenticado)
+# Rota: POST /produtos
+POST {{host}}/produtos
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "nome": "Produto para Minha Loja (criado via HTTP)",
+  "preco": 150.75,
+  "lojaId": 1 # <-- MUDE AQUI para o "id" da loja do Teste 13
+}
+
+### Teste 15: Listar Usuários (Autenticado)
+# Rota: GET /users
+GET {{host}}/users
+Authorization: Bearer {{token}}

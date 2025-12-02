@@ -1,0 +1,117 @@
+/* SEÇÃO SOBRE A WAVEON */
+.about-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.about-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #5a6c7d;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* CARACTERÍSTICAS EM GRID */
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-icon {
+  width: 90px;
+  height: 80px;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+}
+
+.feature-icon img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.feature-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #5a6c7d;
+  font-family: var(--font-inter), sans-serif;
+  margin: 0;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 60px 0;
+  }
+
+  .about-container {
+    padding: 0 20px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .about-description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .about-features {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .feature-title {
+    font-size: 1.3rem;
+  }
+
+  .feature-description {
+    font-size: 0.9rem;
+  }
+}

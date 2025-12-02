@@ -1,0 +1,26 @@
+### Teste de Login - Sucesso
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "Usuario@gmail.com",
+  "password": "Senha123@"
+}
+
+### Teste de Login - Senha Incorreta
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "Usuario@gmail.com",
+  "password": "Senha123"
+}
+
+### Teste de Login - Usuário Inexistente
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "Usuario@outlook.com",
+  "password": "Senha123@"
+}
