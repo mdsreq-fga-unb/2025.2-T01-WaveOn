@@ -84,3 +84,33 @@ As atividades abaixo estão publicadas em quadros Miro com acesso por link. Caso
     allowfullscreen>
 </iframe>
 [Abrir no Miro](https://miro.com/app/board/uXjVJkSFcMY=/?share_link_id=595921737642)
+
+## 5. Feedback Final do Cliente
+
+<iframe 
+    width="100%" 
+    height="400" 
+    src="https://www.youtube.com/embed/232kMalLh_g" 
+    title="Feedback Final do Cliente" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    loading="lazy" 
+    allowfullscreen>
+</iframe>
+
+[Assistir no YouTube](https://www.youtube.com/watch?v=232kMalLh_g)
+
+## 6. Vídeo da Apresentação da Unidade 3
+
+<iframe 
+    width="100%" 
+    height="400" 
+    src="https://www.youtube.com/embed/nveL8_UtCRQ" 
+    title="Vídeo Unidade 3" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    loading="lazy" 
+    allowfullscreen>
+</iframe>
+
+[Assistir no YouTube](https://www.youtube.com/watch?v=nveL8_UtCRQ)

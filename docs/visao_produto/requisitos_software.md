@@ -21,14 +21,14 @@ Os requisitos funcionais descrevem as **funcionalidades específicas do sistema*
 
 | ID      | Requisito Funcional                  | Descrição                                                                 |
 |---------|-----------------------------------------|---------------------------------------------------------------------------|
-| RF-C01  | Visualizar Serviços De Diferentes Lavagens | O sistema deve permitir que o cliente visualize todos os serviços de lavagem disponíveis, com suas respectivas descrições, características, produtos utilizados e tempo médio de duração. |
-| RF-C02  | Consultar Disponibilidade Da Lavagem    | O sistema deve disponibilizar um calendário onde o cliente possa visualizar os horários disponíveis para agendamento. |
-| RF-C03  | Cadastrar Usuário no Site              | O sistema deve permitir que o cliente realize um cadastro rápido utilizando e-mail e senha. |
-| RF-C04  | Realizar Login no Site                  | O sistema deve permitir que o cliente faça login com e-mail e senha cadastrados. |
-| RF-C05  | Efetuar Agendamento da Lavagem          | O sistema deve permitir que um cliente logado selecione um serviço, uma data/hora disponível no calendário e efetue o agendamento. |
-| RF-C06  | Pagar via PIX                        | O sistema deve integrar-se com um gateway de pagamento para gerar um QR Code ou código PIX para pagamento antecipado do serviço agendado. O status do agendamento deve ser atualizado para "Pago" após a confirmação. |
-| RF-C07  | Cancelar Agendamento                  | O sistema deve permitir que o cliente cancele um agendamento futuro, desde que respeitadas as políticas de cancelamento. |
-| RF-C08  | Visualizar Agendamentos Realizados      | O sistema deve fornecer uma área logada onde o cliente possa visualizar todos os seus agendamentos. |
+| <a id="rf-c01"></a>RF-C01  | Visualizar Serviços De Diferentes Lavagens | O sistema deve permitir que o cliente visualize todos os serviços de lavagem disponíveis, com suas respectivas descrições, características, produtos utilizados e tempo médio de duração. |
+| <a id="rf-c02"></a>RF-C02  | Consultar Disponibilidade Da Lavagem    | O sistema deve disponibilizar um calendário onde o cliente possa visualizar os horários disponíveis para agendamento. |
+| <a id="rf-c03"></a>RF-C03  | Cadastrar Usuário no Site              | O sistema deve permitir que o cliente realize um cadastro rápido utilizando e-mail e senha. |
+| <a id="rf-c04"></a>RF-C04  | Realizar Login no Site                  | O sistema deve permitir que o cliente faça login com e-mail e senha cadastrados. |
+| <a id="rf-c05"></a>RF-C05  | Efetuar Agendamento da Lavagem          | O sistema deve permitir que um cliente logado selecione um serviço, uma data/hora disponível no calendário e efetue o agendamento. |
+| <a id="rf-c06"></a>RF-C06  | Pagar via PIX                        | O sistema deve integrar-se com um gateway de pagamento para gerar um QR Code ou código PIX para pagamento antecipado do serviço agendado. O status do agendamento deve ser atualizado para "Pago" após a confirmação. |
+| <a id="rf-c07"></a>RF-C07  | Cancelar Agendamento                  | O sistema deve permitir que o cliente cancele um agendamento futuro, desde que respeitadas as políticas de cancelamento. |
+| <a id="rf-c08"></a>RF-C08  | Visualizar Agendamentos Realizados      | O sistema deve fornecer uma área logada onde o cliente possa visualizar todos os seus agendamentos. |
 
 <br>
 
@@ -36,13 +36,13 @@ Os requisitos funcionais descrevem as **funcionalidades específicas do sistema*
 
 | ID      | Requisito Funcional                   | Descrição                                                                 |
 |---------|-----------------------------------------|---------------------------------------------------------------------------|
-| RF-A01  | Realizar Login Administrativo           | O sistema deve fornecer um acesso administrativo seguro para os donos.    |
-| RF-A02  | Gerenciar Agendamentos Pelo Login Admin | O sistema deve permitir que o administrador visualize, edite e cancele agendamentos. |
-| RF-A03  | Visualizar Agenda dos Clientes          | O sistema deve fornecer uma visão da agenda, listando todos os agendamentos. |
-| RF-A04  | Visualizar Perfil do Cliente            | Ao visualizar o perfil, o administrador deve ter acesso aos dados do cliente: nome, telefone, endereço completo. |
-| RF-A05  | Gerenciar Serviços Marcados            | O sistema deve permitir que o administrador cadastre, edite e inative os serviços de lavagem, seus preços, descrições e durações. |
-| RF-A07  | Adicionar Observações no Cadastro do Cliente | O sistema deve permitir que o administrador adicione observações/informações adicionais a um agendamento ou cliente. |
-| RF-A08  | Gerar Relatório de Cliente              | O sistema deve gerar relatório que permita visualizar: quantidade de lavagens realizadas por dia, semana e mês; valor total recebido no período; lista de serviços prestados. |
+| <a id="rf-a01"></a>RF-A01  | Realizar Login Administrativo           | O sistema deve fornecer um acesso administrativo seguro para os donos.    |
+| <a id="rf-a02"></a>RF-A02  | Gerenciar Agendamentos Pelo Login Admin | O sistema deve permitir que o administrador visualize, edite e cancele agendamentos. |
+| <a id="rf-a03"></a>RF-A03  | Visualizar Agenda dos Clientes          | O sistema deve fornecer uma visão da agenda, listando todos os agendamentos. |
+| <a id="rf-a04"></a>RF-A04  | Visualizar Perfil do Cliente            | Ao visualizar o perfil, o administrador deve ter acesso aos dados do cliente: nome, telefone, endereço completo. |
+| <a id="rf-a05"></a>RF-A05  | Gerenciar Serviços Marcados            | O sistema deve permitir que o administrador cadastre, edite e inative os serviços de lavagem, seus preços, descrições e durações. |
+| <a id="rf-a07"></a>RF-A07  | Adicionar Observações no Cadastro do Cliente | O sistema deve permitir que o administrador adicione observações/informações adicionais a um agendamento ou cliente. |
+| <a id="rf-a08"></a>RF-A08  | Gerar Relatório de Cliente              | O sistema deve gerar relatório que permita visualizar: quantidade de lavagens realizadas por dia, semana e mês; valor total recebido no período; lista de serviços prestados. |
 
 ---
 
@@ -56,7 +56,6 @@ Os requisitos não-funcionais definem a **qualidade** e as **restrições do sis
 | Usabilidade (Admin)| RNF-U02                 | A interface administrativa deve permitir que um usuário sem experiência técnica realize as operações principais (cadastrar, listar e editar) em até 4 cliques. A conformidade será validada com teste de usabilidade envolvendo ao menos 3 usuários, atingindo 80% de sucesso. |
 | Desempenho         | RNF-D01                 | O tempo de resposta do sistema para qualquer ação do usuário deve ser inferior a 3 segundos em condições normais de operação. |
 | Confiabilidade     | RNF-C01                 | O sistema deve manter disponibilidade mínima de 99,5%, garantindo acesso ao agendamento 24/7. |
-| Portabilidade      | RNF-P01                 | O sistema deve ser responsivo e manter funcionamento consistente em resoluções entre 360px e 1920px, cobrindo desktop, tablets e smartphones. |
 | Compatibilidade    | RNF-C02                 | A aplicação deve ser compatível com as versões mais recentes dos navegadores Google Chrome (138.0), Mozilla Firefox (143.0), Microsoft Edge (140.0) e Opera (Opera One). |
 | Segurança          | RNF-S01                 | Todas as operações de banco de dados devem utilizar consultas parametrizadas, prevenindo SQL Injection. A verificação será feita mediante análise de código e testes automatizados. |
 | Segurança (Dados)  | RNF-S02                 | Todos os dados sensíveis devem ser criptografados utilizando AES-256 em repouso e TLS 1.2+ em trânsito. O sistema deve possuir mecanismos de consentimento, revisão e exclusão de dados do usuário, atendendo aos requisitos da LGPD. |

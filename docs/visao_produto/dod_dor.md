@@ -21,7 +21,7 @@
 
  - Os fluxos de interação (ex.: telas de login, agendamento, cancelamento, etc.) foram revisados e estão coerentes.
 
- - O design cumpre os RNFs de usabilidade, compatibilidade e responsividade.
+ - O design cumpre os RNFs de usabilidade e compatibilidade.
 
 ### 8.1.3 — **Preparação Técnica**
 
@@ -63,9 +63,9 @@
 
  - A interface cumpre os RNFs de usabilidade (RNF-U01/U02).
 
- - O desempenho cumpre RNF-D01 (resposta ≤ 3 s).
+ - O desempenho cumpre RNF-D01 (resposta < 3 s).
 
- - O sistema segue os RNFs de segurança, portabilidade e compatibilidade (RNF-S01 → RNF-C02).
+ - O sistema segue os RNFs de segurança e compatibilidade (RNF-S01, RNF-C02).
 
  - Dados sensíveis estão criptografados e protegidos conforme a LGPD (RNF-S02).
 
@@ -86,6 +86,7 @@
 | Data       | Versão | Descrição                                         | Autor(es)        | Revisor(es)     |
 |------------|--------|---------------------------------------------------|------------------|-----------------|
 | 26/11/2025 | 1.0    | Correções de tópicos no documento                  | Bernardo Watanabe| Anna Brandão    |
+| 01/12/2025 | 1.1    | Ajuste RNF-D01 (< 3 s) e RNFs citados (S01,P01,C02) | Bernardo Watanabe| Anna Brandão    |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
 |            |        |                                                   |                  |                 |
