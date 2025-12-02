@@ -178,7 +178,7 @@ As imagens abaixo registram a versão final do protótipo/aplicação com telas-
 
 ### 5. Evidências Técnicas
 
-Aqui resumimos, de forma direta, o que foi entregue no código. Destacamos os PRs de frontend e backend que amarram as telas e as regras de negócio. Os links abaixo apontam para as páginas públicas de PRs; conforme houver merges finais, podemos referenciar commits específicos para reforçar a rastreabilidade.
+Aqui resumimos, de forma direta, o que foi entregue no código. Destacamos os PRs de frontend e backend que amarram as telas e as regras de negócio. Os links abaixo apontam para as páginas públicas de PRs; conforme houver merges finais, podemos referenciar commits específicos para reforçar a rastreabilidade. A organização no GitHub está disponível em: [WaveOn-Produto](https://github.com/WaveOn-Produto?view_as=public).
 
 | PR | Escopo Técnico | RF/US Principais Impactados | Próximo Complemento |
 | :-- | :-- | :-- | :-- |
