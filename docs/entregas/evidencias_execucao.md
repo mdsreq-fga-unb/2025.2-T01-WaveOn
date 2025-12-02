@@ -206,7 +206,7 @@ Aqui resumimos, de forma direta, o que foi entregue no código. Destacamos os PR
 ![Painel de Deploy – produção](../img/VercelFrontEnd.png)
 
 !!! tip "Status de produção"
-    Painel mostra última versão em produção (branch `main`) publicada com sucesso, sem eventos de firewall e taxa de erro 0%. Métricas iniciais de requisições de borda e invocações de funções indicam saúde do deploy.
+    Painel mostra última versão em produção (branch `main`) publicada com sucesso, sem eventos de firewall e taxa de erro 0%. Métricas iniciais de requisições de borda e invocações de funções indicam saúde do deploy. A aplicação está acessível em: [web-frontend-five-red.vercel.app](https://web-frontend-five-red.vercel.app/).
 
 <a id="deploy-historico"></a>
 **Histórico de Deploys – Vercel**
