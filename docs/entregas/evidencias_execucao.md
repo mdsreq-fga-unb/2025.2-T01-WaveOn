@@ -175,6 +175,8 @@ As imagens abaixo registram a versão final do protótipo/aplicação com telas-
 | Unidade 1 | Vídeo de apresentação | [Entregas das Unidades](./video_unidades.md) |
 | Unidade 2 | Vídeo de apresentação | [Entregas das Unidades](./video_unidades.md) |
 | Unidade 3 | Feedback do Cliente | [Entregas das Unidades](./video_unidades.md#3-feedback-do-cliente-–-unidade-3) |
+| Unidade 3 | Feedback Final do Cliente | [Entregas das Unidades](./video_unidades.md#5-feedback-final-do-cliente) |
+| Unidade 3 | Vídeo de Apresentação | [Entregas das Unidades](./video_unidades.md#6-vídeo-da-apresentação-da-unidade-3) |
 
 ### 5. Evidências Técnicas
 
