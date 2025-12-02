@@ -54,6 +54,82 @@ As imagens abaixo evidenciam a primeira aplicação do código e como ficaram al
 ![Lavagem completa no protótipo](../img/LavagemCompletaWaveOnPrototipo.png)
 
 
+### Versão Final (capturas atualizadas)
+
+As imagens abaixo registram a versão final do protótipo/aplicação com telas-chave. Formato visual igual às demais evidências do documento.
+
+#### Evidências do MVP — funções cobertas por cada tela
+
+| Tela | Função evidenciada | RF(s) relacionado(s) |
+| :-- | :-- | :-- |
+| Home | Visualização inicial dos serviços e navegação básica | <a href="../../visao_produto/requisitos_software/#rf-c01">RF-C01</a> |
+| Sobre | Página informativa (apoio) | — |
+| Serviços | Catálogo de serviços e preços | <a href="../../visao_produto/requisitos_software/#rf-c01">RF-C01</a> |
+| Cadastro | Criação de conta de cliente | <a href="../../visao_produto/requisitos_software/#rf-c03">RF-C03</a> |
+| Login | Autenticação de cliente e acesso administrativo | <a href="../../visao_produto/requisitos_software/#rf-c04">RF-C04</a>, <a href="../../visao_produto/requisitos_software/#rf-a01">RF-A01</a> |
+| Agendamento simples | Seleção de data/horário para lavagem | <a href="../../visao_produto/requisitos_software/#rf-c02">RF-C02</a> |
+| Agendamento completo | Confirmação e gerenciamento do agendamento | <a href="../../visao_produto/requisitos_software/#rf-c02">RF-C02</a> |
+| Pagamento (PIX) | Geração/execução de pagamento | <a href="../../visao_produto/requisitos_software/#rf-c06">RF-C06</a> |
+| Admin – Serviços | Cadastrar/editar/inativar serviços | <a href="../../visao_produto/requisitos_software/#rf-a05">RF-A05</a> |
+| Admin – Agendamentos | Visualizar/editar/cancelar + regras | <a href="../../visao_produto/requisitos_software/#rf-a02">RF-A02</a> |
+| Admin – Agenda | Visão diária/semanal de agendamentos | <a href="../../visao_produto/requisitos_software/#rf-a03">RF-A03</a> |
+
+![Home – versão final](../img/HomeFinalWaveOn.png)
+
+!!! tip "Link de requisito: [RF-C01](../../visao_produto/requisitos_software/#rf-c01)"
+    Implementação: catálogo visível na Home, com navegação para serviços e preços.
+
+![Sobre – versão final](../img/SobreFinalWaveOn.png)
+
+!!! tip "Página informativa (sem RF funcional)"
+    Implementação: explica proposta e apoio à navegação.
+
+![Serviços – versão final](../img/ServiçosFinalWaveOn.png)
+
+!!! tip "Link de requisito: [RF-C01](../../visao_produto/requisitos_software/#rf-c01)"
+    Implementação: listagem de serviços com descrição e preço.
+
+![Cadastro – versão final](../img/CadastroFinalWaveOn.png)
+
+!!! tip "Link de requisito: [RF-C03](../../visao_produto/requisitos_software/#rf-c03)"
+    Implementação: formulário simples com e-mail e senha.
+
+![Login – versão final](../img/LoginFinalWaveOn.png)
+
+!!! tip "Links de requisito: [RF-C04](../../visao_produto/requisitos_software/#rf-c04) • [RF-A01](../../visao_produto/requisitos_software/#rf-a01)"
+    Implementação: autenticação de cliente e acesso ao painel admin(conta de admin).
+
+![Agendamento simples – versão final](../img/AgendamentoSimplesFinalWaveOn.png)
+
+!!! tip "Links de requisito: [RF-C02](../../visao_produto/requisitos_software/#rf-c02) • [RF-C05](../../visao_produto/requisitos_software/#rf-c05)"
+    Implementação: calendário com seleção de data e horário disponível e fluxo de efetivar agendamento.
+
+![Agendamento completo – versão final](../img/AgendamentoCompletoFinalWaveOn.png)
+
+!!! tip "Links de requisito: [RF-C02](../../visao_produto/requisitos_software/#rf-c02) • [RF-C05](../../visao_produto/requisitos_software/#rf-c05)"
+    Implementação: confirmação do agendamento com resumo do serviço escolhido e efetivação.
+
+![Pagamento (PIX) – versão final](../img/PagamentoFinalWaveOn.png)
+
+!!! tip "Link de requisito: [RF-C06](../../visao_produto/requisitos_software/#rf-c06)"
+    Implementação: geração de QR Code/código PIX.
+
+![Admin – Serviços (versão final)](../img/GestãoServiçosFinalWaveOn.png)
+
+!!! tip "Link de requisito: [RF-A05](../../visao_produto/requisitos_software/#rf-a05)"
+    Implementação: criação/edição/inativação de serviços com preço e duração.
+
+![Admin – Agendamentos (versão final)](../img/GerenciarAgendamentosFinalWaveOn.png)
+
+!!! tip "Links de requisito: [RF-A02](../../visao_produto/requisitos_software/#rf-a02) • [RF-C07](../../visao_produto/requisitos_software/#rf-c07) • [RF-C08](../../visao_produto/requisitos_software/#rf-c08)"
+    Implementação: visualizar/editar/cancelar agendamentos, aplicar regra de intervalo mínimo e listar históricos do cliente.
+
+![Admin – Agenda (versão final)](../img/PainelAdministradorFinalWaveOn.png)
+
+!!! tip "Link de requisito: [RF-A03](../../visao_produto/requisitos_software/#rf-a03)"
+    Implementação: visão diária/semanal consolidada de agendamentos para planejamento.
+
+
 ## **4. Mídias das Unidades**
 
 | Unidade | Evidência | Link |
