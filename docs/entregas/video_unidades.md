@@ -61,7 +61,7 @@ As atividades abaixo estão publicadas em quadros Miro com acesso por link. Caso
 </iframe>
 [Abrir no Miro](https://miro.com/app/board/uXjVJtBBjG8=/?share_link_id=460692625088)
 
-##### Capturas (PBB – prints principais 1 a 18)
+##### Capturas (PBB – prints principais)
 > Dica: para ler cada mensagem com detalhes, recomenda-se aplicar zoom de ~200% no navegador para melhor visualização.
 
 <a id="pbb-prints"></a>
